@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:blip="http://blip.tv/dtd/blip/1.0" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:amp="http://www.adobe.com/amp/1.0" xmlns:dcterms="http://purl.org/dc/terms" xmlns:gm="http://www.google.com/schemas/gm/1.1" xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0" version="2.0">
+  <channel>
+    <title>Linux Journal</title>
+    <link>www.linuxjournal.com</link>
+    <itunes:image href="http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg"/>
+    <amp:logo>http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg</amp:logo>
+    <image>
+      <link>www.linuxjournal.com</link>
+      <url>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</url>
+      <title/>
+    </image>
+    <description>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth reporting, tips and tricks, and market analysis, Linux Journal has become well-known as the industry standard. Pick up a copy of Linux Journal on major newsstands and in bookstores worldwide or subscribe by calling 1-888-66-LINUX or visiting http://www.linuxjournal.com/subscribe .</description>
+    <itunes:summary>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth rep</itunes:summary>
+    <geo:lat>29.759956</geo:lat>
+    <geo:long>-95.362534</geo:long>
+    <language>en</language>
+    <generator>http://blip.tv</generator>
+    <lastBuildDate>Thu, 12 Aug 2010 16:59:39 +0000</lastBuildDate>
+    <pubDate>Thu, 12 Aug 2010 16:59:39 +0000</pubDate>
+    <item>
+      <guid isPermaLink="false">FE633BB2-A632-11DF-AC75-F23A3E191127</guid>
+      <link>http://blip.tv/file/3997514</link>
+      <title>Nautilus Location Bar in Lucid</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>4016413</blip:posts_id>
+      <blip:item_id>3997514</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2010-08-12T16:59:39Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>93</blip:runtime>
+      <blip:embedLookup>gsAQgfWTAQI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgfWTAQI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post4016413&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-NautilusLocationBarInLucid469-436.jpg</blip:thumbnail_src>
+      <blip:puredescription>Kris Occhipinti demonstrates easier navigation within Nautilus.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-NautilusLocationBarInLucid469-436-356.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgfWTAQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Kris Occhipinti demonstrates easier navigation within Nautilus.
+
+</description>
+      <comments>http://blip.tv/file/3997514</comments>
+      <category>Technology</category>
+      <category>linux journal</category>
+      <category>ubuntu</category>
+      <category>lucid</category>
+      <category>nautilus</category>
+      <pubDate>Thu, 12 Aug 2010 16:59:39 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-NautilusLocationBarInLucid838.flv" type="video/x-flv" length="6069228"/>
+      <itunes:keywords>linux journal, ubuntu, lucid, nautilus</itunes:keywords>
+      <itunes:image>http://a.images.blip.tv/Linuxjournal-NautilusLocationBarInLucid469-436.jpg</itunes:image>
+      <media:keywords>linux journal, ubuntu, lucid, nautilus</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-NautilusLocationBarInLucid469.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="7913164" height="360" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-NautilusLocationBarInLucid669.ogv" blip:role="Web" blip:vcodec="theora" blip:acodec="ffvorbis" expression="full" fileSize="4733217" height="360" isDefault="false" type="video/ogg" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-NautilusLocationBarInLucid838.flv" blip:role="Web" blip:vcodec="" blip:acodec="mp3" expression="full" fileSize="6069228" height="360" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3997514">&lt;embed src="http://blip.tv/play/gsAQgfWTAQI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Nautilus Location Bar in Lucid</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-NautilusLocationBarInLucid469-436.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">74D4135C-6F29-11DF-B749-6A4EED752C46</guid>
+      <link>http://blip.tv/file/3709538</link>
+      <title>Split Pane File Viewing with Nautilus</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>3728639</blip:posts_id>
+      <blip:item_id>3709538</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2010-06-03T16:02:48Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>67</blip:runtime>
+      <blip:embedLookup>gsAQgePKYwI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgePKYwI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post3728639&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-SplitPaneFileViewingWithNautilus824.jpg</blip:thumbnail_src>
+      <blip:puredescription>Ross Larson demonstrates split pane functionality in Ubuntu 10.04. View multiple folders in one window.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-SplitPaneFileViewingWithNautilus824-585.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgePKYwI" type="application/x-shockwave-flash" width="480" height="414" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Ross Larson demonstrates split pane functionality in Ubuntu 10.04. View multiple folders in one window.
+
+</description>
+      <comments>http://blip.tv/file/3709538</comments>
+      <category>Technology</category>
+      <category>linux journal</category>
+      <category>tech tip</category>
+      <category>file browser</category>
+      <category>nautilus</category>
+      <category>split pane</category>
+      <pubDate>Thu, 03 Jun 2010 16:02:48 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-SplitPaneFileViewingWithNautilus536.flv" type="video/x-flv" length="3845343"/>
+      <itunes:keywords>linux journal, tech tip, file browser, nautilus, split pane</itunes:keywords>
+      <itunes:image>http://a.images.blip.tv/Linuxjournal-SplitPaneFileViewingWithNautilus824.jpg</itunes:image>
+      <media:keywords>linux journal, tech tip, file browser, nautilus, split pane</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-SplitPaneFileViewingWithNautilus722.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="7706614" height="576" isDefault="true" type="video/mp4" width="720"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-SplitPaneFileViewingWithNautilus536.flv" blip:role="Web" blip:vcodec="" blip:acodec="mp3" expression="full" fileSize="3845343" height="576" isDefault="false" type="video/x-flv" width="720"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3709538">&lt;embed src="http://blip.tv/play/gsAQgePKYwI" type="application/x-shockwave-flash" width="480" height="414" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Split Pane File Viewing with Nautilus</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-SplitPaneFileViewingWithNautilus824.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">3DAE3646-5EB7-11DF-8726-8E47ED752C46</guid>
+      <link>http://blip.tv/file/3619128</link>
+      <title>Move Window Buttons in Lucid</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>3638299</blip:posts_id>
+      <blip:item_id>3619128</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2010-05-13T17:44:55Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>134</blip:runtime>
+      <blip:embedLookup>gsAQgd6IfwI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgd6IfwI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post3638299&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-MoveWindowButtonsInLucid438.jpg</blip:thumbnail_src>
+      <blip:puredescription>Kris Occhipinti shows us how to move our window buttons back to the right side in Ubuntu's latest release, Lucid.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-MoveWindowButtonsInLucid438-528.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgd6IfwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Kris Occhipinti shows us how to move our window buttons back to the right side in Ubuntu's latest release, Lucid.
+
+</description>
+      <comments>http://blip.tv/file/3619128</comments>
+      <category>Technology</category>
+      <category>linux journal</category>
+      <category>tech tip</category>
+      <category>ubuntu</category>
+      <category>lucid</category>
+      <category>buttons</category>
+      <pubDate>Thu, 13 May 2010 17:44:55 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-MoveWindowButtonsInLucid639.flv" type="video/x-flv" length="9768012"/>
+      <itunes:keywords>linux journal, tech tip, ubuntu, lucid, buttons</itunes:keywords>
+      <itunes:image>http://a.images.blip.tv/Linuxjournal-MoveWindowButtonsInLucid438.jpg</itunes:image>
+      <media:keywords>linux journal, tech tip, ubuntu, lucid, buttons</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-MoveWindowButtonsInLucid750.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="12954431" height="360" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-MoveWindowButtonsInLucid639.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="9768012" height="360" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3619128">&lt;embed src="http://blip.tv/play/gsAQgd6IfwI" type="application/x-shockwave-flash" width="480" height="300" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Move Window Buttons in Lucid</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-MoveWindowButtonsInLucid438.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">30126FA4-4C9A-11DF-98C4-C0DEC21AF60B</guid>
+      <link>http://blip.tv/file/3512590</link>
+      <title>Working With Suse Studio</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>3531834</blip:posts_id>
+      <blip:item_id>3512590</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2010-04-20T16:31:35Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>227</blip:runtime>
+      <blip:embedLookup>gsAQgdfJHgI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgdfJHgI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post3531834&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-WorkingWithSuseStudio817.jpg</blip:thumbnail_src>
+      <blip:puredescription>Ross Larson walks you through Suse Studio's Test Drive feature.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-WorkingWithSuseStudio817-542.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgdfJHgI" type="application/x-shockwave-flash" width="480" height="306" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Ross Larson walks you through Suse Studio's Test Drive feature.
+
+</description>
+      <comments>http://blip.tv/file/3512590</comments>
+      <category>Technology</category>
+      <category>linux journal</category>
+      <category>suse studio</category>
+      <category>test drive</category>
+      <category>virtual machine</category>
+      <pubDate>Tue, 20 Apr 2010 16:31:35 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-WorkingWithSuseStudio884.flv" type="video/x-flv" length="16823985"/>
+      <itunes:keywords>linux journal, suse studio, test drive, virtual machine</itunes:keywords>
+      <itunes:artwork>Linuxjournal-WorkingWithSuseStudio817.jpg</itunes:artwork>
+      <media:keywords>linux journal, suse studio, test drive, virtual machine</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-WorkingWithSuseStudio743.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="51946294" height="736" isDefault="true" type="video/mp4" width="1280"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-WorkingWithSuseStudio884.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="16823985" height="736" isDefault="false" type="video/x-flv" width="1280"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3512590">&lt;embed src="http://blip.tv/play/gsAQgdfJHgI" type="application/x-shockwave-flash" width="480" height="306" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Working With Suse Studio</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-WorkingWithSuseStudio817.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">00199CDA-4198-11DF-8788-906D12A27907</guid>
+      <link>http://blip.tv/file/3448417</link>
+      <title>More Background Manipulation with the GIMP</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>3467743</blip:posts_id>
+      <blip:item_id>3448417</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2010-04-06T16:18:13Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>218</blip:runtime>
+      <blip:embedLookup>gsAQgdPUQwI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgdPUQwI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post3467743&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-MoreBackgroundManipulationWithTheGIMP766.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Mitch Frazier shows you how to alter image backgrounds with GIMP.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-MoreBackgroundManipulationWithTheGIMP766-140.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgdPUQwI" type="application/x-shockwave-flash" width="480" height="434" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Mitch Frazier shows you how to alter image backgrounds with GIMP.
+
+</description>
+      <comments>http://blip.tv/file/3448417</comments>
+      <category>Technology</category>
+      <category>linux journal</category>
+      <category>tech tip</category>
+      <category>gimp</category>
+      <category>background</category>
+      <pubDate>Tue, 06 Apr 2010 16:18:13 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-MoreBackgroundManipulationWithTheGIMP598.flv" type="video/x-flv" length="15886928"/>
+      <itunes:keywords>linux journal, tech tip, gimp, background</itunes:keywords>
+      <itunes:artwork>Linuxjournal-MoreBackgroundManipulationWithTheGIMP766.jpg</itunes:artwork>
+      <media:keywords>linux journal, tech tip, gimp, background</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-MoreBackgroundManipulationWithTheGIMP843.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="32274142" height="512" isDefault="true" type="video/mp4" width="608"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-MoreBackgroundManipulationWithTheGIMP598.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="15886928" height="512" isDefault="false" type="video/x-flv" width="608"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3448417">&lt;embed src="http://blip.tv/play/gsAQgdPUQwI" type="application/x-shockwave-flash" width="480" height="434" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>More Background Manipulation with the GIMP</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-MoreBackgroundManipulationWithTheGIMP766.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <blip:pagination>
+      <blip:currentPageNumber>1</blip:currentPageNumber>
+      <blip:nextPage>http://blip.tv/posts/?skin=rss;cmd=flash;date=;s=rss;pagestart=7;sort=date;user=130939;was_redirected=1;id=;pagelen=5;nsfw=dc;page=2</blip:nextPage>
+    </blip:pagination>
+  </channel>
+</rss>

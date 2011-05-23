@@ -1,0 +1,675 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!------------------------------------------------------------------------------
+ ! Copyright (c) 2000, 2007 IBM Corporation and others.
+ ! All rights reserved. This program and the accompanying materials 
+ ! are made available under the terms of the Eclipse Public License v1.0
+ ! which accompanies this distribution, and is available at
+ ! http://www.eclipse.org/legal/epl-v10.html
+ ! 
+ ! Contributors:
+ !     IBM Corporation - initial API and implementation
+ ------------------------------------------------------------------------------->
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!------------------------------------------------------------------------------
+ ! Copyright (c) 2000, 2007 IBM Corporation and others.
+ ! All rights reserved. This program and the accompanying materials 
+ ! are made available under the terms of the Eclipse Public License v1.0
+ ! which accompanies this distribution, and is available at
+ ! http://www.eclipse.org/legal/epl-v10.html
+ ! 
+ ! Contributors:
+ !     IBM Corporation - initial API and implementation
+ ------------------------------------------------------------------------------->
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Toolbar</title>
+ 
+<style type="text/css">
+
+/* need this one for Mozilla */
+HTML { 
+	margin:0px;
+	padding:0px;
+}
+ 
+BODY {
+	background:ButtonFace;
+}
+
+#titleText {
+	font-weight:bold;
+	color:WindowText;
+}
+
+/*for group search*/
+
+#a {
+display: block; width: 80px; text-align:center;
+}
+
+#a:link {
+color:#666; text-decoration:none;
+}
+#a:visited {
+color:#666;text-decoration:none;
+}
+#a:hover {
+color:#FFF;text-decoration:none;font-weight:bold;
+}
+
+#li {
+float: left; width: 80px; background:#CCC;
+}
+#li a:hover{
+background:#999;
+}
+#li ul {
+line-height: 27px; list-style-type: none;text-align:left;
+left: -999em; width: 180px; position: absolute;
+}
+#li ul li{
+float: left; width: 180px;
+background: #F6F6F6;
+}
+
+#li ul a{
+display: block; width: 156px;text-align:left;padding-left:24px;
+}
+
+#li ul a:link {
+color:#666; text-decoration:none;
+}
+#li ul a:visited {
+color:#666;text-decoration:none;
+}
+#li ul a:hover {
+color:#F3F3F3;text-decoration:none;font-weight:normal;
+background:#C00;
+}
+
+#li:hover ul {
+left: auto;
+}
+#li.sfhover ul {
+left: auto;
+}
+/*for group search ends*/
+ 
+.buttonOn a { 
+	display:block;
+	margin-left:2px;
+	margin-right:2px;
+	width:18px;
+	height:18px;
+	border:1px solid Highlight;
+	
+    vertical-align:middle;
+	
+}
+
+.button a, .buttonMenu a { 
+	display:block;
+	margin-left:2px;
+	margin-right:2px;
+	height:18px;
+	border:1px solid ButtonFace;
+	
+	vertical-align:middle;
+}
+
+.button a {
+	width:18px;
+}
+
+.buttonMenu a {
+	width:30px;
+}
+
+.buttonHidden a { 
+	display:none;
+}
+
+.button a:hover, .buttonMenu a:hover { 
+	border-top:1px solid ButtonHighlight; 
+	border-left:1px solid ButtonHighlight; 
+	border-right:1px solid ButtonShadow; 
+	border-bottom:1px solid ButtonShadow;
+}
+
+
+#b8:hover{
+	border:1px solid ButtonFace;
+}
+
+
+.separator {
+	background-color: ThreeDShadow;
+	height:100%;
+	width: 1px;
+	border-top:2px solid ButtonFace;
+	border-bottom:2px solid ButtonFace;
+	border-left:3px solid ButtonFace;
+	border-right:3px solid ButtonFace;
+	
+} 
+
+#container {
+	border-bottom:1px solid ThreeDShadow;
+
+	border-top:1px solid ThreeDShadow;
+	height:24px;
+
+}
+
+
+
+/* need this one for Mozilla */
+HTML { 
+	margin:0px;
+	padding:0px;
+}
+
+
+</style>
+
+<script language="JavaScript" src="utils.js"></script>
+<script language="JavaScript">
+
+var bRestore = false;
+// Preload images
+
+	var back = new Image();
+	back.src = "images/e_back.gif";
+
+	var forward = new Image();
+	forward.src = "images/e_forward.gif";
+
+	var home = new Image();
+	home.src = "images/e_home.gif";
+
+	var synch = new Image();
+	synch.src = "images/e_synch_toc_nav.gif";
+
+	var add_bkmrk = new Image();
+	add_bkmrk.src = "images/e_add_bkmrk.gif";
+
+	var toggle_highlight = new Image();
+	toggle_highlight.src = "images/e_highlight.gif";
+
+	var print = new Image();
+	print.src = "images/e_print_topic.gif";
+
+	var maximize_restore = new Image();
+	maximize_restore.src = "images/e_maximize.gif";
+
+
+function setTitle(label)
+{
+	if( label == null) label = "";
+	var title = document.getElementById("titleText");
+	if (title == null) return;
+	var text = title.lastChild;
+	if (text == null) return;
+	text.nodeValue = label;
+}
+
+
+function registerMaximizedChangedListener(){
+	// get to the frameset
+	var p = parent;
+	while (p && !p.registerMaximizeListener)
+		p = p.parent;
+	
+	if (p!= null){
+		p.registerMaximizeListener('Toolbar', maximizedChanged);
+	}
+}
+registerMaximizedChangedListener();
+
+/**
+ * Handler for double click: maximize/restore this view
+ * Note: Mozilla browsers prior to 1.2.1 do not support programmatic frame resizing well.
+ */
+function mouseDblClickHandler(e) {
+	// ignore double click on buttons
+	var target=e.target;
+	if (target.tagName && (target.tagName == "A" || target.tagName == "IMG"))
+		return;
+	toggleFrame();
+	return false;
+}
+		
+function menuKeyDownHandler(e, button, param) {			// Defect 789: 'M'
+	var theEvent = e? e : window.event;
+	var key = keyCode(theEvent);
+    if (theEvent.altKey && key == '77') {
+        menu(button, param); 
+        return false;
+    }    
+    return true; 
+}
+function isInternetExplorer() {
+	return navigator.userAgent.indexOf('MSIE') != -1;
+}
+function keyCode(e) {
+    if (isInternetExplorer()) {
+		return window.event.keyCode;
+	} else {
+		return e.keyCode;
+	}
+}
+
+function restore_maximize(button)
+{
+	toggleFrame();
+	if (button && document.getElementById(button)){
+		document.getElementById(button).blur();
+	}
+}
+function toggleFrame(){
+	// get to the frameset
+	var p = parent;
+	while (p && !p.toggleFrame)
+		p = p.parent;
+	
+	if (p!= null){
+		p.toggleFrame('');
+	}
+	document.selection.clear;	
+}
+
+function maximizedChanged(maximizedNotRestored){
+	if(maximizedNotRestored){
+		document.getElementById("maximize_restore").src="images/e_restore.gif";
+		document.getElementById("maximize_restore").setAttribute("title", 
+		    "Restore");
+		document.getElementById("maximize_restore").setAttribute("alt", 
+		    "Restore");
+		bRestore = true;
+	}else{
+		document.getElementById("maximize_restore").src="images/e_maximize.gif";
+		document.getElementById("maximize_restore").setAttribute("title", 
+		    "Maximize");
+		document.getElementById("maximize_restore").setAttribute("alt", 
+		    "Maximize");
+		bRestore = false;
+	}
+}
+
+document.addEventListener('dblclick', mouseDblClickHandler, true);
+
+
+function setButtonState(buttonName, pressed) {
+	if(!document.getElementById("tdb_"+buttonName))
+		return;
+	if (pressed == "hidden")
+		document.getElementById("tdb_"+buttonName).className="buttonHidden";
+	else if(pressed == true)
+		document.getElementById("tdb_"+buttonName).className="buttonOn";
+	else
+		document.getElementById("tdb_"+buttonName).className="button";
+}
+
+function setWindowStatus(buttonName){
+	
+		if (buttonName == "back"){
+			if (buttonName == "maximize_restore"){
+				if (bRestore){
+					window.status = "Restore";
+				}else{
+					window.status = "Maximize";
+				}
+			}else{
+				window.status = "Go\u0020Back";
+			}
+		}
+	
+		if (buttonName == "forward"){
+			if (buttonName == "maximize_restore"){
+				if (bRestore){
+					window.status = "Restore";
+				}else{
+					window.status = "Maximize";
+				}
+			}else{
+				window.status = "Go\u0020Forward";
+			}
+		}
+	
+		if (buttonName == "home"){
+			if (buttonName == "maximize_restore"){
+				if (bRestore){
+					window.status = "Restore";
+				}else{
+					window.status = "Maximize";
+				}
+			}else{
+				window.status = "Home";
+			}
+		}
+	
+		if (buttonName == "null"){
+			if (buttonName == "maximize_restore"){
+				if (bRestore){
+					window.status = "Restore";
+				}else{
+					window.status = "Maximize";
+				}
+			}else{
+				window.status = "null";
+			}
+		}
+	
+		if (buttonName == "synch"){
+			if (buttonName == "maximize_restore"){
+				if (bRestore){
+					window.status = "Restore";
+				}else{
+					window.status = "Maximize";
+				}
+			}else{
+				window.status = "Show\u0020in\u0020Table\u0020of\u0020Contents";
+			}
+		}
+	
+		if (buttonName == "add_bkmrk"){
+			if (buttonName == "maximize_restore"){
+				if (bRestore){
+					window.status = "Restore";
+				}else{
+					window.status = "Maximize";
+				}
+			}else{
+				window.status = "Bookmark\u0020Document";
+			}
+		}
+	
+		if (buttonName == "toggle_highlight"){
+			if (buttonName == "maximize_restore"){
+				if (bRestore){
+					window.status = "Restore";
+				}else{
+					window.status = "Maximize";
+				}
+			}else{
+				window.status = "Turn\u0020Highlight\u0020off";
+			}
+		}
+	
+		if (buttonName == "print"){
+			if (buttonName == "maximize_restore"){
+				if (bRestore){
+					window.status = "Restore";
+				}else{
+					window.status = "Maximize";
+				}
+			}else{
+				window.status = "Print\u0020Page";
+			}
+		}
+	
+		if (buttonName == "maximize_restore"){
+			if (buttonName == "maximize_restore"){
+				if (bRestore){
+					window.status = "Restore";
+				}else{
+					window.status = "Maximize";
+				}
+			}else{
+				window.status = "Maximize";
+			}
+		}
+	
+}
+
+
+
+// filter
+/**
+ * Close filterManger window when its opener is closed.
+ */
+function onunloadHandler()
+{
+	try{
+		setCookie("groupBy", "None");
+		if (filterDialog){		
+			filterDialog.close();
+		}
+	}catch(e){} 
+	
+}
+function onloadHandler(){
+	// get to the frameset
+	var p = parent;
+	while (p && !p.toggleFrame)
+		p = p.parent;
+	
+	if (p!= null){
+		var frameset = p.document.getElementById("helpFrameset"); 
+		if(frameset != null) {
+			var navFrameSize = frameset.getAttribute("cols");
+			var comma = navFrameSize.indexOf(',');
+			var left = navFrameSize.substring(0,comma);
+			var right = navFrameSize.substring(comma+1);
+	
+			if (left == "*" || right == "*") {
+				maximizedChanged(true);
+			}
+		}
+	}
+	if(this.name == "tocToolbarFrame" && window.parent.tocViewFrame){
+			window.parent.tocViewFrame.window.location.reload();
+	}
+}
+
+//filter ends
+
+</script>
+
+
+<script language="JavaScript" src="contentActions.js"></script>
+
+
+
+
+<script language="JavaScript" src="../help/updater/js/loadUpdater.js"></script>
+
+
+
+<script language="JavaScript">
+
+var infocenterContext = "infocenter/wasinfo/v7r0";
+</script>
+
+</head>
+ 
+
+	<body dir="ltr" onload="onloadHandler()" onunload="onunloadHandler()">
+
+
+<table id="container" width="100%" border="0" cellspacing="0" cellpadding="0" height="100%" style='padding-left:8px;'>
+
+	<tr>
+		<td nowrap style="font: icon" valign="middle">
+			<div id="titleTextTableDiv" style="overflow:hidden; height:22px;"><table><tr><td nowrap style="font:icon"><div id="titleText" >&nbsp;</div></td></tr></table>
+			</div>
+		
+		
+		<div style="position:absolute; top:0.8px; right:0px;">
+		<table width="100%" border="0" cellspacing="1" cellpadding="0" height="100%">
+			<tr>
+				<td align="right">
+					<table align="right" border="0" cellspacing="0" cellpadding="0" height="100%" style="background:ButtonFace">
+					<tr>
+					
+
+	<td align="middle" id="tdb_com.ibm.iehs.updater.updateButton" class="buttonHidden" height=18>
+	<a href="javascript:loadUpdater('b0', '');" 
+	   onmouseover="javascript:setWindowStatus('com.ibm.iehs.updater.updateButton');return true;" 
+	   onmouseout="window.status='';" 
+	   id="b0">
+	   <img src="../help/updater/images/e_update.gif" 
+			alt='Update' 
+			title='Update'
+			border="0"
+			id="com.ibm.iehs.updater.updateButton">
+	</a>
+</td>
+ 
+						<td align="middle" id="tdb_back" class="button" height=18>
+							<a href="javascript:goBack('b0', '');" 
+							   onmouseover="javascript:setWindowStatus('back');return true;" 
+							   onmouseout="window.status='';" 
+							   id="b0">
+							   <img src="images/e_back.gif" 
+									alt='Go Back' 
+									title='Go Back'
+									border="0"
+									id="back">
+							</a>
+						</td>
+
+ 
+						<td align="middle" id="tdb_forward" class="button" height=18>
+							<a href="javascript:goForward('b1', '');" 
+							   onmouseover="javascript:setWindowStatus('forward');return true;" 
+							   onmouseout="window.status='';" 
+							   id="b1">
+							   <img src="images/e_forward.gif" 
+									alt='Go Forward' 
+									title='Go Forward'
+									border="0"
+									id="forward">
+							</a>
+						</td>
+
+ 
+						<td align="middle" id="tdb_home" class="button" height=18>
+							<a href="javascript:goHome('b2', '../topic/com.ibm.websphere.nd.doc/info/ae/ae/welcome_v7.html');" 
+							   onmouseover="javascript:setWindowStatus('home');return true;" 
+							   onmouseout="window.status='';" 
+							   id="b2">
+							   <img src="images/e_home.gif" 
+									alt='Home' 
+									title='Home'
+									border="0"
+									id="home">
+							</a>
+						</td>
+
+
+						<td align="middle" class="separator" valign="middle">
+						</td>
+ 
+						<td align="middle" id="tdb_synch" class="button" height=18>
+							<a href="javascript:resynch('b4', '');" 
+							   onmouseover="javascript:setWindowStatus('synch');return true;" 
+							   onmouseout="window.status='';" 
+							   id="b4">
+							   <img src="images/e_synch_toc_nav.gif" 
+									alt='Show in Table of Contents' 
+									title='Show in Table of Contents'
+									border="0"
+									id="synch">
+							</a>
+						</td>
+
+ 
+						<td align="middle" id="tdb_add_bkmrk" class="buttonHidden" height=18>
+							<a href="javascript:bookmarkInfocenterPage('b5', '');" 
+							   onmouseover="javascript:setWindowStatus('add_bkmrk');return true;" 
+							   onmouseout="window.status='';" 
+							   id="b5">
+							   <img src="images/e_add_bkmrk.gif" 
+									alt='Bookmark Document' 
+									title='Bookmark Document'
+									border="0"
+									id="add_bkmrk">
+							</a>
+						</td>
+
+ 
+						<td align="middle" id="tdb_toggle_highlight" class="buttonHidden" height=18>
+							<a href="javascript:toggleHighlight('b6', '');" 
+							   onmouseover="javascript:setWindowStatus('toggle_highlight');return true;" 
+							   onmouseout="window.status='';" 
+							   id="b6">
+							   <img src="images/e_highlight.gif" 
+									alt='Turn Highlight off' 
+									title='Turn Highlight off'
+									border="0"
+									id="toggle_highlight">
+							</a>
+						</td>
+
+ 
+						<td align="middle" id="tdb_print" class="button" height=18>
+							<a href="javascript:printContent('b7', '');" 
+							   onmouseover="javascript:setWindowStatus('print');return true;" 
+							   onmouseout="window.status='';" 
+							   id="b7">
+							   <img src="images/e_print_topic.gif" 
+									alt='Print Page' 
+									title='Print Page'
+									border="0"
+									id="print">
+							</a>
+						</td>
+
+ 
+						<td align="middle" id="tdb_maximize_restore" class="button" height=18>
+							<a href="javascript:restore_maximize('b8', 'null');" 
+							   onmouseover="javascript:setWindowStatus('maximize_restore');return true;" 
+							   onmouseout="window.status='';" 
+							   id="b8">
+							   <img src="images/e_maximize.gif" 
+									alt='Maximize' 
+									title='Maximize'
+									border="0"
+									id="maximize_restore">
+							</a>
+						</td>
+
+				
+					</tr>
+					</table>
+				</td>
+			</tr>
+		</table> 
+		</div>
+		</td>
+	</tr>
+</table>
+
+
+    <iframe name="liveHelpFrame" title="Layout frame: liveHelpFrame" src="blank.html" style="visibility:hidden" tabindex="-1" frameborder="no" width="0" height="0" scrolling="no">
+    </iframe>
+
+<script language="JavaScript">
+var highlightButtonTooltipOn="Turn Highlight on ";
+var highlightButtonTooltipOff="Turn Highlight off";
+var autoSyncButtonTooltipOn="Link with Contents";
+var autoSyncButtonTooltipOff="Unlink with Contents";
+var showDescriptionButtonTooltipOn="Show result descriptions";
+var showDescriptionButtonTooltipOff="Hide result descriptions";
+var groupByButtonTooltipoOn="Group result on";
+var groupByButtonTooltipOff="Group result off";
+var filterButtonTooltipOn="Filter on";
+var filterButtonTooltipOff="Filter off";
+</script>
+</body>     
+</html>
+
+

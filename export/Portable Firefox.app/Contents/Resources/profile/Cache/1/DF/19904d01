@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:blip="http://blip.tv/dtd/blip/1.0" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:amp="http://www.adobe.com/amp/1.0" xmlns:dcterms="http://purl.org/dc/terms" xmlns:gm="http://www.google.com/schemas/gm/1.1" xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0" version="2.0">
+  <channel>
+    <title>Linux Journal</title>
+    <link>www.linuxjournal.com</link>
+    <itunes:image href="http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg"/>
+    <amp:logo>http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg</amp:logo>
+    <image>
+      <link>www.linuxjournal.com</link>
+      <url>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</url>
+      <title/>
+    </image>
+    <description>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth reporting, tips and tricks, and market analysis, Linux Journal has become well-known as the industry standard. Pick up a copy of Linux Journal on major newsstands and in bookstores worldwide or subscribe by calling 1-888-66-LINUX or visiting http://www.linuxjournal.com/subscribe .</description>
+    <itunes:summary>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth rep</itunes:summary>
+    <geo:lat>29.759956</geo:lat>
+    <geo:long>-95.362534</geo:long>
+    <language>en</language>
+    <generator>http://blip.tv</generator>
+    <lastBuildDate>Mon, 01 Mar 2010 16:50:37 +0000</lastBuildDate>
+    <pubDate>Mon, 01 Mar 2010 16:50:37 +0000</pubDate>
+    <item>
+      <guid isPermaLink="false">8FCE4CF2-2552-11DF-982B-CE003DF8D264</guid>
+      <link>http://blip.tv/file/3284204</link>
+      <title>Fixing Broken Images in OpenOffice</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>3303612</blip:posts_id>
+      <blip:item_id>3284204</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2010-03-01T16:50:37Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>91</blip:runtime>
+      <blip:embedLookup>gsAQgcnSIAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgcnSIAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post3303612&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-FixingBrokenImagesInOpenOffice275.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to move a presentation file without breaking your images.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-FixingBrokenImagesInOpenOffice275-904.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgcnSIAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to move a presentation file without breaking your images.
+
+</description>
+      <comments>http://blip.tv/file/3284204</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>openoffice</category>
+      <category>impress</category>
+      <pubDate>Mon, 01 Mar 2010 16:50:37 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-FixingBrokenImagesInOpenOffice544.flv" type="video/x-flv" length="7601109"/>
+      <itunes:keywords>linux, journal, tech, tip, openoffice, impress</itunes:keywords>
+      <itunes:artwork>Linuxjournal-FixingBrokenImagesInOpenOffice275.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, openoffice, impress</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-FixingBrokenImagesInOpenOffice721.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="4119320" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-FixingBrokenImagesInOpenOffice544.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="7601109" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3284204">&lt;embed src="http://blip.tv/play/gsAQgcnSIAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Fixing Broken Images in OpenOffice</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-FixingBrokenImagesInOpenOffice275.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">E185FE58-1CA3-11DF-A062-EA658AA98D7D</guid>
+      <link>http://blip.tv/file/3235425</link>
+      <title>Adding a New Background to an Image with the GIMP</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>3254866</blip:posts_id>
+      <blip:item_id>3235425</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2010-02-18T15:40:03Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>143</blip:runtime>
+      <blip:embedLookup>gsAQgcbVNgI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgcbVNgI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post3254866&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-AddingANewBackgroundToAnImageWithTheGIMP261.jpg</blip:thumbnail_src>
+      <blip:puredescription>Eliminate the old background in an image and then copy the image onto a new background.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-AddingANewBackgroundToAnImageWithTheGIMP261-817.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgcbVNgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Eliminate the old background in an image and then copy the image onto a new background.
+
+</description>
+      <comments>http://blip.tv/file/3235425</comments>
+      <category>Educational</category>
+      <category>gimp</category>
+      <category>image</category>
+      <category>editing</category>
+      <pubDate>Thu, 18 Feb 2010 15:40:03 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-AddingANewBackgroundToAnImageWithTheGIMP677.flv" type="video/x-flv" length="11419498"/>
+      <itunes:keywords>gimp, image, editing</itunes:keywords>
+      <itunes:artwork>Linuxjournal-AddingANewBackgroundToAnImageWithTheGIMP261.jpg</itunes:artwork>
+      <media:keywords>gimp, image, editing</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-AddingANewBackgroundToAnImageWithTheGIMP366.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="20562383" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-AddingANewBackgroundToAnImageWithTheGIMP677.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="11419498" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3235425">&lt;embed src="http://blip.tv/play/gsAQgcbVNgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Adding a New Background to an Image with the GIMP</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-AddingANewBackgroundToAnImageWithTheGIMP261.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">490F4F02-14C5-11DF-A4A2-A987C6DAA549</guid>
+      <link>http://blip.tv/file/3190217</link>
+      <title>Quick Compiz Screenshots</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>3209704</blip:posts_id>
+      <blip:item_id>3190217</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2010-02-08T15:19:01Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>65</blip:runtime>
+      <blip:embedLookup>gsAQgcP0TAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgcP0TAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post3209704&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-QuickCompizScreenshots348.jpg</blip:thumbnail_src>
+      <blip:puredescription>Shawn Powers shows us a very quick way to take screenshots using Compiz under Linux. Yes, there are plenty of screenshot tools available for Linux, but Compiz allows for a literal one click method.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-QuickCompizScreenshots348-5.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgcP0TAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Shawn Powers shows us a very quick way to take screenshots using Compiz under Linux. Yes, there are plenty of screenshot tools available for Linux, but Compiz allows for a literal one click method.
+
+</description>
+      <comments>http://blip.tv/file/3190217</comments>
+      <category>Educational</category>
+      <category>linuxjournal</category>
+      <category>compiz</category>
+      <category>screenshot</category>
+      <category>desktop</category>
+      <category>linux</category>
+      <category>howto</category>
+      <category>techtip</category>
+      <pubDate>Mon, 08 Feb 2010 15:19:01 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-QuickCompizScreenshots958.flv" type="video/x-flv" length="4479737"/>
+      <itunes:keywords>linuxjournal, compiz, screenshot, desktop, linux, howto, techtip</itunes:keywords>
+      <itunes:artwork>Linuxjournal-QuickCompizScreenshots348.jpg</itunes:artwork>
+      <media:keywords>linuxjournal, compiz, screenshot, desktop, linux, howto, techtip</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-QuickCompizScreenshots638.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="2611602" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-QuickCompizScreenshots958.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="4479737" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3190217">&lt;embed src="http://blip.tv/play/gsAQgcP0TAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Quick Compiz Screenshots</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-QuickCompizScreenshots348.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">7FE19D04-06C5-11DF-9BC2-90044D07C161</guid>
+      <link>http://blip.tv/file/3115744</link>
+      <title>Configuring Grub 2</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>3135360</blip:posts_id>
+      <blip:item_id>3115744</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2010-01-21T19:45:16Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>107</blip:runtime>
+      <blip:embedLookup>gsAQgb+vZAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgb+vZAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post3135360&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-ConfiguringGrub2927.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal reader, Bill Parmley, demonstrates configuring Grub 2 on Ubuntu 9.10.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-ConfiguringGrub2927-843.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgb%2BvZAI" type="application/x-shockwave-flash" width="480" height="510" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal reader, Bill Parmley, demonstrates configuring Grub 2 on Ubuntu 9.10.
+
+</description>
+      <comments>http://blip.tv/file/3115744</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>grub</category>
+      <category>2</category>
+      <category>ubuntu</category>
+      <category>9.10</category>
+      <category>karmic</category>
+      <pubDate>Thu, 21 Jan 2010 19:45:16 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-ConfiguringGrub2887.flv" type="video/x-flv" length="7654653"/>
+      <itunes:keywords>linux, journal, tech, tip, grub, 2, ubuntu, 9.10, karmic</itunes:keywords>
+      <itunes:artwork>Linuxjournal-ConfiguringGrub2927.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, grub, 2, ubuntu, 9.10, karmic</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ConfiguringGrub2532.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="19320627" height="480" isDefault="true" type="video/mp4" width="480"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ConfiguringGrub2887.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="7654653" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3115744">&lt;embed src="http://blip.tv/play/gsAQgb%2BvZAI" type="application/x-shockwave-flash" width="480" height="510" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Configuring Grub 2</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-ConfiguringGrub2927.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">FE5254C2-FEDB-11DE-B216-E55919ABDC86</guid>
+      <link>http://blip.tv/file/3072524</link>
+      <title>Syncing Preferences with Dropbox or Ubuntu One</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>3092153</blip:posts_id>
+      <blip:item_id>3072524</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2010-01-11T18:06:08Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>83</blip:runtime>
+      <blip:embedLookup>gsAQgbzeHQI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgbzeHQI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post3092153&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-SyncingPreferencesWithDropboxOrUbuntuOne295.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to share certain application preferences across different machines using remote storage like Dropbox or Ubuntu One.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-SyncingPreferencesWithDropboxOrUbuntuOne295-339.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgbzeHQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to share certain application preferences across different machines using remote storage like Dropbox or Ubuntu One.
+
+</description>
+      <comments>http://blip.tv/file/3072524</comments>
+      <category>Technology</category>
+      <category>linux journal</category>
+      <category>tech tip</category>
+      <category>dropbox</category>
+      <category>ubuntu one</category>
+      <pubDate>Mon, 11 Jan 2010 18:06:08 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-SyncingPreferencesWithDropboxOrUbuntuOne623.flv" type="video/x-flv" length="6762461"/>
+      <itunes:keywords>linux journal, tech tip, dropbox, ubuntu one</itunes:keywords>
+      <itunes:artwork>Linuxjournal-SyncingPreferencesWithDropboxOrUbuntuOne295.jpg</itunes:artwork>
+      <media:keywords>linux journal, tech tip, dropbox, ubuntu one</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-SyncingPreferencesWithDropboxOrUbuntuOne653.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="4051228" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-SyncingPreferencesWithDropboxOrUbuntuOne623.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="6762461" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3072524">&lt;embed src="http://blip.tv/play/gsAQgbzeHQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Syncing Preferences with Dropbox or Ubuntu One</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-SyncingPreferencesWithDropboxOrUbuntuOne295.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <blip:pagination>
+      <blip:currentPageNumber>1</blip:currentPageNumber>
+      <blip:nextPage>http://blip.tv/posts/?skin=rss;cmd=flash;date=;s=rss;pagestart=12;sort=date;user=130939;was_redirected=1;id=;pagelen=5;nsfw=dc;page=2</blip:nextPage>
+    </blip:pagination>
+  </channel>
+</rss>

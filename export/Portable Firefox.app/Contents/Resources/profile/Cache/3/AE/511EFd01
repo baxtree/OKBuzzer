@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+ <head>
+  <title>Standalone HTTPS with Jetty - OpenNMS | The OpenNMS Project</title>
+
+  <link rel="stylesheet" href="/w/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/w/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/w/skins/../../wp-content/themes/opennms/style.css?270" media="screen" />
+<link rel="stylesheet" href="/w/skins/opennms/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/w/skins/opennms/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/w/skins/opennms/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/w/skins/opennms/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/w/skins/opennms/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/w/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/w/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/w/index.php?title=MediaWiki:Opennms.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/w/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />  <meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="OpenNMS (en)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/w/index.php?title=Standalone_HTTPS_with_Jetty&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+<link rel="alternate" type="application/atom+xml" title="OpenNMS Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+  <script type="text/javascript" src="/wp-content/themes/opennms/scripts.js"></script>
+  <script type='text/javascript' src='/wp-content/plugins/vipers-video-quicktags/resources/swfobject.js?ver=2.2'></script>
+  <script charset="utf-8" type="text/javascript" src="http://w.sharethis.com/button/sharethis.js#publisher=544beeb5-27e6-4a3e-9834-6c56469ab7e4&amp;type=wordpress&amp;buttonText=Share%20This%20Blog&amp;wp=2.8.4"></script>
+  <script type="text/javascript" src="/w/skins/common/wikibits.js?270"><!-- wikibits js --></script>
+  <script>
+var skin="opennms",
+stylepath="/w/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/wiki/$1",
+wgScriptPath="/w",
+wgScriptExtension=".php",
+wgScript="/w/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://www.opennms.org",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="Standalone_HTTPS_with_Jetty",
+wgTitle="Standalone HTTPS with Jetty",
+wgAction="view",
+wgArticleId=2405,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="en",
+wgContentLanguage="en",
+wgBreakFrames=false,
+wgCurRevisionId=9746,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Main Page",
+wgFormattedNamespaces={"-2": "Media", "-1": "Special", "0": "", "1": "Talk", "2": "User", "3": "User talk", "4": "OpenNMS", "5": "OpenNMS talk", "6": "File", "7": "File talk", "8": "MediaWiki", "9": "MediaWiki talk", "10": "Template", "11": "Template talk", "12": "Help", "13": "Help talk", "14": "Category", "15": "Category talk", "100": "Manual"},
+wgNamespaceIds={"media": -2, "special": -1, "": 0, "talk": 1, "user": 2, "user_talk": 3, "opennms": 4, "opennms_talk": 5, "file": 6, "file_talk": 7, "mediawiki": 8, "mediawiki_talk": 9, "template": 10, "template_talk": 11, "help": 12, "help_talk": 13, "category": 14, "category_talk": 15, "manual": 100, "image": 6, "image_talk": 7},
+wgSiteName="OpenNMS",
+wgCategories=["Features", "Features Added in 1.3.10", "Security", "OpenNMS Web UI", "Configuration"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[],
+wgFCKEditorDir="extensions/FCKeditor/fckeditor/",
+wgFCKEditorExtDir="extensions/FCKeditor",
+wgFCKEditorToolbarSet="Wiki",
+wgFCKEditorHeight="0";
+</script>  <script src="/w/skins/common/ajax.js?270"></script>
+  		<script type="text/javascript" src="/w/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=opennms"><!-- site js --></script>
+     </head>
+<body class="mediawiki wiki ltr ns-0 ns-subject page-Standalone_HTTPS_with_Jetty skin-opennms">
+<div id="header-container">
+<div id="header">
+<a href="/"><img alt="The OpenNMS Project" id="logo" src="/wp-content/themes/opennms/images/logo.png" /></a>
+
+<ul id="main-menu">
+<li><a href="/">Home</a></li>
+<li><a href="/about">About OpenNMS</a></li>
+<li><a href="/get-opennms">Get OpenNMS</a></li>
+<li><a href="/get-support">Get Support</a></li>
+<li><a href="/get-involved">Get Involved</a></li>
+<li><a href="/get-stuff">Get Stuff</a></li>
+</ul>
+
+<div id="utility-and-phone">
+     <ul id="utility-menu">
+      <li><a href="/wiki">Wiki</a> |</li>
+      <li><strong><a href="http://demo.opennms.org">Live Demo</a></strong> |</li>
+      <li><a href="/events">Events</a> |</li>
+      <li><a href="http://www.opennms.com/news-and-events">News</a> |</li>
+      <li><a href="http://www.opennms.com/contact-us">Contact Us</a></li>
+     </ul>
+</div>
+
+<ul id="personal-tools-menu">
+<li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Standalone_HTTPS_with_Jetty" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in / create account</a></li>
+</ul>
+
+<form action="/wiki/Special:Search" id="search-form" method="get">
+<input id="search-field" name="search" type="text" />
+<input id="search-submit" src="/wp-content/themes/opennms/images/search-submit-button.png" type="image" />
+</form>
+
+
+<ul id="site-jump">
+<li><a href="http://www.opennms.com/">.COM</a> |</li>
+<li><a class="current" href="/">.ORG</a></li>
+</ul>
+
+<ul id="social-media-menu">
+<li><a href="http://www.facebook.com/pages/OpenNMS/99923325046"><img alt="Facebook" src="/wp-content/themes/opennms/images/facebook-icon.png" /></a></li>
+<li><a href="http://twitter.com/opennms"><img alt="Twitter" src="/wp-content/themes/opennms/images/twitter-icon.png" /></a></li>
+<li><a href="http://identi.ca/opennms"><img alt="identi.ca" src="/wp-content/themes/opennms/images/q-icon.png" /></a></li>
+</ul>
+</div>
+</div>
+
+    <div id="opennms-conference" align="center">
+       <a href="http://www.opennms.org/wiki/UCE2011"><img src="/wp-content/themes/opennms/images/conference1.png" alt="Users Conference Europe" /></a>
+       <a href="http://ouca2011.eventbrite.com/"><img src="/wp-content/themes/opennms/images/conference2.png" alt="Users Conference USA"  /></a>
+    </div>
+
+<div id="content-container">
+<div id="content">
+<strong id="page-header">Standalone HTTPS with Jetty</strong>
+
+<div id="wiki-sidebar">
+
+<div class="side-block" id='p-Get_OpenNMS'>
+<h3>Get OpenNMS</h3>
+<ul>
+	 <li id="n-mainpage"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main Page</a></li>
+	 <li id="n-Latest-Release"><a href="/wiki/New_and_Noteworthy">Latest Release</a></li>
+	 <li id="n-Other-Downloads"><a href="/wiki/Download">Other Downloads</a></li>
+	 <li id="n-SourceForge-Project"><a href="http://sourceforge.net/projects/opennms/">SourceForge Project</a></li>
+</ul>
+</div>
+
+
+<div class="side-block" id='p-Get_Help'>
+<h3>Get Help</h3>
+<ul>
+	 <li id="n-Official-Documentation"><a href="/wiki/Docu-overview">Official Documentation</a></li>
+	 <li id="n-FAQs"><a href="/wiki/FAQ">FAQs</a></li>
+	 <li id="n-White-Papers"><a href="/wiki/White_Papers">White Papers</a></li>
+	 <li id="n-Discussion-Lists"><a href="/wiki/Mailing_lists">Discussion Lists</a></li>
+	 <li id="n-Commercial-Support"><a href="http://www.opennms.com/">Commercial Support</a></li>
+</ul>
+</div>
+
+
+<div class="side-block" id='p-Get_Involved'>
+<h3>Get Involved</h3>
+<ul>
+	 <li id="n-Development-Home"><a href="/wiki/Development">Development Home</a></li>
+	 <li id="n-Report-a-Bug"><a href="http://bugzilla.opennms.org">Report a Bug</a></li>
+	 <li id="n-.23opennms-IRC"><a href="irc://irc.freenode.net/%23opennms">#opennms IRC</a></li>
+	 <li id="n-Current-Events"><a href="/wiki/OpenNMS:Current_events">Current Events</a></li>
+	 <li id="n-Browse-Source-Code"><a href="http://opennms.svn.sourceforge.net/viewvc/opennms/">Browse Source Code</a></li>
+	 <li id="n-API-docs"><a href="http://www.opennms.org/documentation/java-apidocs-stable">API docs</a></li>
+	 <li id="n-XSD-docs"><a href="http://www.opennms.org/documentation/java-xsddocs-stable">XSD docs</a></li>
+</ul>
+</div>
+
+
+<div class="side-block" id='p-Get_to_Know_Us'>
+<h3>Get to Know Us</h3>
+<ul>
+	 <li id="n-Order-of-the-Green-Polo"><a href="/wiki/Order_of_the_Green_Polo">Order of the Green Polo</a></li>
+	 <li id="n-OpenNMS-Store"><a href="http://www.cafepress.com/opennms">OpenNMS Store</a></li>
+</ul>
+</div>
+
+
+<div class="side-block" id="tool-box">
+<h3>Toolbox</h3>
+<ul>
+	 <li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Standalone_HTTPS_with_Jetty" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+	 <li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Standalone_HTTPS_with_Jetty" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+	 <li id="t-print"><a href="/w/index.php?title=Standalone_HTTPS_with_Jetty&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>	 <li id="t-permalink"><a href="/w/index.php?title=Standalone_HTTPS_with_Jetty&amp;oldid=9746" title="Permanent link to this revision of the page">Permanent link</a></li></ul>
+</div>
+
+<div class="side-block">
+<a href="/get-opennms"><img alt="Get OpenNMS" id="get-opennms-button" src="/wp-content/themes/opennms/images/get-opennms-engage-button.png" width="185" height="68" /></a><br />
+<a href="/get-support"><img alt="Get Support" id="get-support-button" src="/wp-content/themes/opennms/images/get-support-engage-button.png" width="185" height="68" /></a><br />
+<a href="/get-involved"><img alt="Get Involved" id="get-involved-button" src="/wp-content/themes/opennms/images/get-involved-engage-button.png" width="185" height="68" /></a><br />
+</div>
+
+<div class="side-block" id="powered-by-opennms-group">
+<a href="http://www.opennms.com/"><img alt="Powered by OpenNMS Group" src="/wp-content/themes/opennms/images/powered-by-opennms-group.png" /></a>
+</div>
+
+<!--
+<div class="side-block" id="stay-connected">
+<h3>Stay Connected</h3>
+<p>Subscribe to the Project Blog and get the latests project and event updates</p>
+<form action="http://feedburner.google.com/fb/a/mailverify" id="subscribe-form" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=TheOpenNMSProject', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+<input type="hidden" value="TheOpenNMSProject" name="uri"/>
+<input type="hidden" name="loc" value="en_US"/>
+<input id="subscribe-field" name="email" type="text" />
+<input id="subscribe-submit" src="/wp-content/themes/opennms/images/subscribe-button.png" type="image" />
+</form>
+</div>
+-->
+<div class="side-block" id="sponsors">
+<a href="http://www.newedgenetworks.com/"><img alt="NewEdge Networks" src="http://www.opennms.org/images/b/b7/Banner-nen.gif" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+<a href="http://searchnetworking.techtarget.com/productsOfTheYearCategory/0,294802,sid7_tax306257_ayr2007,00.html"><img alt="OpenNMS takes home the gold award!" src="http://www.opennms.org/images/thumb/9/95/ProdOfYear_Gold_2007.gif/120px-ProdOfYear_Gold_2007.gif" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+<a href="http://www.fsf.org/register_form?referrer=5639"><img alt="Join the Free Software Foundation" src="http://www.opennms.org/images/fsfbutton.png" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+</div>
+</div>
+
+<a name="top" id="top"></a>
+<div id="main-content">
+<ul id="wiki-menu">
+
+ <li id="ca-nstab-main" class="selected"><a href="/wiki/Standalone_HTTPS_with_Jetty" title="View the content page [c]" accesskey="c">Page</a></li>
+ <li id="ca-talk" class="new"><a href="/w/index.php?title=Talk:Standalone_HTTPS_with_Jetty&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+ <li id="ca-viewsource"><a href="/w/index.php?title=Standalone_HTTPS_with_Jetty&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+ <li id="ca-history"><a href="/w/index.php?title=Standalone_HTTPS_with_Jetty&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li></ul>
+
+<!--
+<a href="#"><img alt="Share" id="share-this" src="/wp-content/themes/opennms/images/sharethis-icon.png" /></a>
+-->
+<a href="/w/index.php?title=Special:RecentChanges&feed=rss"><img alt="Subscribe" id="subscribe" src="/wp-content/themes/opennms/images/rss-icon.png" /></a>
+
+
+<div id="bodyContent">
+<h3 id="siteSub">From OpenNMS</h3>
+<div id="contentSub"></div>
+<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div><!-- start content -->
+<div class="hf-nsheader"></div><div class="hf-header"></div><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#For_the_Impatient"><span class="tocnumber">2</span> <span class="toctext">For the Impatient</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#For_the_Patient"><span class="tocnumber">3</span> <span class="toctext">For the Patient</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Create_a_new_Java_keystore"><span class="tocnumber">3.1</span> <span class="toctext">Create a new Java keystore</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Option_A:_Certificate_signed_by_a_trusted_CA"><span class="tocnumber">3.2</span> <span class="toctext">Option A: Certificate signed by a trusted CA</span></a>
+<ul>
+<li class="toclevel-3 tocsection-6"><a href="#Submit_the_CSR_to_the_trusted_CA"><span class="tocnumber">3.2.1</span> <span class="toctext">Submit the CSR to the trusted CA</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Import_the_signed_certificate"><span class="tocnumber">3.2.2</span> <span class="toctext">Import the signed certificate</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#Option_B:_Self-signed_certificate"><span class="tocnumber">3.3</span> <span class="toctext">Option B: Self-signed certificate</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Copy_the_keystore_into_place"><span class="tocnumber">3.4</span> <span class="toctext">Copy the keystore into place</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Configure_the_Jetty_HTTPS_parameters_in_OpenNMS"><span class="tocnumber">3.5</span> <span class="toctext">Configure the Jetty HTTPS parameters in OpenNMS</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Restrict_access_to_the_plain-HTTP_listener"><span class="tocnumber">3.6</span> <span class="toctext">Restrict access to the plain-HTTP listener</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Restrict_access_to_the_HTTPS_listener"><span class="tocnumber">3.7</span> <span class="toctext">Restrict access to the HTTPS listener</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Using_a_Pre-existing_Private_Key_and_Certificate"><span class="tocnumber">4</span> <span class="toctext">Using a Pre-existing Private Key and Certificate</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Convert_the_key_and_cert_from_PEM_format_to_DER_format_using_openssl_command"><span class="tocnumber">4.1</span> <span class="toctext">Convert the key and cert from PEM format to DER format using openssl command</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Put_key_and_cert_into_a_new_Java_Keystore"><span class="tocnumber">4.2</span> <span class="toctext">Put key and cert into a new Java Keystore</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Howto:_Create_and_use_a_certificate_signed_by_the_CAcert_community"><span class="tocnumber">5</span> <span class="toctext">Howto: Create and use a certificate signed by the CAcert community</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Version_History.2FAvailability"><span class="tocnumber">5.1</span> <span class="toctext">Version History/Availability</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id="Introduction"> Introduction </span></h1>
+<p>If users will be accessing the OpenNMS web UI across untrusted networks, it is desirable to protect web sessions using HTTPS. This article explains how to configure OpenNMS' built-in Jetty web server to support HTTPS with no dependencies on external software.
+</p>
+<h1> <span class="mw-headline" id="For_the_Impatient"> For the Impatient </span></h1>
+<p><b>These instructions are <i>not</i> appropriate for production environments</b>
+</p><p>If you want only to see that this feature works, and are not yet concerned with configuring HTTPS for the web UI in a production environment, complete the following steps. You will end up with an HTTPS-enabled version of the OpenNMS web UI that presents a completely bogus SSL certificate.
+</p>
+<ul><li> Stop OpenNMS
+</li></ul>
+<pre>OPENNMS_HOME/bin/opennms stop</pre>
+<ul><li> Set an HTTPS port in the top-level OpenNMS properties file
+<ul><li> Open OPENNMS_HOME/etc/opennms.properties in your favorite editor
+</li><li> Uncomment the following line:
+</li></ul>
+</li></ul>
+<pre>org.opennms.netmgt.jetty.https-port = 8443</pre>
+<ul><li> Start OpenNMS
+</li></ul>
+<pre>OPENNMS_HOME/bin/opennms start</pre>
+<ul><li> In your web browser, visit the following URL: <a href="https://127.0.0.1:8443/opennms/" class="external free" rel="nofollow">https://127.0.0.1:8443/opennms/</a>. Your browser will warn you that the server's certificate cannot be verified because it is expired and is issued by an untrusted authority. If you opt to continue anyway, you will be presented with the OpenNMS login page.
+</li></ul>
+<h1> <span class="mw-headline" id="For_the_Patient"> For the Patient </span></h1>
+<p>The following instructions explain how to set up Jetty as a standalone HTTPS server so that it is suitable for use in production environments. You will end up with an HTTPS-enabled version of the OpenNMS web UI that presents an SSL certificate customized for your environment. The path of this section branches to allow you to choose whether to obtain an SSL certificate signed by a trusted certifying authority or to make do with a self-signed SSL certificate.
+</p>
+<h3> <span class="mw-headline" id="Create_a_new_Java_keystore"> Create a new Java keystore </span></h3>
+<p>Using the <i>keytool</i> utility that ships with Sun's Java distributions, create a new keystore and populate it with a new key. For the first question ("What is your first and last name"), enter the fully-qualified domain name by which people will be accessing your OpenNMS server's web UI. <i>Choose this name correctly, as you will have to start over if you ever need to change it.</i> Answer the remaining questions according to the specifics of your organization and locality.
+</p><p>Be sure to specify an appropriate number of days for the <i>validity</i> parameter. After this number of days elapses, the key you are generating will expire and you may no longer be able to use it to create new certificates. The example below specifies 731 days, which will make the key valid for two years (accounting for a possible leap year).
+</p><p>It is important that you choose good passwords for the keystore and for the key itself. These passwords may be the same or different to each other. Using different and strong passwords here protects your server's private key in the event the keystore file falls into the wrong hands. You should take precautions to keep this from happening, including setting filesystem user and group permissions so that unauthorized individuals with accounts on the OpenNMS server will not have read (or write) access to the keystore.
+</p>
+<p>
+By default, keytool will create DSA keys. There are reports that Jetty does not work well with DSA keys. The solution is to use an RSA key by adding
+</p>
+<pre>
+-keyalg RSA
+</pre>
+<p>
+to the command below.
+</p>
+<pre>
+$ keytool -genkey -validity 731 -keystore /tmp/propercert/proper.keystore 
+Enter keystore password:  aGoodStrongKeystorePassword
+What is your first and last name?
+  [Unknown]:  opennms.example.org
+What is the name of your organizational unit?
+  [Unknown]:  Network Management Division
+What is the name of your organization?
+  [Unknown]:  The Example Organization
+What is the name of your City or Locality?
+  [Unknown]:  Marina del Rey
+What is the name of your State or Province?
+  [Unknown]:  California
+What is the two-letter country code for this unit?
+  [Unknown]:  US
+Is CN=opennms.example.org, OU=Network Management Division, O=The Example Organization, L=Marina del Rey, ST=California, C=US correct?
+  [no]:  yes
+</pre>
+<h3> <span class="mw-headline" id="Option_A:_Certificate_signed_by_a_trusted_CA"> Option A: Certificate signed by a trusted CA </span></h3>
+<p>Generate a certificate signing request (or CSR) from the key that you created above. The command to do this is straightforward. The filename you specify for the <i>file</i> parameter will contain the CSR after the command completes.
+</p>
+<pre>
+$ keytool -certreq -keystore /tmp/propercert/proper.keystore -file /tmp/propercert/proper.csr
+Enter keystore password:  aGoodStrongKeystorePassword
+Enter key password for &lt;mykey&gt;anotherGoodStrongPassword
+</pre>
+<p>The CSR output file is a text file whose contents will look similar to the following:
+</p>
+<pre>
+-----BEGIN NEW CERTIFICATE REQUEST-----
+MIICjjCCAkwCAQAwgYkxCzAJBgNVBAYTAlVTMRcwFQYDVQQIEw5Ob3J0aCBDYXJvbGluYTESMBAG
+A1UEBxMJUGl0dHNib3JvMSAwHgYDVQQKExdUaGUgT3Blbk5NUyBHcm91cCwgSW5jLjEQMA4GA1UE
+CxMHVW5rbm93bjEZMBcGA1UEAxMQZGVtby5vcGVubm1zLm9yZzCCAbcwggEsBgcqhkjOOAQBMIIB
+HwKBgQD9f1OBHXUSKVLfSpwu7OTn9hG3UjzvRADDHj+AtlEmaUVdQCJR+1k9jVj6v8X1ujD2y5tV
+bNeBO4AdNG/yZmC3a5lQpaSfn+gEexAiwk+7qdf+t8Yb+DtX58aophUPBPuD9tPFHsMCNVQTWhaR
+MvZ1864rYdcq7/IiAxmd0UgBxwIVAJdgUI8VIwvMspK5gqLrhAvwWBz1AoGBAPfhoIXWmz3ey7yr
+XDa4V7l5lK+7+jrqgvlXTAs9B4JnUVlXjrrUWU/mcQcQgYC0SRZxI+hMKBYTt88JMozIpuE8FnqL
+VHyNKOCjrh4rs6Z1kW6jfwv6ITVi8ftiegEkO8yk8b6oUZCJqIPf4VrlnwaSi2ZegHtVJWQBTDv+
+z0kqA4GEAAKBgHQVrC0ysQbtmvu3Btjsz1n+6MJIm6mB0Y28fzKFC/azpMB+hultKdUFsnnb13BN
+fnfuUoULeLTu/cGvAsqFtCpJuAmcAzXxmTp0BTYj4o8jJYi0dLIKnox3Shy4VTr+qJlzn9Y1auWy
+rpwdD03e6Kq32rKpgU5fwC53L0J8dI6yoAAwCwYHKoZIzjgEAwUAAy8AMCwCFFtHtT6XNS8A/0Xu
+OfVnTnL+zrTPAhR7QgO0Y3Sd0u39l3uOvhX3G5//zw==
+-----END NEW CERTIFICATE REQUEST-----
+</pre>
+<p>There is no particular need to protect the CSR, as it contains no data that would aid an attacker.
+</p>
+<h4> <span class="mw-headline" id="Submit_the_CSR_to_the_trusted_CA"> Submit the CSR to the trusted CA </span></h4>
+<p>Send the certificate signing request (CSR) that you just generated to a certificate authority (CA) that you trust. This could be a commercial CA whose signatures most or all modern browsers will honor (for discussion, see this <a href="http://en.wikipedia.org/wiki/Certificate_authority" class="external text" rel="nofollow">Wikipedia article</a>) or a CA that is internal to your organization and whose public key is installed into all browsers on your organization's computers. The specifics of this step are entirely outside the scope of this article.
+</p>
+<h4> <span class="mw-headline" id="Import_the_signed_certificate"> Import the signed certificate </span></h4>
+<p>After you submit the certificate signing request to the CA, and fulfill the CA's requirements for validating your identity and trustworthiness, the CA will send you a certificate file that bears the CA's signature.
+</p><p>The signed certificate consists of the public half of the key that you generated in the first step plus a signature performed using the CA's private key. Therefore, the signed certificate (like the CSR)  contains no information that will aid an attacker if it is disclosed.
+</p><p>In order for your OpenNMS server to use the signed certificate, you must import the signed certificate into the keystore that you created in the first step.
+</p>
+<pre>
+$ keytool -import -keystore /tmp/propercert/proper.keystore -file /path/to/signed-cert.txt 
+Enter keystore password:  aGoodStrongKeystorePassword
+</pre>
+<p><b>Note:</b> This requires that your keystore already trust the CA that has signed your certificate. If you see the error "keytool error: java.lang.Exception: Public keys in reply and keystore don't match", this indicates that you need to import your certificate authority's CA certificate first:
+</p>
+<pre>
+$ keytool -import -trustcacerts -alias &lt;my-CA-root&gt; -keystore /tmp/propercert/proper.keystore -file /path/to/CA-cert.txt
+Enter keystore password:  aGoodStrongKeystorePassword
+</pre>
+<p>Now retry the import of the server cert.
+</p>
+<h3> <span class="mw-headline" id="Option_B:_Self-signed_certificate"> Option B: Self-signed certificate </span></h3>
+<p>If you are content with a self-signed certificate, you need to perform just one step to add a signature to your new SSL certificate.
+</p><p>As in the key generation process above, be sure that you specify an appropriate number of days for the <i>validity</i> parameter.
+</p>
+<pre>
+$ keytool -selfcert -validity 721 -keystore /tmp/propercert/proper.keystore 
+Enter keystore password:  aGoodStrongKeystorePassword
+Enter key password for &lt;mykey&gt;anotherGoodStrongPassword
+</pre>
+<h3> <span class="mw-headline" id="Copy_the_keystore_into_place"> Copy the keystore into place </span></h3>
+<p>Now that the keystore you created contains your server's signed SSL certificate, you must copy the keystore to a place where OpenNMS can find it. In the real world, you might want to place the keystore in a different location, perhaps one that is not included in your nightly backups (unless you trust your backup operator completely). In extreme cases it might be desirable to put the keystore on a filesystem that is unmounted except when starting or restarting OpenNMS. For the purposes of this article, we will assume that you copied the keystore to <i>/opt/opennms/etc/jetty.keystore</i>. 
+</p>
+<h3> <span class="mw-headline" id="Configure_the_Jetty_HTTPS_parameters_in_OpenNMS"> Configure the Jetty HTTPS parameters in OpenNMS </span></h3>
+<p>In your favorite editor, open the file <i>OPENNMS_HOME/etc/opennms.properties</i>.
+</p><p>Uncomment (or add if not present) the line that sets the property <i>org.opennms.netmgt.jetty.https-keystore</i>, and change the value of this property to the location of the keystore that now contains your server's signed SSL certificate:
+</p>
+<pre>org.opennms.netmgt.jetty.https-keystore = /opt/opennms/etc/jetty.keystore
+</pre>
+<p>Uncomment  (or add if not present) the lines that set the properties <i>org.opennms.netmgt.jetty.https-keystorepassword</i> and <i>org.opennms.netmgt.jetty.https-keypassword</i>, and change the values of each property to match the password you used for the keystore and the key itself in the first step:
+</p>
+<pre>org.opennms.netmgt.jetty.https-keystorepassword = aGoodStrongKeystorePassword
+org.opennms.netmgt.jetty.https-keypassword = anotherGoodStrongPassword
+</pre>
+<p>Uncomment (or add if not present) the line that sets the property <i>org.opennms.netmgt.jetty.https-port</i>, and optionally change the value to suit your needs:
+</p>
+<pre>org.opennms.netmgt.jetty.https-port = 8443
+</pre>
+<h3> <span class="mw-headline" id="Restrict_access_to_the_plain-HTTP_listener"> Restrict access to the plain-HTTP listener </span></h3>
+<p>Although the steps you have completed so far have configured OpenNMS to start a Jetty HTTPS listener on port 8443, they have <i>not</i> disabled the plain HTTP listener that is present by default on port 890. This listener must be present so that the OpenNMS real-time console can update the availability statistics shown in the web UI. Since you have done all the work to enable HTTPS, you probably do not want users using HTTP, so you will need to restrict access to the plain-HTTP listener.
+</p><p>There are two ways to accomplish this task. The first is to tell the plain-HTTP listener to bind only to an interface that is not accessible from any untrusted networks. In a setup where the OpenNMS web UI runs on the same server as the other OpenNMS daemons, it makes sense to use the loopback interface for this purpose. You can restrict the plain-HTTP listener to bind only to the <i>localhost</i> interface (which always has the IP address 127.0.0.1) by uncommenting the line that sets the property <i>org.opennms.netmgt.jetty.host</i>:
+</p>
+<pre>org.opennms.netmgt.jetty.host = 127.0.0.1
+</pre>
+<p>The second way to restrict access to the plain-HTTP listener is to use firewall rules. These rules may be local to the OpenNMS web UI server (e.g.iptables on Linux or ipf on Solaris) or they may be configured in a discrete firewall external that stands between the OpenNMS web UI server and the rest of the network. Configuring these rules is beyond the scope of this article.
+</p>
+<h3> <span class="mw-headline" id="Restrict_access_to_the_HTTPS_listener"> Restrict access to the HTTPS listener </span></h3>
+<p>Although HTTPS is considered secure, there are valid reasons to restrict the interfaces on which the OpenNMS Jetty HTTPS listener is reachable. Currently it is possible to bind the HTTPS listener to all interfaces (the default) or to a single interface. To bind the HTTPS listener to a single interface, uncomment the line that sets the property <i>org.opennms.netmgt.jetty.https-host</i>:
+</p>
+<pre>org.opennms.netmgt.jetty.https-host = 10.11.12.13
+</pre>
+<h1> <span class="mw-headline" id="Using_a_Pre-existing_Private_Key_and_Certificate"> Using a Pre-existing Private Key and Certificate </span></h1>
+<p>Many users may already have deployed significant amounts of SSL private keys and certs throughout their networks.  In many cases, the system on which ONMS is running may already have a private key and certificate.  Consequently, it would be a shame to manage yet another set of keys and certs.  Unfortunately, the <i>keytool</i> utility does not make it easy to import an existing private key and cert into a Java keystore.  Thankfully, <a href="http://www.agentbob.info/agentbob/79-AB.html?branch=1&amp;language=1" class="external text" rel="nofollow">this</a> web page summarizes how to do just that.
+</p><p>We summarize here just in case this web page goes away.  We assume the private key is in <i>key.pem</i> and the cert is in <i>cert.pem</i> (both are in PEM format).
+</p>
+<h3> <span class="mw-headline" id="Convert_the_key_and_cert_from_PEM_format_to_DER_format_using_openssl_command"> Convert the key and cert from PEM format to DER format using openssl command </span></h3>
+<p>Use openssl to convert from PEM to DER format.
+</p>
+<pre>
+openssl pkcs8 -topk8 -nocrypt -in key.pem -inform PEM -out key.der -outform DER
+openssl x509 -in cert.pem -inform PEM -out cert.der -outform DER
+</pre>
+<h3> <span class="mw-headline" id="Put_key_and_cert_into_a_new_Java_Keystore"> Put key and cert into a new Java Keystore </span></h3>
+<p>Use the <a href="http://www.agentbob.info/agentbob/80/version/default/part/AttachmentData/data/ImportKey.java" class="external text" rel="nofollow">ImportKey.java</a> class to take the key and cert and place it in a newly constructed JKS keystore.  I modified the ImportKey java source to use the keystore password <i>changeit</i> and to use the key alias <i>importkey</i> and to save the resulting keystore in the file <i>jetty.keystore</i>
+</p>
+<pre>
+java ImportKey key.der cert.der
+</pre>
+<h1> <span class="mw-headline" id="Howto:_Create_and_use_a_certificate_signed_by_the_CAcert_community"> Howto: Create and use a certificate signed by the CAcert community </span></h1>
+<p><a href="http://www.cacert.org" class="external text" rel="nofollow">CAcert</a> is a community that offers "free trust" - free signed certificates. If you are interested in using them, read their website. This howto assumes that you already have an account at CAcert and that you use the Debian package of OpenNMS (or: the path to they keystore is like it is in the debian package). 
+</p>
+<ul><li> Create a fresh keypair in a fresh keystore
+</li></ul>
+<p><code>keytool -keyalg RSA  -genkey -validity 731 -keystore /usr/share/opennms/etc/jetty.keystore</code>
+</p><p>Note: Use your FQDN when you are asked for first and last name!
+</p>
+<ul><li> Create a certificate signing request (CSR)
+</li></ul>
+<p><code>
+keytool -certreq -keystore  /usr/share/opennms/etc/jetty.keystore -file /tmp/opennms.services.net-lab.net.csr
+</code>
+</p>
+<ul><li> Let a cacert CA sign the CSR
+</li></ul>
+<p>Copy and paste /tmp/opennms.services.net-lab.net.csr into cacert's web UI and save the resulting (signed) certificate into a new file /tmp/opennms.services.net-lab.net.cert
+</p>
+<ul><li> Import cacert.org root certificate and class3 certficate into your keystore:
+</li></ul>
+<p><code>
+wget --no-check-certificate -q -O - <a href="https://www.cacert.org/certs/root.crt" class="external free" rel="nofollow">https://www.cacert.org/certs/root.crt</a>  | keytool -import -noprompt -alias cacertroot -trustcacerts -storepass ***yourpass*** -keystore /usr/share/opennms/etc/jetty.keystore
+</code>
+</p><p><code>
+wget --no-check-certificate -q -O - <a href="https://www.cacert.org/certs/class3.crt" class="external free" rel="nofollow">https://www.cacert.org/certs/class3.crt</a> | keytool -import -noprompt -alias cacertclass3  -trustcacerts -storepass ***yourpass*** -keystore /usr/share/opennms/etc/jetty.keystore
+</code>
+</p><p>Note: You have to import the CAcert root certificate once into your browser, in order to make your browser trust the CAcert certficates (Some Linux distris already did that, see <a href="http://wiki.cacert.org/wiki/InclusionStatus" class="external text" rel="nofollow">InclusionStatus</a> ) 
+</p>
+<ul><li> Import your cert into the keystore
+</li></ul>
+<p><code>keytool -import -noprompt -storepass valvoja -keystore /usr/share/opennms/etc/jetty.keystore -file /tmp/opennms.services.net-lab.net.cert</code>
+</p><p><br />
+</p>
+<h2> <span class="mw-headline" id="Version_History.2FAvailability"> Version History/Availability </span></h2>
+<ul><li> This feature was added in <a href="/wiki/Releases#OpenNMS_1.3.10" title="Releases" class="mw-redirect">version 1.3.10</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 197/1000000
+Post-expand include size: 199/2097152 bytes
+Template argument size: 18/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb:pcache:idhash:2405-0!1!0!!en!2!edit=0 and timestamp 20110522193152 -->
+<div class="hf-footer"></div><div class="hf-nsfooter"></div><div class="printfooter">
+Retrieved from "<a href="http://www.opennms.org/wiki/Standalone_HTTPS_with_Jetty">http://www.opennms.org/wiki/Standalone_HTTPS_with_Jetty</a>"</div>
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <span dir='ltr'><a href="/wiki/Category:Features" title="Category:Features">Features</a></span> | <span dir='ltr'><a href="/wiki/Category:Features_Added_in_1.3.10" title="Category:Features Added in 1.3.10">Features Added in 1.3.10</a></span> | <span dir='ltr'><a href="/w/index.php?title=Category:Security&amp;action=edit&amp;redlink=1" class="new" title="Category:Security (page does not exist)">Security</a></span> | <span dir='ltr'><a href="/w/index.php?title=Category:OpenNMS_Web_UI&amp;action=edit&amp;redlink=1" class="new" title="Category:OpenNMS Web UI (page does not exist)">OpenNMS Web UI</a></span> | <span dir='ltr'><a href="/wiki/Category:Configuration" title="Category:Configuration">Configuration</a></span></div></div><!-- end content -->
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+
+<div id="footer-container">
+<div id="footer">
+<ul id="footer-menu">
+<li><a href="/about">About OpenNMS</a> |</li>
+<li><a href="/get-opennms">Get OpenNMS</a> |</li>
+<li><a href="/get-support">Get Support</a> |</li>
+<li><a href="/get-involved">Get Involved</a> |</li>
+<li><a href="/get-stuff">Get Stuff</a></li>
+</ul>
+
+<hr />
+
+
+    <div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/w/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>        <div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by-nc-sa/2.5/"><img src="http://creativecommons.org/images/public/somerights20.png" alt="a Creative Commons Attribution-NonCommercial-ShareAlike2.5 License" width="88" height="31" /></a></div>        <ul id="f-list">
+          <li id="f-lastmod"> This page was last modified on 14 January 2010, at 15:59.</li>          <li id="f-viewcount">This page has been accessed 17,130 times.</li>                              <li id="f-copyright">Content is available under <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" class="external ">a Creative Commons Attribution-NonCommercial-ShareAlike2.5 License</a>.</li>          <br/>
+</div>
+</div>
+
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+    <!-- AdWords hack -->
+    <script type="text/javascript">
+     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+     try {
+      var pageTracker = _gat._getTracker("UA-2133604-1");
+      pageTracker._trackPageview();
+     } catch(err) {}
+    </script>
+    <script type="text/javascript">
+     <!--
+      var google_conversion_id = 1034747419;
+      var google_conversion_language = "en";
+      var google_conversion_format = "3";
+      var google_conversion_color = "666666";
+      var google_conversion_label = "-GpxCIGsygEQm_yz7QM";
+      var google_conversion_value = 0;
+     //-->
+    </script>
+    <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"></script>
+    <noscript>
+     <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1034747419/?label=-GpxCIGsygEQm_yz7QM&amp;guid=ON&amp;script=0"/>
+     </div>
+    </noscript>
+</body>
+</html>

@@ -1,0 +1,749 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title>星际争霸2录像下载</title>
+    <link href="http://img1.cache.netease.com/game/css09/style.css" rel="stylesheet"
+        type="text/css" />
+    <link href="http://img1.cache.netease.com/cnews/img09/channel_nav.css" rel="stylesheet"
+        type="text/css" />
+    <link href="http://img1.cache.netease.com/game/img/gbstar2/style11.css" rel="stylesheet"
+        type="text/css" />
+    <style type="text/css">
+        .fB
+        {
+            font-weight: bolder;
+        }
+        
+        body
+        {
+            text-align: left;
+        }
+        
+        .replay-tabs a
+        {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body style="background: #031c2d url(newimg/searcchbg_09.gif) scroll 0 0;">
+    <div class="colM" style="width: 690px;">
+        <div class="content">
+            <div class="replay-contents" id="Div1">
+                <div class="replay-content active">
+                    <ul class="replay-vssort fB">
+                        <li><a href="?pagesize=11&order=0&GameRace=6&order=2&level=0">T v Z</a> </li>
+                        <li><a href="?pagesize=11&order=0&GameRace=3&order=2&level=0">T v P</a> </li>
+                        <li><a href="?pagesize=11&order=0&GameRace=4&order=2&level=0">T v T</a> </li>
+                        <li><a href="?pagesize=11&order=0&GameRace=8&order=2&level=0">Z v Z</a> </li>
+                        <li><a href="?pagesize=11&order=0&GameRace=5&order=2&level=0">Z v P</a> </li>
+                        <li><a href="?pagesize=11&order=0&GameRace=6&order=2&level=0">Z v T</a> </li>
+                        <li><a href="?pagesize=11&order=0&GameRace=5&order=2&level=0">P v Z</a> </li>
+                        <li><a href="?pagesize=11&order=0&GameRace=2&order=2&level=0">P v P</a> </li>
+                        <li class="last"><a href="?pagesize=11&order=0&GameRace=3&order=2&level=0">P v T</a> </li>
+                    </ul>
+                    <ul class="replay-title fB">
+                        <li><span class="replay-race">种族</span> <span class="replay-players">选手</span> <span
+                            class="replay-map">地图</span> <span class="replay-time">更新时间</span> <span class="replay-download">
+                                下载量</span> </li>
+                    </ul>
+                    <ul class="replay-list" id="replay-list">
+                        
+                        <li class="active">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="mainli">
+                                <tr height="36" class="replay-info">
+                                    <td style="width: 60px;">
+                                        <a href="/Replaylist.aspx?gamerace=3" target="_blank">PvT</a>
+                                    </td>
+                                    <td style="width: 250px;">
+                                        <a href="/Sc2Replay.aspx?ReplayID=4553" target="_blank">NosBally vs PrinceSG</a>
+                                    </td>
+                                    <td style="width: 200px;">
+                                        The Shattered Temple
+                                    </td>
+                                    <td style="width: 90px;">
+                                        2011-5-22
+                                    </td>
+                                    <td style="width: 100px;">
+                                        100
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan='5' height="140">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="150" height="100%">
+                                                    <div class="imgblock">
+                                                        <img width="78" height="80" src="/images/minimap/The Shattered Temple.jpg">
+                                                        <a target="_blank" href="/Sc2Replay.aspx?ReplayID=4553" class="downbutton">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td width="*">
+                                                    <table height="100%" width="100%" cellpadding="0" cellspacing="0" class="playinfo">
+                                                        <tr height="32">
+                                                            <td class="p-info1">
+                                                                <span>比赛时间：</span>15分9秒
+                                                                | <span>赛事：</span>BN
+                                                                | <span>更新时间：</span>2011-5-22 18:38:04
+                                                                | <span>下载次数：</span>100
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="40">
+                                                            <td class="p-info2">
+                                                                <span>对战:</span><img src="/images/sc2/main/r2.jpg" width="24" length="24" /><span>NosBally</span>
+                                                                <span>VS</span>
+                                                                <img src="/images/sc2/main/r1.jpg" width="24" length="24" /><span>PrinceSG</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="*">
+                                                            <td class="p-info3">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                        <li class="">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="mainli">
+                                <tr height="36" class="replay-info">
+                                    <td style="width: 60px;">
+                                        <a href="/Replaylist.aspx?gamerace=4" target="_blank">TvT</a>
+                                    </td>
+                                    <td style="width: 250px;">
+                                        <a href="/Sc2Replay.aspx?ReplayID=4552" target="_blank">Blueeyes vs 철통방어</a>
+                                    </td>
+                                    <td style="width: 200px;">
+                                        Shakuras Plateau Novice
+                                    </td>
+                                    <td style="width: 90px;">
+                                        2011-5-22
+                                    </td>
+                                    <td style="width: 100px;">
+                                        46
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan='5' height="140">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="150" height="100%">
+                                                    <div class="imgblock">
+                                                        <img width="78" height="80" src="/images/minimap/Shakuras Plateau Novice.jpg">
+                                                        <a target="_blank" href="/Sc2Replay.aspx?ReplayID=4552" class="downbutton">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td width="*">
+                                                    <table height="100%" width="100%" cellpadding="0" cellspacing="0" class="playinfo">
+                                                        <tr height="32">
+                                                            <td class="p-info1">
+                                                                <span>比赛时间：</span>45分5秒
+                                                                | <span>赛事：</span>BN
+                                                                | <span>更新时间：</span>2011-5-22 18:37:49
+                                                                | <span>下载次数：</span>46
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="40">
+                                                            <td class="p-info2">
+                                                                <span>对战:</span><img src="/images/sc2/main/r2.jpg" width="24" length="24" /><span>Blueeyes</span>
+                                                                <span>VS</span>
+                                                                <img src="/images/sc2/main/r2.jpg" width="24" length="24" /><span>철통방어</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="*">
+                                                            <td class="p-info3">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                        <li class="">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="mainli">
+                                <tr height="36" class="replay-info">
+                                    <td style="width: 60px;">
+                                        <a href="/Replaylist.aspx?gamerace=3" target="_blank">PvT</a>
+                                    </td>
+                                    <td style="width: 250px;">
+                                        <a href="/Sc2Replay.aspx?ReplayID=4551" target="_blank">LofSuperior vs NosBally</a>
+                                    </td>
+                                    <td style="width: 200px;">
+                                        The Shattered Temple
+                                    </td>
+                                    <td style="width: 90px;">
+                                        2011-5-22
+                                    </td>
+                                    <td style="width: 100px;">
+                                        37
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan='5' height="140">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="150" height="100%">
+                                                    <div class="imgblock">
+                                                        <img width="78" height="80" src="/images/minimap/The Shattered Temple.jpg">
+                                                        <a target="_blank" href="/Sc2Replay.aspx?ReplayID=4551" class="downbutton">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td width="*">
+                                                    <table height="100%" width="100%" cellpadding="0" cellspacing="0" class="playinfo">
+                                                        <tr height="32">
+                                                            <td class="p-info1">
+                                                                <span>比赛时间：</span>20分17秒
+                                                                | <span>赛事：</span>BN
+                                                                | <span>更新时间：</span>2011-5-22 18:37:27
+                                                                | <span>下载次数：</span>37
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="40">
+                                                            <td class="p-info2">
+                                                                <span>对战:</span><img src="/images/sc2/main/r1.jpg" width="24" length="24" /><span>LofSuperior</span>
+                                                                <span>VS</span>
+                                                                <img src="/images/sc2/main/r2.jpg" width="24" length="24" /><span>NosBally</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="*">
+                                                            <td class="p-info3">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                        <li class="">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="mainli">
+                                <tr height="36" class="replay-info">
+                                    <td style="width: 60px;">
+                                        <a href="/Replaylist.aspx?gamerace=5" target="_blank">ZvP</a>
+                                    </td>
+                                    <td style="width: 250px;">
+                                        <a href="/Sc2Replay.aspx?ReplayID=4550" target="_blank">PrinceSG vs 캐간지 </a>
+                                    </td>
+                                    <td style="width: 200px;">
+                                        Shakuras Plateau Novice
+                                    </td>
+                                    <td style="width: 90px;">
+                                        2011-5-22
+                                    </td>
+                                    <td style="width: 100px;">
+                                        62
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan='5' height="140">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="150" height="100%">
+                                                    <div class="imgblock">
+                                                        <img width="78" height="80" src="/images/minimap/Shakuras Plateau Novice.jpg">
+                                                        <a target="_blank" href="/Sc2Replay.aspx?ReplayID=4550" class="downbutton">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td width="*">
+                                                    <table height="100%" width="100%" cellpadding="0" cellspacing="0" class="playinfo">
+                                                        <tr height="32">
+                                                            <td class="p-info1">
+                                                                <span>比赛时间：</span>30分20秒
+                                                                | <span>赛事：</span>BN
+                                                                | <span>更新时间：</span>2011-5-22 18:36:52
+                                                                | <span>下载次数：</span>62
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="40">
+                                                            <td class="p-info2">
+                                                                <span>对战:</span><img src="/images/sc2/main/r4.jpg" width="24" length="24" /><span>캐간지</span>
+                                                                <span>VS</span>
+                                                                <img src="/images/sc2/main/r1.jpg" width="24" length="24" /><span>PrinceSG</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="*">
+                                                            <td class="p-info3">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                        <li class="">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="mainli">
+                                <tr height="36" class="replay-info">
+                                    <td style="width: 60px;">
+                                        <a href="/Replaylist.aspx?gamerace=5" target="_blank">ZvP</a>
+                                    </td>
+                                    <td style="width: 250px;">
+                                        <a href="/Sc2Replay.aspx?ReplayID=4549" target="_blank">PrinceSG vs 신라면제니스</a>
+                                    </td>
+                                    <td style="width: 200px;">
+                                        Shakuras Plateau Novice
+                                    </td>
+                                    <td style="width: 90px;">
+                                        2011-5-22
+                                    </td>
+                                    <td style="width: 100px;">
+                                        41
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan='5' height="140">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="150" height="100%">
+                                                    <div class="imgblock">
+                                                        <img width="78" height="80" src="/images/minimap/Shakuras Plateau Novice.jpg">
+                                                        <a target="_blank" href="/Sc2Replay.aspx?ReplayID=4549" class="downbutton">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td width="*">
+                                                    <table height="100%" width="100%" cellpadding="0" cellspacing="0" class="playinfo">
+                                                        <tr height="32">
+                                                            <td class="p-info1">
+                                                                <span>比赛时间：</span>33分56秒
+                                                                | <span>赛事：</span>BN
+                                                                | <span>更新时间：</span>2011-5-22 18:36:22
+                                                                | <span>下载次数：</span>41
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="40">
+                                                            <td class="p-info2">
+                                                                <span>对战:</span><img src="/images/sc2/main/r1.jpg" width="24" length="24" /><span>PrinceSG</span>
+                                                                <span>VS</span>
+                                                                <img src="/images/sc2/main/r4.jpg" width="24" length="24" /><span>신라면제니스</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="*">
+                                                            <td class="p-info3">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                        <li class="">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="mainli">
+                                <tr height="36" class="replay-info">
+                                    <td style="width: 60px;">
+                                        <a href="/Replaylist.aspx?gamerace=6" target="_blank">TvZ</a>
+                                    </td>
+                                    <td style="width: 250px;">
+                                        <a href="/Sc2Replay.aspx?ReplayID=4548" target="_blank">재벌클랜 vs HButt #1</a>
+                                    </td>
+                                    <td style="width: 200px;">
+                                        Metalopolis
+                                    </td>
+                                    <td style="width: 90px;">
+                                        2011-5-22
+                                    </td>
+                                    <td style="width: 100px;">
+                                        32
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan='5' height="140">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="150" height="100%">
+                                                    <div class="imgblock">
+                                                        <img width="78" height="80" src="/images/minimap/Metalopolis.jpg">
+                                                        <a target="_blank" href="/Sc2Replay.aspx?ReplayID=4548" class="downbutton">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td width="*">
+                                                    <table height="100%" width="100%" cellpadding="0" cellspacing="0" class="playinfo">
+                                                        <tr height="32">
+                                                            <td class="p-info1">
+                                                                <span>比赛时间：</span>19分51秒
+                                                                | <span>赛事：</span>BN
+                                                                | <span>更新时间：</span>2011-5-22 18:35:53
+                                                                | <span>下载次数：</span>32
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="40">
+                                                            <td class="p-info2">
+                                                                <span>对战:</span><img src="/images/sc2/main/r2.jpg" width="24" length="24" /><span>재벌클랜</span>
+                                                                <span>VS</span>
+                                                                <img src="/images/sc2/main/r4.jpg" width="24" length="24" /><span>HButt</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="*">
+                                                            <td class="p-info3">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                        <li class="">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="mainli">
+                                <tr height="36" class="replay-info">
+                                    <td style="width: 60px;">
+                                        <a href="/Replaylist.aspx?gamerace=6" target="_blank">TvZ</a>
+                                    </td>
+                                    <td style="width: 250px;">
+                                        <a href="/Sc2Replay.aspx?ReplayID=4547" target="_blank">재벌클랜 vs HButt #2</a>
+                                    </td>
+                                    <td style="width: 200px;">
+                                        Metalopolis
+                                    </td>
+                                    <td style="width: 90px;">
+                                        2011-5-22
+                                    </td>
+                                    <td style="width: 100px;">
+                                        25
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan='5' height="140">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="150" height="100%">
+                                                    <div class="imgblock">
+                                                        <img width="78" height="80" src="/images/minimap/Metalopolis.jpg">
+                                                        <a target="_blank" href="/Sc2Replay.aspx?ReplayID=4547" class="downbutton">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td width="*">
+                                                    <table height="100%" width="100%" cellpadding="0" cellspacing="0" class="playinfo">
+                                                        <tr height="32">
+                                                            <td class="p-info1">
+                                                                <span>比赛时间：</span>20分57秒
+                                                                | <span>赛事：</span>BN
+                                                                | <span>更新时间：</span>2011-5-22 18:35:35
+                                                                | <span>下载次数：</span>25
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="40">
+                                                            <td class="p-info2">
+                                                                <span>对战:</span><img src="/images/sc2/main/r2.jpg" width="24" length="24" /><span>재벌클랜</span>
+                                                                <span>VS</span>
+                                                                <img src="/images/sc2/main/r4.jpg" width="24" length="24" /><span>HButt</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="*">
+                                                            <td class="p-info3">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                        <li class="">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="mainli">
+                                <tr height="36" class="replay-info">
+                                    <td style="width: 60px;">
+                                        <a href="/Replaylist.aspx?gamerace=6" target="_blank">TvZ</a>
+                                    </td>
+                                    <td style="width: 250px;">
+                                        <a href="/Sc2Replay.aspx?ReplayID=4546" target="_blank">LoVeLyZenith vs 낭만스타</a>
+                                    </td>
+                                    <td style="width: 200px;">
+                                        Xel'Naga Caverns
+                                    </td>
+                                    <td style="width: 90px;">
+                                        2011-5-22
+                                    </td>
+                                    <td style="width: 100px;">
+                                        27
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan='5' height="140">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="150" height="100%">
+                                                    <div class="imgblock">
+                                                        <img width="78" height="80" src="/images/minimap/Xel'Naga Caverns.jpg">
+                                                        <a target="_blank" href="/Sc2Replay.aspx?ReplayID=4546" class="downbutton">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td width="*">
+                                                    <table height="100%" width="100%" cellpadding="0" cellspacing="0" class="playinfo">
+                                                        <tr height="32">
+                                                            <td class="p-info1">
+                                                                <span>比赛时间：</span>20分53秒
+                                                                | <span>赛事：</span>BN
+                                                                | <span>更新时间：</span>2011-5-22 18:35:17
+                                                                | <span>下载次数：</span>27
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="40">
+                                                            <td class="p-info2">
+                                                                <span>对战:</span><img src="/images/sc2/main/r4.jpg" width="24" length="24" /><span>LoVeLyZenith</span>
+                                                                <span>VS</span>
+                                                                <img src="/images/sc2/main/r2.jpg" width="24" length="24" /><span>낭만스타</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="*">
+                                                            <td class="p-info3">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                        <li class="">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="mainli">
+                                <tr height="36" class="replay-info">
+                                    <td style="width: 60px;">
+                                        <a href="/Replaylist.aspx?gamerace=4" target="_blank">TvT</a>
+                                    </td>
+                                    <td style="width: 250px;">
+                                        <a href="/Sc2Replay.aspx?ReplayID=4545" target="_blank">Beastyqt vs Happy #1</a>
+                                    </td>
+                                    <td style="width: 200px;">
+                                        ESL Tal'darim Altar LE
+                                    </td>
+                                    <td style="width: 90px;">
+                                        2011-5-22
+                                    </td>
+                                    <td style="width: 100px;">
+                                        12
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan='5' height="140">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="150" height="100%">
+                                                    <div class="imgblock">
+                                                        <img width="78" height="80" src="/images/minimap/ESL Tal'darim Altar LE.jpg">
+                                                        <a target="_blank" href="/Sc2Replay.aspx?ReplayID=4545" class="downbutton">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td width="*">
+                                                    <table height="100%" width="100%" cellpadding="0" cellspacing="0" class="playinfo">
+                                                        <tr height="32">
+                                                            <td class="p-info1">
+                                                                <span>比赛时间：</span>14分19秒
+                                                                | <span>赛事：</span>BN
+                                                                | <span>更新时间：</span>2011-5-22 18:28:54
+                                                                | <span>下载次数：</span>12
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="40">
+                                                            <td class="p-info2">
+                                                                <span>对战:</span><img src="/images/sc2/main/r2.jpg" width="24" length="24" /><span>Happy</span>
+                                                                <span>VS</span>
+                                                                <img src="/images/sc2/main/r2.jpg" width="24" length="24" /><span>Beastyqt</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="*">
+                                                            <td class="p-info3">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                        <li class="">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="mainli">
+                                <tr height="36" class="replay-info">
+                                    <td style="width: 60px;">
+                                        <a href="/Replaylist.aspx?gamerace=4" target="_blank">TvT</a>
+                                    </td>
+                                    <td style="width: 250px;">
+                                        <a href="/Sc2Replay.aspx?ReplayID=4544" target="_blank">Beastyqt vs Happy #2</a>
+                                    </td>
+                                    <td style="width: 200px;">
+                                        ESL Metalopolis
+                                    </td>
+                                    <td style="width: 90px;">
+                                        2011-5-22
+                                    </td>
+                                    <td style="width: 100px;">
+                                        9
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan='5' height="140">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="150" height="100%">
+                                                    <div class="imgblock">
+                                                        <img width="78" height="80" src="/images/minimap/ESL Metalopolis.jpg">
+                                                        <a target="_blank" href="/Sc2Replay.aspx?ReplayID=4544" class="downbutton">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td width="*">
+                                                    <table height="100%" width="100%" cellpadding="0" cellspacing="0" class="playinfo">
+                                                        <tr height="32">
+                                                            <td class="p-info1">
+                                                                <span>比赛时间：</span>13分17秒
+                                                                | <span>赛事：</span>BN
+                                                                | <span>更新时间：</span>2011-5-22 18:28:14
+                                                                | <span>下载次数：</span>9
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="40">
+                                                            <td class="p-info2">
+                                                                <span>对战:</span><img src="/images/sc2/main/r2.jpg" width="24" length="24" /><span>Beastyqt</span>
+                                                                <span>VS</span>
+                                                                <img src="/images/sc2/main/r2.jpg" width="24" length="24" /><span>Happy</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="*">
+                                                            <td class="p-info3">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                        <li class="">
+                            <table width="100%" cellpadding="0" cellspacing="0" class="mainli">
+                                <tr height="36" class="replay-info">
+                                    <td style="width: 60px;">
+                                        <a href="/Replaylist.aspx?gamerace=5" target="_blank">ZvP</a>
+                                    </td>
+                                    <td style="width: 250px;">
+                                        <a href="/Sc2Replay.aspx?ReplayID=4543" target="_blank">mouzHasu vs MYMXlorD #1</a>
+                                    </td>
+                                    <td style="width: 200px;">
+                                        ESL Shakuras Plateau
+                                    </td>
+                                    <td style="width: 90px;">
+                                        2011-5-22
+                                    </td>
+                                    <td style="width: 100px;">
+                                        41
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan='5' height="140">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="150" height="100%">
+                                                    <div class="imgblock">
+                                                        <img width="78" height="80" src="/images/minimap/ESL Shakuras Plateau.jpg">
+                                                        <a target="_blank" href="/Sc2Replay.aspx?ReplayID=4543" class="downbutton">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td width="*">
+                                                    <table height="100%" width="100%" cellpadding="0" cellspacing="0" class="playinfo">
+                                                        <tr height="32">
+                                                            <td class="p-info1">
+                                                                <span>比赛时间：</span>37分23秒
+                                                                | <span>赛事：</span>ESL
+                                                                | <span>更新时间：</span>2011-5-22 18:26:44
+                                                                | <span>下载次数：</span>41
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="40">
+                                                            <td class="p-info2">
+                                                                <span>对战:</span><img src="/images/sc2/main/r4.jpg" width="24" length="24" /><span>MYMXlorD</span>
+                                                                <span>VS</span>
+                                                                <img src="/images/sc2/main/r1.jpg" width="24" length="24" /><span>mouzHasu</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr height="*">
+                                                            <td class="p-info3">
+                                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="r-search">
+                <form action="/search.aspx" id="r-searchrep" target="_blank">
+                <input class="r-searchin" type="text" name="searchstr" maxlength="100"><a class="r-button"
+                    href="javascript:void(0);" onclick="document.getElementById('r-searchrep').submit()"></a>
+                </form>
+            </div>
+            <span class="blank6"></span>
+        </div>
+    </div>
+    <script type="text/javascript" language="javascript" src="http://img1.cache.netease.com/cnews/js/ntes_jslib_1.x.js"
+        charset="gb2312">
+    </script>
+    <script language="javascript" type="text/javascript">
+                                    //<![CDATA[
+
+        new NTES.ui.Slide($("#replay-list > li tr.replay-info"), $("#replay-list  > li"), "active", "mouseover");
+                                    
+                                    //]]>
+    </script>
+</body>
+</html>

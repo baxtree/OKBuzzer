@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:blip="http://blip.tv/dtd/blip/1.0" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:amp="http://www.adobe.com/amp/1.0" xmlns:dcterms="http://purl.org/dc/terms" xmlns:gm="http://www.google.com/schemas/gm/1.1" xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0" version="2.0">
+  <channel>
+    <title>Linux Journal</title>
+    <link>www.linuxjournal.com</link>
+    <itunes:image href="http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg"/>
+    <amp:logo>http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg</amp:logo>
+    <image>
+      <link>www.linuxjournal.com</link>
+      <url>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</url>
+      <title/>
+    </image>
+    <description>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth reporting, tips and tricks, and market analysis, Linux Journal has become well-known as the industry standard. Pick up a copy of Linux Journal on major newsstands and in bookstores worldwide or subscribe by calling 1-888-66-LINUX or visiting http://www.linuxjournal.com/subscribe .</description>
+    <itunes:summary>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth rep</itunes:summary>
+    <geo:lat>29.759956</geo:lat>
+    <geo:long>-95.362534</geo:long>
+    <language>en</language>
+    <generator>http://blip.tv</generator>
+    <lastBuildDate>Tue, 24 Nov 2009 17:28:07 +0000</lastBuildDate>
+    <pubDate>Tue, 24 Nov 2009 17:28:07 +0000</pubDate>
+    <item>
+      <guid isPermaLink="false">BAF4721A-D91E-11DE-8297-9A4EBBD7CAA9</guid>
+      <link>http://blip.tv/file/2890182</link>
+      <title>Verify Your ISO Images Before Burning Them</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2909964</blip:posts_id>
+      <blip:item_id>2890182</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-11-24T17:28:07Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>113</blip:runtime>
+      <blip:embedLookup>gsAQgbHOcAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgbHOcAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2909964&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-VerifyYourISOImagesBeforeBurningThem427.jpg</blip:thumbnail_src>
+      <blip:puredescription>Don't burn your downloaded ISO images till you've verified them. Download the md5 or sha1 sum files and use them to verify that the images was downloaded successfully before burning it to CD/DVD.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-VerifyYourISOImagesBeforeBurningThem427-22.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgbHOcAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Don't burn your downloaded ISO images till you've verified them. Download the md5 or sha1 sum files and use them to verify that the images was downloaded successfully before burning it to CD/DVD.
+
+</description>
+      <comments>http://blip.tv/file/2890182</comments>
+      <category>Educational</category>
+      <category>linux</category>
+      <pubDate>Tue, 24 Nov 2009 17:28:07 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-VerifyYourISOImagesBeforeBurningThem711.flv" type="video/x-flv" length="5559809"/>
+      <itunes:keywords>linux</itunes:keywords>
+      <itunes:artwork>Linuxjournal-VerifyYourISOImagesBeforeBurningThem427.jpg</itunes:artwork>
+      <media:keywords>linux</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-VerifyYourISOImagesBeforeBurningThem137.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="8145699" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-VerifyYourISOImagesBeforeBurningThem711.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="5559809" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2890182">&lt;embed src="http://blip.tv/play/gsAQgbHOcAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Verify Your ISO Images Before Burning Them</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-VerifyYourISOImagesBeforeBurningThem427.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">F1657240-D482-11DE-9D47-FE4150C82E23</guid>
+      <link>http://blip.tv/file/2866435</link>
+      <title>IRC Chats with Pidgin!</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2886236</blip:posts_id>
+      <blip:item_id>2866435</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-11-18T20:42:52Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>102</blip:runtime>
+      <blip:embedLookup>gsAQgbCVQAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgbCVQAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2886236&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-IRCChatsWithPidgin267.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to use Pidgin as an IRC client.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-IRCChatsWithPidgin267-683.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgbCVQAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to use Pidgin as an IRC client.
+
+</description>
+      <comments>http://blip.tv/file/2866435</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>pidgin</category>
+      <category>irc</category>
+      <pubDate>Wed, 18 Nov 2009 20:42:52 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-IRCChatsWithPidgin934.flv" type="video/x-flv" length="7981788"/>
+      <itunes:keywords>linux, journal, tech, tip, pidgin, irc</itunes:keywords>
+      <itunes:artwork>Linuxjournal-IRCChatsWithPidgin267.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, pidgin, irc</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-IRCChatsWithPidgin269.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="3490690" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-IRCChatsWithPidgin934.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="7981788" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2866435">&lt;embed src="http://blip.tv/play/gsAQgbCVQAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>IRC Chats with Pidgin!</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-IRCChatsWithPidgin267.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">4B753E7C-D475-11DE-A630-AF2E436A2076</guid>
+      <link>http://blip.tv/file/2866059</link>
+      <title>Rename Groups of Files From the Command Line</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2885860</blip:posts_id>
+      <blip:item_id>2866059</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-11-18T19:05:11Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>128</blip:runtime>
+      <blip:embedLookup>gsAQgbCSSAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgbCSSAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2885860&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-RenameGroupsOfFilesFromTheCommandLine582.jpg</blip:thumbnail_src>
+      <blip:puredescription>Renaming similarly named files from the command line.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-RenameGroupsOfFilesFromTheCommandLine582-756.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgbCSSAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Renaming similarly named files from the command line.
+
+</description>
+      <comments>http://blip.tv/file/2866059</comments>
+      <category>Educational</category>
+      <category>linux</category>
+      <category>shell</category>
+      <pubDate>Wed, 18 Nov 2009 19:05:11 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-RenameGroupsOfFilesFromTheCommandLine440.flv" type="video/x-flv" length="4040837"/>
+      <itunes:keywords>linux, shell</itunes:keywords>
+      <itunes:artwork>Linuxjournal-RenameGroupsOfFilesFromTheCommandLine582.jpg</itunes:artwork>
+      <media:keywords>linux, shell</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-RenameGroupsOfFilesFromTheCommandLine184.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="6098564" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-RenameGroupsOfFilesFromTheCommandLine440.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="4040837" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2866059">&lt;embed src="http://blip.tv/play/gsAQgbCSSAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Rename Groups of Files From the Command Line</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-RenameGroupsOfFilesFromTheCommandLine582.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">79CE591C-CF01-11DE-92BF-973EB3707EEC</guid>
+      <link>http://blip.tv/file/2837183</link>
+      <title>Mirror the Partner Repo from Canonical</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2857007</blip:posts_id>
+      <blip:item_id>2837183</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-11-11T20:33:31Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>117</blip:runtime>
+      <blip:embedLookup>gsAQga6xEwI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQga6xEwI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2857007&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-MirrorThePartnerRepoFromCanonical876.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to use a script to mirror the Ubuntu partner repository on your local machine.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-MirrorThePartnerRepoFromCanonical876-746.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQga6xEwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to use a script to mirror the Ubuntu partner repository on your local machine.
+
+</description>
+      <comments>http://blip.tv/file/2837183</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>repository</category>
+      <category>mirror</category>
+      <category>rsync</category>
+      <category>unbuntu</category>
+      <pubDate>Wed, 11 Nov 2009 20:33:31 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-MirrorThePartnerRepoFromCanonical332.flv" type="video/x-flv" length="8206343"/>
+      <itunes:keywords>linux, journal, tech, tip, repository, mirror, rsync, unbuntu</itunes:keywords>
+      <itunes:artwork>Linuxjournal-MirrorThePartnerRepoFromCanonical876.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, repository, mirror, rsync, unbuntu</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-MirrorThePartnerRepoFromCanonical152.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="4915952" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-MirrorThePartnerRepoFromCanonical332.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="8206343" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2837183">&lt;embed src="http://blip.tv/play/gsAQga6xEwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Mirror the Partner Repo from Canonical</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-MirrorThePartnerRepoFromCanonical876.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">CA11003C-C970-11DE-A029-FE39ED752C46</guid>
+      <link>http://blip.tv/file/2807857</link>
+      <title>Forget Rasterbator, Posterazor!</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2827717</blip:posts_id>
+      <blip:item_id>2807857</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-11-04T18:35:13Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>113</blip:runtime>
+      <blip:embedLookup>gsAQgazMKQI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgazMKQI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2827717&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-ForgetRasterbatorPosterazor665.jpg</blip:thumbnail_src>
+      <blip:puredescription>While the web based rasterbator site works for Linux users, the downloadable client is Windows only. Shawn Powers shows an alternative program that works natively under Linux</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-ForgetRasterbatorPosterazor665-278.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgazMKQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+While the web based rasterbator site works for Linux users, the downloadable client is Windows only. Shawn Powers shows an alternative program that works natively under Linux
+
+</description>
+      <comments>http://blip.tv/file/2807857</comments>
+      <category>Technology</category>
+      <category>rasterbator</category>
+      <category>posterazor</category>
+      <category>image</category>
+      <category>poster</category>
+      <category>raster</category>
+      <category>pdf</category>
+      <pubDate>Wed, 04 Nov 2009 18:35:13 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-ForgetRasterbatorPosterazor218.flv" type="video/x-flv" length="8627658"/>
+      <itunes:keywords>rasterbator, posterazor, image, poster, raster, pdf</itunes:keywords>
+      <itunes:artwork>Linuxjournal-ForgetRasterbatorPosterazor665.jpg</itunes:artwork>
+      <media:keywords>rasterbator, posterazor, image, poster, raster, pdf</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ForgetRasterbatorPosterazor393.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="3945239" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ForgetRasterbatorPosterazor218.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="8627658" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2807857">&lt;embed src="http://blip.tv/play/gsAQgazMKQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Forget Rasterbator, Posterazor!</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-ForgetRasterbatorPosterazor665.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <blip:pagination>
+      <blip:currentPageNumber>1</blip:currentPageNumber>
+      <blip:nextPage>http://blip.tv/posts/?skin=rss;cmd=flash;date=;s=rss;pagestart=22;sort=date;user=130939;was_redirected=1;id=;pagelen=5;nsfw=dc;page=2</blip:nextPage>
+    </blip:pagination>
+  </channel>
+</rss>

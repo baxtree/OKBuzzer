@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:blip="http://blip.tv/dtd/blip/1.0" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:amp="http://www.adobe.com/amp/1.0" xmlns:dcterms="http://purl.org/dc/terms" xmlns:gm="http://www.google.com/schemas/gm/1.1" xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0" version="2.0">
+  <channel>
+    <title>Linux Journal</title>
+    <link>www.linuxjournal.com</link>
+    <itunes:image href="http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg"/>
+    <amp:logo>http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg</amp:logo>
+    <image>
+      <link>www.linuxjournal.com</link>
+      <url>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</url>
+      <title/>
+    </image>
+    <description>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth reporting, tips and tricks, and market analysis, Linux Journal has become well-known as the industry standard. Pick up a copy of Linux Journal on major newsstands and in bookstores worldwide or subscribe by calling 1-888-66-LINUX or visiting http://www.linuxjournal.com/subscribe .</description>
+    <itunes:summary>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth rep</itunes:summary>
+    <geo:lat>29.759956</geo:lat>
+    <geo:long>-95.362534</geo:long>
+    <language>en</language>
+    <generator>http://blip.tv</generator>
+    <lastBuildDate>Tue, 16 Jun 2009 17:24:47 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Jun 2009 17:24:47 +0000</pubDate>
+    <item>
+      <guid isPermaLink="false">9718A4AE-5A9A-11DE-91B7-FADCD36DDB5D</guid>
+      <link>http://blip.tv/file/2248528</link>
+      <title>Commandline 101: man pages</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2260138</blip:posts_id>
+      <blip:item_id>2248528</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-06-16T17:24:47Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>112</blip:runtime>
+      <blip:embedLookup>gsAQgYn6DgI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgYn6DgI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2260138&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-Commandline101ManPages288.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to use man pages to see the manual entry for how to use a command.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-Commandline101ManPages288-189.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgYn6DgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to use man pages to see the manual entry for how to use a command.
+
+</description>
+      <comments>http://blip.tv/file/2248528</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>man</category>
+      <category>pages</category>
+      <pubDate>Tue, 16 Jun 2009 17:24:47 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-Commandline101ManPages611.flv" type="video/x-flv" length="8260472"/>
+      <itunes:keywords>linux, journal, tech, tip, man, pages</itunes:keywords>
+      <itunes:artwork>Linuxjournal-Commandline101ManPages288.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, man, pages</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-Commandline101ManPages212.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="7195824" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-Commandline101ManPages611.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="8260472" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2248528">&lt;embed src="http://blip.tv/play/gsAQgYn6DgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Commandline 101: man pages</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-Commandline101ManPages288.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">7EA52700-59CB-11DE-8CAB-82775A5866B3</guid>
+      <link>http://blip.tv/file/2243771</link>
+      <title>Schedule Commands for Later</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2255256</blip:posts_id>
+      <blip:item_id>2243771</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-06-15T16:42:20Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>80</blip:runtime>
+      <blip:embedLookup>gsAQgYnTfAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgYnTfAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2255256&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-ScheduleCommandsForLater370.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to use the "at" scheduler to schedule commands.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-ScheduleCommandsForLater370-699.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgYnTfAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to use the "at" scheduler to schedule commands.
+
+</description>
+      <comments>http://blip.tv/file/2243771</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>at</category>
+      <category>schedule</category>
+      <pubDate>Mon, 15 Jun 2009 16:42:20 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-ScheduleCommandsForLater728.flv" type="video/x-flv" length="4140609"/>
+      <itunes:keywords>linux, journal, tech, tip, at, schedule</itunes:keywords>
+      <itunes:artwork>Linuxjournal-ScheduleCommandsForLater370.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, at, schedule</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ScheduleCommandsForLater742.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="2367748" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ScheduleCommandsForLater728.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="4140609" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2243771">&lt;embed src="http://blip.tv/play/gsAQgYnTfAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Schedule Commands for Later</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-ScheduleCommandsForLater370.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">4522C73C-576C-11DE-8199-D1E0F4362B6E</guid>
+      <link>http://blip.tv/file/2233522</link>
+      <title>Advanced Firefox Configuration</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2244494</blip:posts_id>
+      <blip:item_id>2233522</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-06-12T16:15:39Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>93</blip:runtime>
+      <blip:embedLookup>gsAQgYj_cgI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgYj_cgI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2244494&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-AdvancedFirefoxConfiguration168-53.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to do advanced configuration of Firefox using about:config.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-AdvancedFirefoxConfiguration168-53-445.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgYj_cgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to do advanced configuration of Firefox using about:config.
+
+</description>
+      <comments>http://blip.tv/file/2233522</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>firefox</category>
+      <category>advanced</category>
+      <category>configuration</category>
+      <pubDate>Fri, 12 Jun 2009 16:15:39 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-AdvancedFirefoxConfiguration268.flv" type="video/x-flv" length="6938535"/>
+      <itunes:keywords>linux, journal, tech, tip, firefox, advanced, configuration</itunes:keywords>
+      <itunes:artwork>Linuxjournal-AdvancedFirefoxConfiguration168-53.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, firefox, advanced, configuration</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-AdvancedFirefoxConfiguration168.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="7816386" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-AdvancedFirefoxConfiguration268.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="6938535" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2233522">&lt;embed src="http://blip.tv/play/gsAQgYj_cgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Advanced Firefox Configuration</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-AdvancedFirefoxConfiguration168-53.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">D96D0CCE-55DA-11DE-AE89-F3DF18E4F4D1</guid>
+      <link>http://blip.tv/file/2224495</link>
+      <title>Firefox Addon: It's All Text</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2235438</blip:posts_id>
+      <blip:item_id>2224495</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-06-10T16:22:10Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>63</blip:runtime>
+      <blip:embedLookup>gsAQgYi5EgI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgYi5EgI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2235438&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-FirefoxAddonItsAllText798.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Mitch Frazier shows you It's All Text, a Firefox Addon that allows you to use your favorite text editor (like Kate) to edit text fields in a web interface.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-FirefoxAddonItsAllText798-815.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgYi5EgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Mitch Frazier shows you It's All Text, a Firefox Addon that allows you to use your favorite text editor (like Kate) to edit text fields in a web interface.
+
+</description>
+      <comments>http://blip.tv/file/2224495</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>text</category>
+      <category>editor</category>
+      <category>firefox</category>
+      <category>web</category>
+      <category>fields</category>
+      <pubDate>Wed, 10 Jun 2009 16:22:10 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-FirefoxAddonItsAllText188.flv" type="video/x-flv" length="3036480"/>
+      <itunes:keywords>linux, journal, tech, tip, text, editor, firefox, web, fields</itunes:keywords>
+      <itunes:artwork>Linuxjournal-FirefoxAddonItsAllText798.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, text, editor, firefox, web, fields</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-FirefoxAddonItsAllText923.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="4562633" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-FirefoxAddonItsAllText188.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="3036480" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2224495">&lt;embed src="http://blip.tv/play/gsAQgYi5EgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Firefox Addon: It's All Text</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-FirefoxAddonItsAllText798.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">5661DF94-550D-11DE-98C7-ABDFCC1EECA9</guid>
+      <link>http://blip.tv/file/2219694</link>
+      <title>Protect Files with chattr</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2230623</blip:posts_id>
+      <blip:item_id>2219694</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-06-09T15:51:03Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>103</blip:runtime>
+      <blip:embedLookup>gsAQgYiTQwI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgYiTQwI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2230623&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-ProtectFilesWithChattr241-934.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to protect files from even the root user with chattr.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-ProtectFilesWithChattr241-934-274.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgYiTQwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to protect files from even the root user with chattr.
+
+</description>
+      <comments>http://blip.tv/file/2219694</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>chattr</category>
+      <pubDate>Tue, 09 Jun 2009 15:51:03 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-ProtectFilesWithChattr921.flv" type="video/x-flv" length="5750540"/>
+      <itunes:keywords>linux, journal, tech, tip, chattr</itunes:keywords>
+      <itunes:artwork>Linuxjournal-ProtectFilesWithChattr241-934.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, chattr</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ProtectFilesWithChattr241.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="3293620" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ProtectFilesWithChattr921.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="5750540" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2219694">&lt;embed src="http://blip.tv/play/gsAQgYiTQwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Protect Files with chattr</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-ProtectFilesWithChattr241-934.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <blip:pagination>
+      <blip:currentPageNumber>1</blip:currentPageNumber>
+      <blip:nextPage>http://blip.tv/posts/?skin=rss;cmd=flash;date=;s=rss;pagestart=82;sort=date;user=130939;was_redirected=1;id=;pagelen=5;nsfw=dc;page=2</blip:nextPage>
+    </blip:pagination>
+  </channel>
+</rss>

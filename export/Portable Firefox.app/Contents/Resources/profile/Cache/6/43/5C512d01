@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:blip="http://blip.tv/dtd/blip/1.0" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:amp="http://www.adobe.com/amp/1.0" xmlns:dcterms="http://purl.org/dc/terms" xmlns:gm="http://www.google.com/schemas/gm/1.1" xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0" version="2.0">
+  <channel>
+    <title>Linux Journal</title>
+    <link>www.linuxjournal.com</link>
+    <itunes:image href="http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg"/>
+    <amp:logo>http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg</amp:logo>
+    <image>
+      <link>www.linuxjournal.com</link>
+      <url>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</url>
+      <title/>
+    </image>
+    <description>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth reporting, tips and tricks, and market analysis, Linux Journal has become well-known as the industry standard. Pick up a copy of Linux Journal on major newsstands and in bookstores worldwide or subscribe by calling 1-888-66-LINUX or visiting http://www.linuxjournal.com/subscribe .</description>
+    <itunes:summary>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth rep</itunes:summary>
+    <geo:lat>29.759956</geo:lat>
+    <geo:long>-95.362534</geo:long>
+    <language>en</language>
+    <generator>http://blip.tv</generator>
+    <lastBuildDate>Thu, 10 Sep 2009 15:36:19 +0000</lastBuildDate>
+    <pubDate>Thu, 10 Sep 2009 15:36:19 +0000</pubDate>
+    <item>
+      <guid isPermaLink="false">AFD07F58-9E1F-11DE-939A-9EDF0CF32E3D</guid>
+      <link>http://blip.tv/file/2586560</link>
+      <title>﻿Star in a Tech Tip Video</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2606512</blip:posts_id>
+      <blip:item_id>2586560</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-09-10T15:36:19Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>57</blip:runtime>
+      <blip:embedLookup>gsAQgZ+MFAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZ+MFAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2606512&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-StarInATechTipVideo584.jpg</blip:thumbnail_src>
+      <blip:puredescription>Wanna be super-cool like Shawn Powers? Watch this video to learn how.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-StarInATechTipVideo584-633.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZ%2BMFAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Wanna be super-cool like Shawn Powers? Watch this video to learn how.
+
+</description>
+      <comments>http://blip.tv/file/2586560</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>be</category>
+      <category>a</category>
+      <category>star</category>
+      <pubDate>Thu, 10 Sep 2009 15:36:19 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-StarInATechTipVideo545.flv" type="video/x-flv" length="3793438"/>
+      <itunes:keywords>linux, journal, tech, tip, be, a, star</itunes:keywords>
+      <itunes:artwork>Linuxjournal-StarInATechTipVideo584.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, be, a, star</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-StarInATechTipVideo842.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="7368746" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-StarInATechTipVideo545.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="3793438" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2586560">&lt;embed src="http://blip.tv/play/gsAQgZ%2BMFAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>﻿Star in a Tech Tip Video</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-StarInATechTipVideo584.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">59B32A9A-9D88-11DE-8BA1-FBF6971CFE9F</guid>
+      <link>http://blip.tv/file/2583858</link>
+      <title>Virtual Interfaces: When One IP Isn't Enough</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2603810</blip:posts_id>
+      <blip:item_id>2583858</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-09-09T21:33:01Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>99</blip:runtime>
+      <blip:embedLookup>gsAQgZ73BgI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZ73BgI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2603810&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-VirtualInterfacesWhenOneIPIsntEnough582.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to have more than one IP address with one ethernet port.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-VirtualInterfacesWhenOneIPIsntEnough582-588.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZ73BgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to have more than one IP address with one ethernet port.
+
+</description>
+      <comments>http://blip.tv/file/2583858</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>ip</category>
+      <category>ethernet</category>
+      <category>virtual</category>
+      <category>interfaces</category>
+      <pubDate>Wed, 09 Sep 2009 21:33:01 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-VirtualInterfacesWhenOneIPIsntEnough926.flv" type="video/x-flv" length="6141692"/>
+      <itunes:keywords>linux, journal, tech, tip, ip, ethernet, virtual, interfaces</itunes:keywords>
+      <itunes:artwork>Linuxjournal-VirtualInterfacesWhenOneIPIsntEnough582.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, ip, ethernet, virtual, interfaces</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-VirtualInterfacesWhenOneIPIsntEnough572.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="3293983" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-VirtualInterfacesWhenOneIPIsntEnough926.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="6141692" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2583858">&lt;embed src="http://blip.tv/play/gsAQgZ73BgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Virtual Interfaces: When One IP Isn't Enough</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-VirtualInterfacesWhenOneIPIsntEnough582.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">2F6EB1F4-996A-11DE-BB9E-A3F22533CDE9</guid>
+      <link>http://blip.tv/file/2555189</link>
+      <title>Scheduled Notifications</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2575148</blip:posts_id>
+      <blip:item_id>2555189</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-09-04T15:47:00Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>88</blip:runtime>
+      <blip:embedLookup>gsAQgZ2XEAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZ2XEAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2575148&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-ScheduledNotifications267.jpg</blip:thumbnail_src>
+      <blip:puredescription>Shawn Powers shows how to mix libnotify with the at scheduler. This one two punch can help you remember to change your laundry, get your kids from school, or flip your grilled cheese sandwich. :)</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-ScheduledNotifications267-586.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZ2XEAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Shawn Powers shows how to mix libnotify with the at scheduler. This one two punch can help you remember to change your laundry, get your kids from school, or flip your grilled cheese sandwich. :)
+
+</description>
+      <comments>http://blip.tv/file/2555189</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>at</category>
+      <category>libnotify</category>
+      <category>techtip</category>
+      <category>linuxjournal</category>
+      <pubDate>Fri, 04 Sep 2009 15:47:00 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-ScheduledNotifications857.flv" type="video/x-flv" length="4910207"/>
+      <itunes:keywords>linux, at, libnotify, techtip, linuxjournal</itunes:keywords>
+      <itunes:artwork>Linuxjournal-ScheduledNotifications267.jpg</itunes:artwork>
+      <media:keywords>linux, at, libnotify, techtip, linuxjournal</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ScheduledNotifications143.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="2357675" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ScheduledNotifications857.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="4910207" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2555189">&lt;embed src="http://blip.tv/play/gsAQgZ2XEAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Scheduled Notifications</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-ScheduledNotifications267.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">18B33208-97E1-11DE-BB2A-AAED823D195A</guid>
+      <link>http://blip.tv/file/2546448</link>
+      <title>Tracking Down Your Laptop with No-IP</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2566442</blip:posts_id>
+      <blip:item_id>2546448</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-09-02T16:53:10Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>114</blip:runtime>
+      <blip:embedLookup>gsAQgZzTDgI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZzTDgI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2566442&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-TrackingDownYourLaptopWithNoIP945.jpg</blip:thumbnail_src>
+      <blip:puredescription>Shawn Powers demonstrates how dynamic DNS services like no-ip.com can be used to find your computer if it goes missing.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-TrackingDownYourLaptopWithNoIP945-64.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZzTDgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Shawn Powers demonstrates how dynamic DNS services like no-ip.com can be used to find your computer if it goes missing.
+
+</description>
+      <comments>http://blip.tv/file/2546448</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>dns</category>
+      <category>techtips</category>
+      <category>linuxjournal</category>
+      <pubDate>Wed, 02 Sep 2009 16:53:10 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-TrackingDownYourLaptopWithNoIP399.flv" type="video/x-flv" length="7538071"/>
+      <itunes:keywords>linux, dns, techtips, linuxjournal</itunes:keywords>
+      <itunes:artwork>Linuxjournal-TrackingDownYourLaptopWithNoIP945.jpg</itunes:artwork>
+      <media:keywords>linux, dns, techtips, linuxjournal</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-TrackingDownYourLaptopWithNoIP799.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="3408880" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-TrackingDownYourLaptopWithNoIP399.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="7538071" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2546448">&lt;embed src="http://blip.tv/play/gsAQgZzTDgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Tracking Down Your Laptop with No-IP</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-TrackingDownYourLaptopWithNoIP945.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">A3FC838E-9262-11DE-A8A6-F537B20845C6</guid>
+      <link>http://blip.tv/file/2519790</link>
+      <title>Using ftp With Konqueror</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2539799</blip:posts_id>
+      <blip:item_id>2519790</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-08-26T17:05:22Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>73</blip:runtime>
+      <blip:embedLookup>gsAQgZuCewI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZuCewI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2539799&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-UsingFtpWithKonqueror331.jpg</blip:thumbnail_src>
+      <blip:puredescription>Use Konqueror as your ftp client.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-UsingFtpWithKonqueror331-967.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZuCewI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Use Konqueror as your ftp client.
+
+</description>
+      <comments>http://blip.tv/file/2519790</comments>
+      <category>Educational</category>
+      <category>linux</category>
+      <category>kde</category>
+      <category>konqueror</category>
+      <pubDate>Wed, 26 Aug 2009 17:05:22 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-UsingFtpWithKonqueror289.flv" type="video/x-flv" length="6159652"/>
+      <itunes:keywords>linux, kde, konqueror</itunes:keywords>
+      <itunes:artwork>Linuxjournal-UsingFtpWithKonqueror331.jpg</itunes:artwork>
+      <media:keywords>linux, kde, konqueror</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-UsingFtpWithKonqueror918.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="9783844" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-UsingFtpWithKonqueror289.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="6159652" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2519790">&lt;embed src="http://blip.tv/play/gsAQgZuCewI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Using ftp With Konqueror</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-UsingFtpWithKonqueror331.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <blip:pagination>
+      <blip:currentPageNumber>1</blip:currentPageNumber>
+      <blip:nextPage>http://blip.tv/posts/?skin=rss;cmd=flash;date=;s=rss;pagestart=42;sort=date;user=130939;was_redirected=1;id=;pagelen=5;nsfw=dc;page=2</blip:nextPage>
+    </blip:pagination>
+  </channel>
+</rss>

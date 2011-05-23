@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:blip="http://blip.tv/dtd/blip/1.0" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:amp="http://www.adobe.com/amp/1.0" xmlns:dcterms="http://purl.org/dc/terms" xmlns:gm="http://www.google.com/schemas/gm/1.1" xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0" version="2.0">
+  <channel>
+    <title>Linux Journal</title>
+    <link>www.linuxjournal.com</link>
+    <itunes:image href="http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg"/>
+    <amp:logo>http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg</amp:logo>
+    <image>
+      <link>www.linuxjournal.com</link>
+      <url>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</url>
+      <title/>
+    </image>
+    <description>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth reporting, tips and tricks, and market analysis, Linux Journal has become well-known as the industry standard. Pick up a copy of Linux Journal on major newsstands and in bookstores worldwide or subscribe by calling 1-888-66-LINUX or visiting http://www.linuxjournal.com/subscribe .</description>
+    <itunes:summary>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth rep</itunes:summary>
+    <geo:lat>29.759956</geo:lat>
+    <geo:long>-95.362534</geo:long>
+    <language>en</language>
+    <generator>http://blip.tv</generator>
+    <lastBuildDate>Tue, 14 Jul 2009 16:02:51 +0000</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2009 16:02:51 +0000</pubDate>
+    <item>
+      <guid isPermaLink="false">C888EACA-708F-11DE-8DED-D2779D65A5AD</guid>
+      <link>http://blip.tv/file/2356868</link>
+      <title>Installing Webmin: for admins that like it GUI</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2376945</blip:posts_id>
+      <blip:item_id>2356868</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-07-14T16:02:51Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>114</blip:runtime>
+      <blip:embedLookup>gsAQgZGKVQI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZGKVQI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2376945&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-InstallingWebminForAdminsThatLikeItGUI435.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers demonstrates Webmin, a web-based interface for system administration.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-InstallingWebminForAdminsThatLikeItGUI435-327.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZGKVQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers demonstrates Webmin, a web-based interface for system administration.
+
+</description>
+      <comments>http://blip.tv/file/2356868</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>webmin</category>
+      <category>sysadmin</category>
+      <category>gui</category>
+      <pubDate>Tue, 14 Jul 2009 16:02:51 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-InstallingWebminForAdminsThatLikeItGUI597.flv" type="video/x-flv" length="8485361"/>
+      <itunes:keywords>linux, journal, tech, tip, webmin, sysadmin, gui</itunes:keywords>
+      <itunes:artwork>Linuxjournal-InstallingWebminForAdminsThatLikeItGUI435.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, webmin, sysadmin, gui</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-InstallingWebminForAdminsThatLikeItGUI633.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="6649561" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-InstallingWebminForAdminsThatLikeItGUI597.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="8485361" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2356868">&lt;embed src="http://blip.tv/play/gsAQgZGKVQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Installing Webmin: for admins that like it GUI</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-InstallingWebminForAdminsThatLikeItGUI435.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">B9A31BEA-6FED-11DE-8BB7-BBDC0D239D39</guid>
+      <link>http://blip.tv/file/2353738</link>
+      <title>Be a Sudoer</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2373815</blip:posts_id>
+      <blip:item_id>2353738</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-07-13T20:42:48Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>97</blip:runtime>
+      <blip:embedLookup>gsAQgZDyGwI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZDyGwI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2373815&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-BeASudoer955.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to set up sudo when it is not available by default.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-BeASudoer955-617.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZDyGwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to set up sudo when it is not available by default.
+
+</description>
+      <comments>http://blip.tv/file/2353738</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>sudo</category>
+      <pubDate>Mon, 13 Jul 2009 20:42:48 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-BeASudoer922.flv" type="video/x-flv" length="7014407"/>
+      <itunes:keywords>linux, journal, tech, tip, sudo</itunes:keywords>
+      <itunes:artwork>Linuxjournal-BeASudoer955.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, sudo</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-BeASudoer859.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="4026368" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-BeASudoer922.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="7014407" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2353738">&lt;embed src="http://blip.tv/play/gsAQgZDyGwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Be a Sudoer</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-BeASudoer955.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">E0C7936C-6CA1-11DE-8888-BF8C085010DE</guid>
+      <link>http://blip.tv/file/2339103</link>
+      <title>Detaching Your Tabs in Firefox 3.5</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2359189</blip:posts_id>
+      <blip:item_id>2339103</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-07-09T16:02:18Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>34</blip:runtime>
+      <blip:embedLookup>gsAQgY__eQI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgY__eQI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2359189&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-DetachingYourTabsInFirefox35576.jpg</blip:thumbnail_src>
+      <blip:puredescription>Make your tabs into windows.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-DetachingYourTabsInFirefox35576-8.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgY__eQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Make your tabs into windows.
+
+</description>
+      <comments>http://blip.tv/file/2339103</comments>
+      <category>Educational</category>
+      <category>firefox</category>
+      <pubDate>Thu, 09 Jul 2009 16:02:18 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-DetachingYourTabsInFirefox35896.flv" type="video/x-flv" length="2495935"/>
+      <itunes:keywords>firefox</itunes:keywords>
+      <itunes:artwork>Linuxjournal-DetachingYourTabsInFirefox35576.jpg</itunes:artwork>
+      <media:keywords>firefox</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-DetachingYourTabsInFirefox35988.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="4274181" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-DetachingYourTabsInFirefox35896.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="2495935" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2339103">&lt;embed src="http://blip.tv/play/gsAQgY__eQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Detaching Your Tabs in Firefox 3.5</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-DetachingYourTabsInFirefox35576.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">8822828A-6BCF-11DE-9A12-D2A348ED67F0</guid>
+      <link>http://blip.tv/file/2334521</link>
+      <title>Check for Bad Memory with memtest86</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2354584</blip:posts_id>
+      <blip:item_id>2334521</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-07-08T14:56:35Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>46</blip:runtime>
+      <blip:embedLookup>gsAQgY_bfAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgY_bfAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2354584&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-CheckForBadMemoryWithMemtest86171.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to check your memory.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-CheckForBadMemoryWithMemtest86171-663.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgY_bfAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to check your memory.
+
+</description>
+      <comments>http://blip.tv/file/2334521</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>memtest</category>
+      <category>memory</category>
+      <pubDate>Wed, 08 Jul 2009 14:56:35 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-CheckForBadMemoryWithMemtest86183.flv" type="video/x-flv" length="2453364"/>
+      <itunes:keywords>linux, journal, tech, tip, memtest, memory</itunes:keywords>
+      <itunes:artwork>Linuxjournal-CheckForBadMemoryWithMemtest86171.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, memtest, memory</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-CheckForBadMemoryWithMemtest86858.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="2701003" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-CheckForBadMemoryWithMemtest86183.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="2453364" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2334521">&lt;embed src="http://blip.tv/play/gsAQgY_bfAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Check for Bad Memory with memtest86</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-CheckForBadMemoryWithMemtest86171.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">EB29D08C-6B06-11DE-A892-97DCAA7FCE08</guid>
+      <link>http://blip.tv/file/2329994</link>
+      <title>Dealing with Odd Filenames on the Commandline</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2349801</blip:posts_id>
+      <blip:item_id>2329994</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-07-07T15:00:32Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>83</blip:runtime>
+      <blip:embedLookup>gsAQgY+2TQI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgY+2TQI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2349801&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-DealingWithOddFilenamesOnTheCommandline702.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you some weird filenames, and offers some words of caution.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-DealingWithOddFilenamesOnTheCommandline702-174.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgY%2B2TQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you some weird filenames, and offers some words of caution.
+
+</description>
+      <comments>http://blip.tv/file/2329994</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>file</category>
+      <category>name</category>
+      <category>weird</category>
+      <category>odd</category>
+      <category>commandline</category>
+      <pubDate>Tue, 07 Jul 2009 15:00:32 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-DealingWithOddFilenamesOnTheCommandline608.flv" type="video/x-flv" length="5308412"/>
+      <itunes:keywords>linux, journal, tech, tip, file, name, weird, odd, commandline</itunes:keywords>
+      <itunes:artwork>Linuxjournal-DealingWithOddFilenamesOnTheCommandline702.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, file, name, weird, odd, commandline</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-DealingWithOddFilenamesOnTheCommandline804.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="3428067" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-DealingWithOddFilenamesOnTheCommandline608.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="5308412" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2329994">&lt;embed src="http://blip.tv/play/gsAQgY%2B2TQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Dealing with Odd Filenames on the Commandline</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-DealingWithOddFilenamesOnTheCommandline702.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <blip:pagination>
+      <blip:currentPageNumber>1</blip:currentPageNumber>
+      <blip:nextPage>http://blip.tv/posts/?skin=rss;cmd=flash;date=;s=rss;pagestart=67;sort=date;user=130939;was_redirected=1;id=;pagelen=5;nsfw=dc;page=2</blip:nextPage>
+    </blip:pagination>
+  </channel>
+</rss>

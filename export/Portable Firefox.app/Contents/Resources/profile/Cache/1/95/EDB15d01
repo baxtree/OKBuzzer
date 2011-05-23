@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:blip="http://blip.tv/dtd/blip/1.0" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:amp="http://www.adobe.com/amp/1.0" xmlns:dcterms="http://purl.org/dc/terms" xmlns:gm="http://www.google.com/schemas/gm/1.1" xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0" version="2.0">
+  <channel>
+    <title>Linux Journal</title>
+    <link>www.linuxjournal.com</link>
+    <itunes:image href="http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg"/>
+    <amp:logo>http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg</amp:logo>
+    <image>
+      <link>www.linuxjournal.com</link>
+      <url>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</url>
+      <title/>
+    </image>
+    <description>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth reporting, tips and tricks, and market analysis, Linux Journal has become well-known as the industry standard. Pick up a copy of Linux Journal on major newsstands and in bookstores worldwide or subscribe by calling 1-888-66-LINUX or visiting http://www.linuxjournal.com/subscribe .</description>
+    <itunes:summary>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth rep</itunes:summary>
+    <geo:lat>29.759956</geo:lat>
+    <geo:long>-95.362534</geo:long>
+    <language>en</language>
+    <generator>http://blip.tv</generator>
+    <lastBuildDate>Wed, 14 Oct 2009 22:47:07 +0000</lastBuildDate>
+    <pubDate>Wed, 14 Oct 2009 22:47:07 +0000</pubDate>
+    <item>
+      <guid isPermaLink="false">80190BE0-B913-11DE-87A4-80174B0D6216</guid>
+      <link>http://blip.tv/file/2721634</link>
+      <title>Kill X in Ubuntu with dontzap</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2741518</blip:posts_id>
+      <blip:item_id>2721634</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-10-14T22:47:07Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>104</blip:runtime>
+      <blip:embedLookup>gsAQgaeqcgI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgaeqcgI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2741518&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-KillXInUbuntuWithDontzap545.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers demonstrates dontzap, which will allow you to easily kill your x session.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-KillXInUbuntuWithDontzap545-397.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgaeqcgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers demonstrates dontzap, which will allow you to easily kill your x session.
+
+</description>
+      <comments>http://blip.tv/file/2721634</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>dontzap</category>
+      <category>ubuntu</category>
+      <pubDate>Wed, 14 Oct 2009 22:47:07 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-KillXInUbuntuWithDontzap200.flv" type="video/x-flv" length="5092049"/>
+      <itunes:keywords>linux, journal, tech, tip, dontzap, ubuntu</itunes:keywords>
+      <itunes:artwork>Linuxjournal-KillXInUbuntuWithDontzap545.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, dontzap, ubuntu</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-KillXInUbuntuWithDontzap776.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="2921588" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-KillXInUbuntuWithDontzap200.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="5092049" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2721634">&lt;embed src="http://blip.tv/play/gsAQgaeqcgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Kill X in Ubuntu with dontzap</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-KillXInUbuntuWithDontzap545.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">E0367EE8-B42E-11DE-9809-8CEBC3DE0A74</guid>
+      <link>http://blip.tv/file/2697489</link>
+      <title>Unsending Email with Some Help from Google</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2717378</blip:posts_id>
+      <blip:item_id>2697489</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-10-08T17:20:29Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>86</blip:runtime>
+      <blip:embedLookup>gsAQgaXuJgI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgaXuJgI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2717378&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-UnsendingEmailWithSomeHelpFromGoogle436.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers has a tip for gmail users.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-UnsendingEmailWithSomeHelpFromGoogle436-895.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgaXuJgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers has a tip for gmail users.
+
+</description>
+      <comments>http://blip.tv/file/2697489</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>gmail</category>
+      <category>unsend</category>
+      <pubDate>Thu, 08 Oct 2009 17:20:29 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-UnsendingEmailWithSomeHelpFromGoogle504.flv" type="video/x-flv" length="7173027"/>
+      <itunes:keywords>linux, journal, tech, tip, gmail, unsend</itunes:keywords>
+      <itunes:artwork>Linuxjournal-UnsendingEmailWithSomeHelpFromGoogle436.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, gmail, unsend</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-UnsendingEmailWithSomeHelpFromGoogle862.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="5466985" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-UnsendingEmailWithSomeHelpFromGoogle504.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="7173027" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2697489">&lt;embed src="http://blip.tv/play/gsAQgaXuJgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Unsending Email with Some Help from Google</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-UnsendingEmailWithSomeHelpFromGoogle436.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">7F7D8CF4-B2B7-11DE-A212-BC005DEE1197</guid>
+      <link>http://blip.tv/file/2688981</link>
+      <title>Making a Crossover Cable from Scratch</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2708871</blip:posts_id>
+      <blip:item_id>2688981</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-10-06T20:33:25Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>102</blip:runtime>
+      <blip:embedLookup>gsAQgaWrawI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgaWrawI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2708871&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-MakingACrossoverCableFromScratch115.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to make a crossover cable from scratch.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-MakingACrossoverCableFromScratch115-353.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgaWrawI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to make a crossover cable from scratch.
+
+</description>
+      <comments>http://blip.tv/file/2688981</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>crossover</category>
+      <category>cable</category>
+      <category>network</category>
+      <pubDate>Tue, 06 Oct 2009 20:33:25 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-MakingACrossoverCableFromScratch224.flv" type="video/x-flv" length="6884046"/>
+      <itunes:keywords>linux, journal, tech, tip, crossover, cable, network</itunes:keywords>
+      <itunes:artwork>Linuxjournal-MakingACrossoverCableFromScratch115.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, crossover, cable, network</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-MakingACrossoverCableFromScratch874.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="13476319" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-MakingACrossoverCableFromScratch224.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="6884046" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2688981">&lt;embed src="http://blip.tv/play/gsAQgaWrawI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Making a Crossover Cable from Scratch</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-MakingACrossoverCableFromScratch115.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">9BFF0848-AF75-11DE-81E1-F012C46B4E5C</guid>
+      <link>http://blip.tv/file/2673207</link>
+      <title>KDE Konsole Bookmarks</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2693101</blip:posts_id>
+      <blip:item_id>2673207</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-10-02T17:04:13Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>24</blip:runtime>
+      <blip:embedLookup>gsAQgaSwUQI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgaSwUQI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2693101&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-KDEKonsoleBookmarks141.jpg</blip:thumbnail_src>
+      <blip:puredescription>Add bookmarks to Konsole to change directories quickly.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-KDEKonsoleBookmarks141-336.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgaSwUQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Add bookmarks to Konsole to change directories quickly.
+
+</description>
+      <comments>http://blip.tv/file/2673207</comments>
+      <category>Educational</category>
+      <category>kde</category>
+      <category>konsole</category>
+      <category>bookmarks</category>
+      <pubDate>Fri, 02 Oct 2009 17:04:13 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-KDEKonsoleBookmarks127.flv" type="video/x-flv" length="642518"/>
+      <itunes:keywords>kde, konsole, bookmarks</itunes:keywords>
+      <itunes:artwork>Linuxjournal-KDEKonsoleBookmarks141.jpg</itunes:artwork>
+      <media:keywords>kde, konsole, bookmarks</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-KDEKonsoleBookmarks151.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="925271" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-KDEKonsoleBookmarks127.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="642518" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2673207">&lt;embed src="http://blip.tv/play/gsAQgaSwUQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>KDE Konsole Bookmarks</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-KDEKonsoleBookmarks141.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">DCEB1F34-AD10-11DE-8380-FC13294B8D6D</guid>
+      <link>http://blip.tv/file/2659140</link>
+      <title>Customized Bash Prompts with the PS1 Variable</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2679034</blip:posts_id>
+      <blip:item_id>2659140</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-09-29T15:58:00Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>84</blip:runtime>
+      <blip:embedLookup>gsAQgaPCXgI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgaPCXgI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2679034&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-CustomizedBashPromptsWithThePS1Variable155.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to change your bash prompt.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-CustomizedBashPromptsWithThePS1Variable155-816.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgaPCXgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to change your bash prompt.
+
+</description>
+      <comments>http://blip.tv/file/2659140</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>bash</category>
+      <category>prompt</category>
+      <category>ps1</category>
+      <pubDate>Tue, 29 Sep 2009 15:58:00 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-CustomizedBashPromptsWithThePS1Variable366.flv" type="video/x-flv" length="5075569"/>
+      <itunes:keywords>linux, journal, tech, tip, bash, prompt, ps1</itunes:keywords>
+      <itunes:artwork>Linuxjournal-CustomizedBashPromptsWithThePS1Variable155.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, bash, prompt, ps1</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-CustomizedBashPromptsWithThePS1Variable178.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="3616198" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-CustomizedBashPromptsWithThePS1Variable366.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="5075569" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2659140">&lt;embed src="http://blip.tv/play/gsAQgaPCXgI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Customized Bash Prompts with the PS1 Variable</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-CustomizedBashPromptsWithThePS1Variable155.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <blip:pagination>
+      <blip:currentPageNumber>1</blip:currentPageNumber>
+      <blip:nextPage>http://blip.tv/posts/?skin=rss;cmd=flash;date=;s=rss;pagestart=32;sort=date;user=130939;was_redirected=1;id=;pagelen=5;nsfw=dc;page=2</blip:nextPage>
+    </blip:pagination>
+  </channel>
+</rss>

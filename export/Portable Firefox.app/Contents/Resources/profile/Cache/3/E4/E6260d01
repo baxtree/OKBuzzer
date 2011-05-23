@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:blip="http://blip.tv/dtd/blip/1.0" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:amp="http://www.adobe.com/amp/1.0" xmlns:dcterms="http://purl.org/dc/terms" xmlns:gm="http://www.google.com/schemas/gm/1.1" xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0" version="2.0">
+  <channel>
+    <title>Linux Journal</title>
+    <link>www.linuxjournal.com</link>
+    <itunes:image href="http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg"/>
+    <amp:logo>http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg</amp:logo>
+    <image>
+      <link>www.linuxjournal.com</link>
+      <url>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</url>
+      <title/>
+    </image>
+    <description>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth reporting, tips and tricks, and market analysis, Linux Journal has become well-known as the industry standard. Pick up a copy of Linux Journal on major newsstands and in bookstores worldwide or subscribe by calling 1-888-66-LINUX or visiting http://www.linuxjournal.com/subscribe .</description>
+    <itunes:summary>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth rep</itunes:summary>
+    <geo:lat>29.759956</geo:lat>
+    <geo:long>-95.362534</geo:long>
+    <language>en</language>
+    <generator>http://blip.tv</generator>
+    <lastBuildDate>Mon, 04 Jan 2010 18:12:19 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Jan 2010 18:12:19 +0000</pubDate>
+    <item>
+      <guid isPermaLink="false">B2BAFC3C-F95C-11DE-A01B-A065596D4C94</guid>
+      <link>http://blip.tv/file/3045181</link>
+      <title>Disabling Password When Waking a Laptop</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>3064823</blip:posts_id>
+      <blip:item_id>3045181</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2010-01-04T18:12:19Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>92</blip:runtime>
+      <blip:embedLookup>gsAQgbuIWwI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgbuIWwI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post3064823&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-DisablingPasswordWhenWakingALaptop569.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to disable the password requirement when returning from hibernate, suspend, screen saver, etc in Ubuntu.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-DisablingPasswordWhenWakingALaptop569-91.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgbuIWwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to disable the password requirement when returning from hibernate, suspend, screen saver, etc in Ubuntu.
+
+</description>
+      <comments>http://blip.tv/file/3045181</comments>
+      <category>Technology</category>
+      <category>linux journal</category>
+      <category>tech tip</category>
+      <category>ubuntu</category>
+      <category>screensave</category>
+      <category>password</category>
+      <category>hibernate</category>
+      <category>suspend</category>
+      <category>laptop</category>
+      <pubDate>Mon, 04 Jan 2010 18:12:19 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-DisablingPasswordWhenWakingALaptop685.flv" type="video/x-flv" length="6575813"/>
+      <itunes:keywords>linux journal, tech tip, ubuntu, screensave, password, hibernate, suspend, laptop</itunes:keywords>
+      <itunes:artwork>Linuxjournal-DisablingPasswordWhenWakingALaptop569.jpg</itunes:artwork>
+      <media:keywords>linux journal, tech tip, ubuntu, screensave, password, hibernate, suspend, laptop</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-DisablingPasswordWhenWakingALaptop436.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="5750853" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-DisablingPasswordWhenWakingALaptop685.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="6575813" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3045181">&lt;embed src="http://blip.tv/play/gsAQgbuIWwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Disabling Password When Waking a Laptop</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-DisablingPasswordWhenWakingALaptop569.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">CA68FDC8-F64D-11DE-9434-901D1FEBED7D</guid>
+      <link>http://blip.tv/file/3033973</link>
+      <title>Activate Windows Without Losing Your Selected Text</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>3053616</blip:posts_id>
+      <blip:item_id>3033973</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-12-31T20:48:03Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>74</blip:runtime>
+      <blip:embedLookup>gsAQgbqxFAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgbqxFAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post3053616&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-ActivateWindowsWithoutLosingYourSelectedText655.jpg</blip:thumbnail_src>
+      <blip:puredescription>Activate windows without losing your text selection by using the mouse wheel.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-ActivateWindowsWithoutLosingYourSelectedText655-730.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgbqxFAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Activate windows without losing your text selection by using the mouse wheel.
+
+</description>
+      <comments>http://blip.tv/file/3033973</comments>
+      <category>Educational</category>
+      <category>linux</category>
+      <category>gui</category>
+      <category>active</category>
+      <category>window</category>
+      <pubDate>Thu, 31 Dec 2009 20:48:03 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-ActivateWindowsWithoutLosingYourSelectedText148.flv" type="video/x-flv" length="5604070"/>
+      <itunes:keywords>linux, gui, active, window</itunes:keywords>
+      <itunes:artwork>Linuxjournal-ActivateWindowsWithoutLosingYourSelectedText655.jpg</itunes:artwork>
+      <media:keywords>linux, gui, active, window</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ActivateWindowsWithoutLosingYourSelectedText585.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="8475711" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-ActivateWindowsWithoutLosingYourSelectedText148.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="5604070" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/3033973">&lt;embed src="http://blip.tv/play/gsAQgbqxFAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Activate Windows Without Losing Your Selected Text</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-ActivateWindowsWithoutLosingYourSelectedText655.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">9D73190E-E426-11DE-AAFA-F3666D5A6D73</guid>
+      <link>http://blip.tv/file/2947546</link>
+      <title>Rotating Backgrounds with Drapes</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2967275</blip:posts_id>
+      <blip:item_id>2947546</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-12-08T18:22:16Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>92</blip:runtime>
+      <blip:embedLookup>gsAQgbWOTwI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgbWOTwI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2967275&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-RotatingBackgroundsWithDrapes213.jpg</blip:thumbnail_src>
+      <blip:puredescription>With Drapes, you can change your gnome desktop automatically. Great if you can't decide what desktop photo you like best!</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-RotatingBackgroundsWithDrapes213-662.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgbWOTwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+With Drapes, you can change your gnome desktop automatically. Great if you can't decide what desktop photo you like best!
+
+</description>
+      <comments>http://blip.tv/file/2947546</comments>
+      <category>Technology</category>
+      <category>gnome</category>
+      <category>linux</category>
+      <category>linuxjournal</category>
+      <category>desktop</category>
+      <category>nasa</category>
+      <category>tech</category>
+      <category>tip</category>
+      <pubDate>Tue, 08 Dec 2009 18:22:16 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-RotatingBackgroundsWithDrapes802.flv" type="video/x-flv" length="6752987"/>
+      <itunes:keywords>gnome, linux, linuxjournal, desktop, nasa, tech, tip</itunes:keywords>
+      <itunes:artwork>Linuxjournal-RotatingBackgroundsWithDrapes213.jpg</itunes:artwork>
+      <media:keywords>gnome, linux, linuxjournal, desktop, nasa, tech, tip</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-RotatingBackgroundsWithDrapes545.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="5832467" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-RotatingBackgroundsWithDrapes802.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="6752987" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2947546">&lt;embed src="http://blip.tv/play/gsAQgbWOTwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Rotating Backgrounds with Drapes</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-RotatingBackgroundsWithDrapes213.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">0499F116-E10C-11DE-BBBA-E92D0CBE5E3F</guid>
+      <link>http://blip.tv/file/2931368</link>
+      <title>Meet Your Linux Journal Team</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2951106</blip:posts_id>
+      <blip:item_id>2931368</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-12-04T19:34:20Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>89</blip:runtime>
+      <blip:embedLookup>gsAQgbSQJgI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgbSQJgI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2951106&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-MeetYourLinuxJournalTeam491-403.jpg</blip:thumbnail_src>
+      <blip:puredescription>Introducing your Linux Journal line up...</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-MeetYourLinuxJournalTeam491-403-933.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgbSQJgI" type="application/x-shockwave-flash" width="480" height="296" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Introducing your Linux Journal line up...
+
+</description>
+      <comments>http://blip.tv/file/2931368</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>open source</category>
+      <category>linux journal</category>
+      <category>magazine</category>
+      <category>staff</category>
+      <category>publishing</category>
+      <category>ubuntu</category>
+      <category>fedora</category>
+      <category>mint</category>
+      <category>debian</category>
+      <category>slackware</category>
+      <pubDate>Fri, 04 Dec 2009 19:34:20 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-MeetYourLinuxJournalTeam484.flv" type="video/x-flv" length="5482952"/>
+      <itunes:keywords>linux, open source, linux journal, magazine, staff, publishing, ubuntu, fedora, mint, debian, slackware</itunes:keywords>
+      <itunes:image>http://a.images.blip.tv/Linuxjournal-MeetYourLinuxJournalTeam491-403.jpg</itunes:image>
+      <media:keywords>linux, open source, linux journal, magazine, staff, publishing, ubuntu, fedora, mint, debian, slackware</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-MeetYourLinuxJournalTeam491.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="4340510" height="240" isDefault="true" type="video/mp4" width="432"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-MeetYourLinuxJournalTeam484.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="5482952" height="240" isDefault="false" type="video/x-flv" width="432"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2931368">&lt;embed src="http://blip.tv/play/gsAQgbSQJgI" type="application/x-shockwave-flash" width="480" height="296" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Meet Your Linux Journal Team</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-MeetYourLinuxJournalTeam491-403.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">2B85258C-DF6F-11DE-9525-FA5945999143</guid>
+      <link>http://blip.tv/file/2921905</link>
+      <title>Custom Thunderbird Buttons</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2941660</blip:posts_id>
+      <blip:item_id>2921905</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-12-02T18:19:03Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>118</blip:runtime>
+      <blip:embedLookup>gsAQgbPGQAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgbPGQAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2941660&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-CustomThunderbirdButtons876.jpg</blip:thumbnail_src>
+      <blip:puredescription>Add custom buttons to Thunderbirds Toolbar</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-CustomThunderbirdButtons876-484.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgbPGQAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Add custom buttons to Thunderbirds Toolbar
+
+</description>
+      <comments>http://blip.tv/file/2921905</comments>
+      <category>Educational</category>
+      <category>linux</category>
+      <category>thunderbird</category>
+      <category>toolbar</category>
+      <category>buttons</category>
+      <pubDate>Wed, 02 Dec 2009 18:19:03 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-CustomThunderbirdButtons346.flv" type="video/x-flv" length="8446625"/>
+      <itunes:keywords>linux, thunderbird, toolbar, buttons</itunes:keywords>
+      <itunes:artwork>Linuxjournal-CustomThunderbirdButtons876.jpg</itunes:artwork>
+      <media:keywords>linux, thunderbird, toolbar, buttons</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-CustomThunderbirdButtons232.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="20763019" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-CustomThunderbirdButtons346.flv" blip:role="Web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="8446625" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2921905">&lt;embed src="http://blip.tv/play/gsAQgbPGQAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Custom Thunderbird Buttons</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-CustomThunderbirdButtons876.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <blip:pagination>
+      <blip:currentPageNumber>1</blip:currentPageNumber>
+      <blip:nextPage>http://blip.tv/posts/?skin=rss;cmd=flash;date=;s=rss;pagestart=17;sort=date;user=130939;was_redirected=1;id=;pagelen=5;nsfw=dc;page=2</blip:nextPage>
+    </blip:pagination>
+  </channel>
+</rss>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:blip="http://blip.tv/dtd/blip/1.0" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:amp="http://www.adobe.com/amp/1.0" xmlns:dcterms="http://purl.org/dc/terms" xmlns:gm="http://www.google.com/schemas/gm/1.1" xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0" version="2.0">
+  <channel>
+    <title>Linux Journal</title>
+    <link>www.linuxjournal.com</link>
+    <itunes:image href="http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg"/>
+    <amp:logo>http://a.images.blip.tv/Linuxjournal-300x300_show_image212.jpg</amp:logo>
+    <image>
+      <link>www.linuxjournal.com</link>
+      <url>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</url>
+      <title/>
+    </image>
+    <description>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth reporting, tips and tricks, and market analysis, Linux Journal has become well-known as the industry standard. Pick up a copy of Linux Journal on major newsstands and in bookstores worldwide or subscribe by calling 1-888-66-LINUX or visiting http://www.linuxjournal.com/subscribe .</description>
+    <itunes:summary>Linux Journal, first published in 1994, is the original publication of the global Linux community, covering topics critical to intelligent implementation of the Linux operation system. With its award-winning Linux how-tos, tutorials, reviews, in-depth rep</itunes:summary>
+    <geo:lat>29.759956</geo:lat>
+    <geo:long>-95.362534</geo:long>
+    <language>en</language>
+    <generator>http://blip.tv</generator>
+    <lastBuildDate>Tue, 25 Aug 2009 15:31:53 +0000</lastBuildDate>
+    <pubDate>Tue, 25 Aug 2009 15:31:53 +0000</pubDate>
+    <item>
+      <guid isPermaLink="false">6A2E5A78-918C-11DE-8478-E49040C35A0D</guid>
+      <link>http://blip.tv/file/2515314</link>
+      <title>Using sftp With Konqueror</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2535324</blip:posts_id>
+      <blip:item_id>2515314</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-08-25T15:31:53Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>81</blip:runtime>
+      <blip:embedLookup>gsAQgZrgAAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZrgAAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2535324&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-UsingSftpWithKonqueror416.jpg</blip:thumbnail_src>
+      <blip:puredescription>Use Konqueror's builtin sftp protocol to view files on remote computers as if they were local.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-UsingSftpWithKonqueror416-856.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZrgAAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Use Konqueror's builtin sftp protocol to view files on remote computers as if they were local.
+
+</description>
+      <comments>http://blip.tv/file/2515314</comments>
+      <category>Educational</category>
+      <category>linux</category>
+      <category>kde</category>
+      <category>konqueror</category>
+      <pubDate>Tue, 25 Aug 2009 15:31:53 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-UsingSftpWithKonqueror961.flv" type="video/x-flv" length="5564625"/>
+      <itunes:keywords>linux, kde, konqueror</itunes:keywords>
+      <itunes:artwork>Linuxjournal-UsingSftpWithKonqueror416.jpg</itunes:artwork>
+      <media:keywords>linux, kde, konqueror</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-UsingSftpWithKonqueror340.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="9163663" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-UsingSftpWithKonqueror961.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="5564625" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2515314">&lt;embed src="http://blip.tv/play/gsAQgZrgAAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Using sftp With Konqueror</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-UsingSftpWithKonqueror416.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">2B41FDBC-90CC-11DE-9D0D-B8642137D7C4</guid>
+      <link>http://blip.tv/file/2511037</link>
+      <title>Name Completion in Konqueror</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2531047</blip:posts_id>
+      <blip:item_id>2511037</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-08-24T16:35:44Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>66</blip:runtime>
+      <blip:embedLookup>gsAQgZq+SwI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZq+SwI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2531047&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-NameCompletionInKonqueror301.jpg</blip:thumbnail_src>
+      <blip:puredescription>Konqueror does name completion just like the shell.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-NameCompletionInKonqueror301-164.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZq%2BSwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Konqueror does name completion just like the shell.
+
+</description>
+      <comments>http://blip.tv/file/2511037</comments>
+      <category>Educational</category>
+      <category>linux</category>
+      <category>konqueror</category>
+      <pubDate>Mon, 24 Aug 2009 16:35:44 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-NameCompletionInKonqueror901.flv" type="video/x-flv" length="4639216"/>
+      <itunes:keywords>linux, konqueror</itunes:keywords>
+      <itunes:artwork>Linuxjournal-NameCompletionInKonqueror301.jpg</itunes:artwork>
+      <media:keywords>linux, konqueror</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-NameCompletionInKonqueror981.mp4" blip:role="Source" blip:vcodec="ffodivx" blip:acodec="faad" expression="full" fileSize="7108664" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-NameCompletionInKonqueror901.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="4639216" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2511037">&lt;embed src="http://blip.tv/play/gsAQgZq%2BSwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Name Completion in Konqueror</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-NameCompletionInKonqueror301.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">A27DAAD2-8E6C-11DE-AE70-A2E194C7E3C6</guid>
+      <link>http://blip.tv/file/2501207</link>
+      <title>Getting Freaky on Friday with docks for Linux</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2521219</blip:posts_id>
+      <blip:item_id>2501207</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-08-21T16:06:50Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>100</blip:runtime>
+      <blip:embedLookup>gsAQgZnxZwI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZnxZwI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2521219&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-GettingFreakyOnFridayWithDocksForLinux376.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers has some fun with docks for Linux.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-GettingFreakyOnFridayWithDocksForLinux376-383.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZnxZwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers has some fun with docks for Linux.
+
+</description>
+      <comments>http://blip.tv/file/2501207</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>dock</category>
+      <category>docks</category>
+      <category>desktop</category>
+      <pubDate>Fri, 21 Aug 2009 16:06:50 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-GettingFreakyOnFridayWithDocksForLinux923.flv" type="video/x-flv" length="6835854"/>
+      <itunes:keywords>linux, journal, tech, tip, dock, docks, desktop</itunes:keywords>
+      <itunes:artwork>Linuxjournal-GettingFreakyOnFridayWithDocksForLinux376.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, dock, docks, desktop</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-GettingFreakyOnFridayWithDocksForLinux793.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="6016794" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-GettingFreakyOnFridayWithDocksForLinux923.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="6835854" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2501207">&lt;embed src="http://blip.tv/play/gsAQgZnxZwI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Getting Freaky on Friday with docks for Linux</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-GettingFreakyOnFridayWithDocksForLinux376.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">80CDC43A-8CDC-11DE-84A7-82208AA6E5D9</guid>
+      <link>http://blip.tv/file/2492856</link>
+      <title>Don't Quote Me!</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2512869</blip:posts_id>
+      <blip:item_id>2492856</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-08-19T16:22:34Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>81</blip:runtime>
+      <blip:embedLookup>gsAQgZmwSQI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZmwSQI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2512869&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-DontQuoteMe105.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers explains the use of single vs. double quotes on the commandline.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-DontQuoteMe105-807.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZmwSQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers explains the use of single vs. double quotes on the commandline.
+
+</description>
+      <comments>http://blip.tv/file/2492856</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>quotes</category>
+      <category>quotation</category>
+      <category>twitter</category>
+      <pubDate>Wed, 19 Aug 2009 16:22:34 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-DontQuoteMe295.flv" type="video/x-flv" length="4926584"/>
+      <itunes:keywords>linux, journal, tech, tip, quotes, quotation, twitter</itunes:keywords>
+      <itunes:artwork>Linuxjournal-DontQuoteMe105.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, quotes, quotation, twitter</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-DontQuoteMe224.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="3912317" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-DontQuoteMe295.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="4926584" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2492856">&lt;embed src="http://blip.tv/play/gsAQgZmwSQI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Don't Quote Me!</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-DontQuoteMe105.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <item>
+      <guid isPermaLink="false">A40476FC-8C22-11DE-9CB2-EFD90560D463</guid>
+      <link>http://blip.tv/file/2489358</link>
+      <title>Tweeting from the Commandline with curl</title>
+      <blip:user>linuxjournal</blip:user>
+      <blip:userid>130939</blip:userid>
+      <blip:safeusername>linuxjournal</blip:safeusername>
+      <blip:show>Linux Journal</blip:show>
+      <blip:showpage>www.linuxjournal.com</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Linuxjournal-picture974-997.jpg</blip:picture>
+      <blip:posts_id>2509372</blip:posts_id>
+      <blip:item_id>2489358</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2009-08-18T18:12:07Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel>Tech,Learning</blip:adChannel>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>1</blip:core>
+      <blip:adminRating>1</blip:adminRating>
+      <blip:runtime>94</blip:runtime>
+      <blip:embedLookup>gsAQgZmVIAI</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/gsAQgZmVIAI</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post2509372&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Linuxjournal-TweetingFromTheCommandlineWithCurl298.jpg</blip:thumbnail_src>
+      <blip:puredescription>Linux Journal's Shawn Powers shows you how to tweet from the commandline like the cool kids.</blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Linuxjournal-TweetingFromTheCommandlineWithCurl298-795.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/gsAQgZmVIAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+Linux Journal's Shawn Powers shows you how to tweet from the commandline like the cool kids.
+
+</description>
+      <comments>http://blip.tv/file/2489358</comments>
+      <category>Technology</category>
+      <category>linux</category>
+      <category>journal</category>
+      <category>tech</category>
+      <category>tip</category>
+      <category>twitter</category>
+      <category>tweet</category>
+      <category>commandline</category>
+      <category>curl</category>
+      <category>terminal</category>
+      <category>command</category>
+      <pubDate>Tue, 18 Aug 2009 18:12:07 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Linuxjournal-TweetingFromTheCommandlineWithCurl292.flv" type="video/x-flv" length="5960132"/>
+      <itunes:keywords>linux, journal, tech, tip, twitter, tweet, commandline, curl, terminal, command</itunes:keywords>
+      <itunes:artwork>Linuxjournal-TweetingFromTheCommandlineWithCurl298.jpg</itunes:artwork>
+      <media:keywords>linux, journal, tech, tip, twitter, tweet, commandline, curl, terminal, command</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-TweetingFromTheCommandlineWithCurl834.mp4" blip:role="Source" blip:vcodec="ffh264" blip:acodec="faad" expression="full" fileSize="4000971" height="480" isDefault="true" type="video/mp4" width="640"/>
+        <media:content url="http://blip.tv/file/get/Linuxjournal-TweetingFromTheCommandlineWithCurl292.flv" blip:role="web" blip:vcodec="ffvp6f" blip:acodec="mp3" expression="full" fileSize="5960132" height="480" isDefault="false" type="video/x-flv" width="640"/>
+      </media:group>
+      <media:player url="http://blip.tv/file/2489358">&lt;embed src="http://blip.tv/play/gsAQgZmVIAI" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>Tweeting from the Commandline with curl</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Linuxjournal-TweetingFromTheCommandlineWithCurl298.jpg"/>
+      <geo:lat>29.759956</geo:lat>
+      <geo:long>-95.362534</geo:long>
+    </item>
+    <blip:pagination>
+      <blip:currentPageNumber>1</blip:currentPageNumber>
+      <blip:nextPage>http://blip.tv/posts/?skin=rss;cmd=flash;date=;s=rss;pagestart=47;sort=date;user=130939;was_redirected=1;id=;pagelen=5;nsfw=dc;page=2</blip:nextPage>
+    </blip:pagination>
+  </channel>
+</rss>

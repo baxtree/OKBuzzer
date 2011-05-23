@@ -1,0 +1,819 @@
+/* 
+ * Mojo JavaScript Multipurpose Advertising Template 007
+ * Written By: Kevin Ready (kevin@planetkevin.com) and 
+ * Christopher D. Robison (cdr@cdr2.com) and 
+ * Heath Matthew Kornblum (heathkornblum@hotmail.com) and
+ * Gary M. Rosenstein (mangomann@sbcglobal.net)
+ * Created On: 9/16/2010 
+ * Last Modified: 4/12/2011 1:09PM
+ *
+*/
+var theReferer = "<theReferer/>";
+function mojoBase() {};
+mojoBase.prototype = {
+    stopper: false,
+    usrExps: 0,
+    expand_ready: false,
+    timerInterval: 500,
+    timer: null,
+    myParent: null,
+    cookieName: '',
+    cache_bust: 1,
+    banner_code: function () {return null;},
+    expand_code: function () {return null;},
+	MSNImg: new Image(),
+    autoshow: function () {return (!this.getCookie(this.cookieName) ? true : false);},
+    hdif: function () {return (parseInt(this.w2 - this.w1))},
+    vdif: function () {return (parseInt(this.h2 - this.h1))},
+    isSingle:function(){return !(this._swf2.length>0);},
+    initialSize: function () {return (this.isSingle() ? {_w: this.w2, _h: this.h2} : {_w: this.w1,_h: this.h1});},
+    rmURL: function () {
+        return (this.mpck.replace(/\/ck\//, '/sv/').replace(/[;&]mpt=[^;&]*/i, "").replace(/\?mpt=[^;&]*[;&]?/i, "?") + 'mpcr=' + this.mpcrid + '&');
+    },
+	f: function () { // returns major/minor version of SWF
+        try {
+            try {
+                var a = new ActiveXObject('ShockwaveFlash.ShockwaveFlash.6');
+                try {a.AllowScriptAccess = 'always';} catch (e) {return '6,0,0';}
+            } catch (e) {};
+            return new ActiveXObject('ShockwaveFlash.ShockwaveFlash').GetVariable('$version').replace(/\D+/g, ',').match(/^,?(.+),?$/)[1];
+        } catch (e) {
+            try {
+                if (navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin) {
+                    return (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]).description.replace(/\D+/g, ",").match(/^,?(.+),?$/)[1];
+                }
+            } catch (e) {}
+        };
+        return '0,0,0';
+    },
+    flashVars: function () {
+       var MSNSite = "";
+       if (typeof(OOBClickTrack) !== undefined) {
+         MSNSite = "&mojo_msnsite=true"
+       }
+       var myString = '?clickTAG=' + this.mpvc + this.mpck + '&mojo_mpcrid=' + this.mpcrid;
+       myString += this.fv('flv');
+              myString += this.fv('xml');
+       myString += this.fv('aux1', true);
+       myString += this.fv('flvar', true);
+       return (myString + MSNSite);
+    },
+    fv: function (which, override, nojo) {
+        // The default is used for FlashVars that use the assetRoot.
+        // when override is used, it means that the assetRoot is not part of the value
+        // when nojo is used, it means that which does not have mojo_ prefix
+        var _str = '';
+        if (override) {
+            if (nojo) {
+                _str = String.fromCharCode(38) + which + '=' + this[which];
+            } else {
+                _str = String.fromCharCode(38) + 'mojo_' + which + '=' + this[which];
+            }
+        } else {
+            if (this[which].length > this.assetRoot.length) {
+                _str = String.fromCharCode(38) + 'mojo_' + which + '=' + this[which];
+            }
+        }
+        return _str;
+    },
+   mojo_clickthru: function(){
+	 if (typeof(OOBClickTrack) !== undefined) {
+	   this.MSNImg.src = OOBClickTrack;
+	 }
+   },
+    getCookie: function (_name) {
+        var _search = _name + "=";
+        if (document.cookie.length > 0) {
+            var offset = document.cookie.indexOf(_search);
+            if (offset != -1) {
+                offset += _search.length;
+                var end = document.cookie.indexOf(";", offset);
+                if (end == -1) {
+                    end = document.cookie.length;
+                };
+                return unescape(document.cookie.substring(offset, end));
+            }
+        }
+    },
+    setCookie: function (_name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toGMTString();
+        }
+        document.cookie = _name + "=" + value + expires + "; path=/";
+    },
+    createDiv: function () {
+        this.swf1 = this.assetRoot + this._swf1;
+        this.swf2 = (this._swf2) ? (this.assetRoot + this._swf2) : this.swf1;
+        this.gif1 = this.assetRoot + this._gif1;
+        this.gif2 = (this._gif2) ? (this.assetRoot + this._gif2) : this.gif1;
+        this.flv = (this.flv!= "") ? (this.assetRoot + this._flv) : "";
+             this.xml = (this.xml!= "") ? (this.assetRoot + this._xml) : "";
+    },
+    expand_code: function () {
+        if (this.f().split(',')[0] >= (this.mfV * 1)) {
+		//	var _obj=document.create
+            return ('<object ' + this.mouseout + ' classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="swfexpand' + this.mpcrid + '" width="' + this.w2 + '" height="' + this.h2 + '"><param name="movie" value="' + this.swf2 + this.flashVars() + '"/><param name="wmode" value="' + this.winMdEx + '"/><param name="Autostart" value="true"/><param name="Quality" value="high"/><param name="allowScriptAccess" value="always"/><embed id="swfexpand' + this.mpcrid + '" wmode="' + this.winMdEx + '" src="' + this.swf2 + this.flashVars() + '" swLiveConnect="TRUE" width="' + this.w2 + '" height="' + this.h2 + '" TYPE="application/x-shockwave-flash" quality="high" allowScriptAccess="always"><\/embed><\/object>');
+        } else {
+            return (this.banner_code());
+        }
+    },
+    banner_code: function () {
+        if (this.f().split(',')[0] >= (this.mfV * 1)) {
+            return ('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="swfbanner' + this.mpcrid + '" name="swfbanner' + this.mpcrid + '" width="' + this.initialSize()._w + '" height="' + this.initialSize()._h + '"><param name="movie" value="' + this.swf1 + this.flashVars() + '"/><param name="wmode" value="' + this.winMd + '"/><param name="Autostart" value="true"/><param name="Quality" value="high"/><param name="allowScriptAccess" value="always"/><embed id="swfbanner' + this.mpcrid + '" name="swfbanner' + this.mpcrid + '" wmode="' + this.winMd + '" src="' + this.swf1 + this.flashVars() + '" swLiveConnect="TRUE" width="' + this.initialSize()._w + '" height="' + this.initialSize()._h + '" type="application/x-shockwave-flash" quality="high" allowScriptAccess="always"><\/embed><\/object>');
+        } else {
+            return ('<a href="' + this.rmURL() +'ff_click=1&mpro=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DBm4LRqLDZTeBt0cHwA7WS7ekJj9DT5wEAAAAQASDz9J8GOABYx_HSjhxgu_7Jg9wKsgEUd3d3LmxpbnV4am91cm5hbC5jb226AQozMzZ4MjgwX2FzyAEJ2gFUaHR0cDovL3d3dy5saW51eGpvdXJuYWwuY29tL3ZpZGVvL21ha2luZy1zdGFuZGFsb25lLXdlYi1hcHBzLWZpcmVmb3gtcHJpc20tZXh0ZW5zaW9u4AECwAIC4AIA6gIWTGFyZ2VfUmVjdGFuZ2xlMzM2eDI4MPgC8NEekAOMBpgDpAOoAwHQBJBO4AQB%26num%3D0%26sig%3DAGiWqtx74foyQB_c5V5yvo7BKQMm3YQOpA%26client%3Dca-pub-3600556074671070%26adurl%3Dhttp://adfarm.mediaplex.com/ad/ck/10759-127843-23372-0?bridge=/files/linuxjournal.com/mojofb_v8.html&plid=10759-127843-23372-0&mpt=12447666" target="_blank"><img src="' + this.rmURL() +'ff_imp=1&mpro=' + this.gif1 +'" border="0" width="' + this.w1 + '" height="' + this.h1 + '"/></a>');
+        }
+    },
+    writeDiv: function () {
+		if (this.mpBanner != undefined) return true;
+        this.mouseout = (!this._mouseout || this.pgovrly) ? '' : (this._mouseout && !this.pgovrly) ? 'onmouseout="mojo_hide(' + this.mpcrid + ')"' : '';
+        if (this.isSingle()) {
+            var objWrapper = '<div id="innerWrapper' + this.mpcrid + '" style="margin:0px;padding:0px;width:' + this.initialSize()._w + 'px;height:' + this.initialSize()._h + 'px;overflow:hidden;position:relative;">' + this.banner_code() + '</div>';
+            document.write('<div style="position:relative;overflow:visible;width:' + this.w1 + 'px;height:' + this.h1 + 'px;"><div id="mpBanner' + this.mpcrid + '" style="margin:0px;padding:0px;width:' + this.w1 + 'px;height:' + this.h1 + 'px;overflow:hidden;position: absolute;">' + objWrapper + '</div></div>');
+            this.innerWrapper = document.getElementById('innerWrapper' + this.mpcrid);
+        } else {
+            document.write('<div style="position:relative;overflow:visible;width:' + this.w1 + 'px;"><div id="mpBanner' + this.mpcrid + '" style="margin:0px;padding:0px;width:' + this.w1 + 'px;height:' + this.h1 + 'px;overflow:hidden;position:absolute;">' + this.banner_code() + '</div></div>');
+        }
+		
+        this.mpBanner = document.getElementById('mpBanner' + this.mpcrid);
+        this.swfbanner = document.getElementById('swfbanner' + this.mpcrid);
+		if (top != self) {
+			var myParent = this.getMyParent();
+			//myParent.style.height = "0px";
+			//myParent.style.width = "0px";
+			window.parent.document.getElementById(myParent.id).parentNode.style.position = "relative";
+			window.parent.document.getElementById(myParent.id).parentNode.insertBefore(this.mpBanner, myParent);
+			document.close();
+		} else {
+		  this.mpBanner.parentNode.style.height = this.h1 + "px";	
+		}
+          
+          this.pinDiv(this.mpBanner);
+	  this.mpBanner.onmouseover = this.countMouseOver;
+	  this.mpBanner.onmouseout = this.countMouseOut;
+		this.mojo_metric_display_time("start");
+    },
+   isOverlay: function() {
+	   return ((this.expandFlags & this.expConst.overlay) == this.expConst.overlay)
+   },
+   shouldCenter: function() {
+     if ((this.expandFlags & this.expConst.left) != this.expConst.left  &&
+          (this.expandFlags & this.expConst.right) != this.expConst.right)
+         { 
+           return true;
+	 }
+     return false;
+   },
+   pinDiv: function(which) {   
+     var prePositioned = false;
+	 if ((this.expandFlags & this.expConst.overlay) != this.expConst.overlay || this.isSingle()) { 
+	   // break default behavior
+	   which.parentNode.style.position = "relative";
+           which.parentNode.style.overlay = "visible";
+     } else {
+           which.parentNode.style.position = "absolute";
+     }
+     if ((this.expandFlags & this.expConst.top) == this.expConst.top ) { 
+	   this.vexdir = 1;
+	   which.style.bottom = "0px";
+	 }
+     if ((this.expandFlags & this.expConst.right) == this.expConst.right ) { 
+	   prePositioned = true;
+	   this.hexdir = 1;
+	 }
+     if ((this.expandFlags & this.expConst.bottom) == this.expConst.bottom ) { 
+	   this.vexdir = -1;
+	 }
+     if ((this.expandFlags & this.expConst.left) == this.expConst.left ) { 
+	   this.hexdir = -1;
+	   which.style.right = "0px";
+       prePositioned = true;	   
+	 }
+        if (!prePositioned) {
+		var startingPos = this.findPos(which);
+        var winDims = this.getWinSize();
+		var onLeft = true;
+		if ((startingPos.curleft + (this.w1)/2) > (winDims.myWidth/2)) onLeft = false;
+		if (!onLeft) {
+			which.style.right = "0px";
+		}
+                which.parentNode.style.margin = "auto";
+	 }
+	 if (this.isSingle()) {
+		 if ((this.SAOFlags & this.singleAssetOrientConst.top) == this.singleAssetOrientConst.top ) { 
+		 }
+		 if ((this.SAOFlags & this.singleAssetOrientConst.right) == this.singleAssetOrientConst.right ) { 
+                   this.innerWrapper.style.position = "absolute";
+		   this.innerWrapper.style.right = "0px";
+		 }
+		 if ((this.SAOFlags & this.singleAssetOrientConst.bottom) == this.singleAssetOrientConst.bottom ) { 
+                   this.innerWrapper.style.position = "absolute";
+		   this.innerWrapper.style.bottom = "0px";
+		 }
+		 if ((this.SAOFlags & this.singleAssetOrientConst.left) == this.singleAssetOrientConst.left ) { 
+		 }
+	 }
+	if (this.shouldCenter()) {
+		which.style.position = "static";
+	}
+   },
+   findPos: function(which) {
+	 var curleft = curtop = 0;   
+	 if (which.offsetParent) {
+		do {
+			curleft += which.offsetLeft;
+			curtop += which.offsetTop;
+		} while (which = which.offsetParent);
+	 }
+	 return [curleft, curtop];
+   },
+   getWinSize: function() {
+	  var myWidth = 0, myHeight = 0;
+	  if( typeof( window.innerWidth ) == 'number' ) {
+		//Non-IE
+		myWidth = window.innerWidth;
+		myHeight = window.innerHeight;
+	  } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+		//IE 6+ in 'standards compliant mode'
+		myWidth = document.documentElement.clientWidth;
+		myHeight = document.documentElement.clientHeight;
+	  } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+		//IE 4 compatible
+		myWidth = document.body.clientWidth;
+		myHeight = document.body.clientHeight;
+	  }
+      return [myWidth, myWidth];
+   },
+   countMouseOver: function(e) {
+	  _mojoArray['mojo' + '7463171 '].usrMsOvr++;
+	  if (_mojoArray['mojo' + '7463171 '].usrMsOvr < _mojoArray['mojo' + '7463171 '].mouseInMax + 1) {
+	     _mojoArray['mojo' + '7463171 '].mojo_event('Mouse-In', false);
+	  }
+	  this.mouse_hover_start = new Date();
+   },
+   countMouseOut:function(e) {
+	   this.mouse_hover_end = new Date();
+	   _mojoArray['mojo' + '7463171 '].usrMsHvr = (this.mouse_hover_end - this.mouse_hover_start)/1000;
+	   var mouse_hover = _mojoArray['mojo' + '7463171 '].usrMsHvr > _mojoArray['mojo' + '7463171 '].mouseHoverTimeMax ? _mojoArray['mojo' + '7463171 '].mouseHoverTimeMax : _mojoArray['mojo' + '7463171 '].usrMsHvr;
+	  _mojoArray['mojo' + '7463171 '].usrMsOut++;
+	  if (_mojoArray['mojo' + '7463171 '].usrMsOut < _mojoArray['mojo' + '7463171 '].mouseOutMax + 1) {
+	     _mojoArray['mojo' + '7463171 '].mojo_event('Mouse-Hover-Time=' + mouse_hover + '&Mouse-Out', false);
+	  }
+	  
+   },
+   doAuto:function(){
+     if (this.auto) {
+       setTimeout('if (!this.stopper){ _mojoArray["mojo' + this.mpcrid + '"].mojo_action(1); _mojoArray["mojo' + this.mpcrid + '"].mojo_event("Auto-Expand", "1", true);}', this.exDelay);
+       setTimeout('if (!this.stopper){_mojoArray["mojo' + this.mpcrid + '"].mojo_action(-1);_mojoArray["mojo' + this.mpcrid + '"].mojo_event("Auto-Close", "1", true);}', (this.exDelay + this.retDelay));
+      };
+   },
+   displayTime: function() {
+	 if (this.reportDisplayTime) {
+		 var timeout;  
+		 timeout = setInterval(this.runDisplayTime, 4000);
+	 }
+   },
+   runDisplayTime: function() {
+	   _mojoArray['mojo' + '7463171 '].mojoSeconds = _mojoArray['mojo' + '7463171 '].mojoSeconds + 4;
+	   if (_mojoArray['mojo' + '7463171 '].mojoSeconds <= _mojoArray['mojo' + '7463171 '].displayTimeMax) {
+	     _mojoArray['mojo' + '7463171 '].mojo_event("Display-Time", "4", true);
+	   }
+   },
+    mojo_animate: function (y) {},
+    animV: function (y) {},
+    animH: function (y) {},
+   mojo_event:function(rmTag, rmVal, isAuto) {
+	  var usrInter = "";
+	  if (!isAuto) {
+	    this.usrInteractions++;
+	    if (this.usrInteractions < this.interactionsMax + 1) usrInter = "&Interactions=1";
+	  }
+      if (!rmVal || rmVal==null) rmVal = 1;
+         var mpt = Math.random().toFixed(4).replace(/\./,''); 
+         this.rm.src = this.rmURL() + rmTag+'='+rmVal+usrInter+'&mpt='+mpt;
+   },
+    mojo_hide: function () {
+        this.mojo_action(-1);
+        this.stopper = true;
+		this.expand_end_time = new Date();
+		var expandTime = (this.expand_end_time - this.expand_start_time)/1000;
+		if (expandTime > this.expandTimeMax) expandTime = this.expandTimeMax;
+		this.mojo_event('Manual-Close=1&Expand-Time', expandTime);
+    },
+    mojo_show: function () {
+        this.mojo_action(1);
+        this.usrExps++;
+      if (this.usrExps < this.expandNMax + 1) {
+          this.mojo_event('Expand'+this.usrExps);
+	  }
+        this.stopper = true;
+        this.expand_start_time = new Date();
+    },
+    mojo_action: function (y) { /* animate is not yet enabled. This function is called by mojo_hide and mojo_show. */
+        if (this.animate == true) {
+            this.mojo_animate(y)
+        } else {
+            if (this.single == true) {
+               this.positionParentLayer(y>0);
+            } else {
+               this.mojo_overlay((y>0)?'set':'reset');
+            }
+        };
+    },
+    mojo_overlay_position: function (which,_expandready) {
+		_expandready ? this.expand_ready=true : this.expand_ready=this.expand_ready;
+        if (this.expand_ready) {
+            try {
+                switch (which) {
+                case "set":
+                    this.mpExpand.style.display = "block";
+                    this.mpBanner.style.display = "none";
+					if ((this.expandFlags & this.expConst.overlay) != this.expConst.overlay) { 
+					  this.mpBanner.parentNode.style.height = this.h2 + "px";
+					}
+                    break;
+                case "reset":
+                    this.mpExpand.style.display = "none";
+                    this.mpBanner.style.display = "block";
+					if ((this.expandFlags & this.expConst.overlay) != this.expConst.overlay) { 
+					  this.mpBanner.parentNode.style.height = this.h1 + "px";
+					}
+                    break;
+                }
+                return true;
+            } catch (err) {
+                return false;
+            }
+        } else {
+            if (this.timer) {
+                window.clearTimeout(this.timer);
+            }
+            window.setTimeout("window.mojoArray['mojo" + this.mpcrid + "'].mojo_overlay_position('" + which + "','true')", this.timerInterval);
+            // javascript:var a=window.theFrame3.document.getElementById("swfbanner6317912");var b="PROPERTIES:\n";for(var c in a){try{b+=c+":"+a[c]+"\n"}catch(oops){}}alert(b)
+        }
+    },
+    mojo_overlay: function (which) {
+        // alert("mojo_overlay:" + which)
+        // this.mojo_expand(which);
+        /* Called by mojo_hide and mojo_show: sets the visibility of expand layer to true or false */
+        if (this.mpExpand == undefined) {
+            this.asynchLoadedOverlay(which);
+        } else {
+            this.mojo_overlay_position(which);
+        }
+    },
+    asynchLoadedOverlay: function (which, obj) {
+        this.createXPandLayer(obj);
+		this.pinDiv(this.mpExpand);
+        //this.positionXPandLayer();
+        this.expand_ready=true;
+        this.mojo_overlay_position(which);
+    },
+    createBannerLayer: function () {
+        this.createDiv();
+        this.writeDiv();
+        this.doAuto();
+		this.displayTime();
+    },
+    getMyParent: function () {
+		if (window.frameElement && window.frameElement.id.length <= 0) window.frameElement.id = "mojo_frameElement";
+        return ((window.frameElement) ? window.parent.document.getElementById(window.frameElement.id) : this.mpBanner.parentNode);
+    },
+    /* 
+     The following mechanism appends the window.onload event
+    so that we, too can register functions for window.onload.
+    This stems from the need to track a Display-Time metric.
+    */
+    addLoadEvent: function (func) {
+        var currentOnLoad = window.onload;
+        if (typeof window.onload != 'function') {
+            window.onload = func;
+        } else {
+            window.onload = function () {
+                if (currentOnLoad) {
+                    currentOnLoad();
+                }
+                func();
+            }
+        }
+    },
+/*
+       The following function handles appending the page unload
+      with a firing of the completed Display-Time metric
+   */
+    getXMLObj: function () {
+        var xmlhttp = false;
+        try {
+            xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+        } catch (e) {
+            try {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            } catch (E) {
+                xmlhttp = false;
+            }
+        }
+        if (!xmlhttp && typeof XMLHttpRequest != 'undefined') {
+            try {
+                xmlhttp = new XMLHttpRequest();
+            } catch (e) {
+                xmlhttp = false;
+            }
+        }
+        if (!xmlhttp && window.createRequest) {
+            try {
+                xmlhttp = window.createRequest();
+            } catch (e) {
+                xmlhttp = false;
+            }
+        }
+        return (xmlhttp);
+    },
+   mojo_metric_display_time: function(which) {
+	   if (which == "start") {
+	     this.addLoadEvent(function() {
+		     this.display_start_time = new Date();
+	     })
+	   }
+   },
+    unloadPage: function () {
+        var xmlhttp = this.getXMLObj();
+        if (xmlhttp) {
+            this.display_end_time = new Date();
+            var totalTime = this.display_end_time - this.display_start_time;
+            var rmsrc = "#";
+            totalTime = parseInt(totalTime / 1000);
+            if (totalTime > this.displayTimeMax) totalTime = this.displayTimeMax;
+            xmlhttp.open("GET", rmsrc, false);
+            if (xmlhttp.readyState == 1) {
+                _mojoArray['mojo' + '7463171 '].mojo_event("Display-Time", totalTime);
+            }
+            xmlhttp.send(null);
+        }
+    },
+    positionXPandLayer: function (open) {
+        this.mpExpand.style.position = "absolute";
+        if (this.single) {
+            if (open) {
+                this.mpExpand.style.left = "0px";
+                this.mpExpand.style.top = "0px";
+            } else {
+                this.mpExpand.style.left = (this.hdif() * -Math.max(0, this.hexdir)) + 'px';
+                this.mpExpand.style.top = (this.vdif() * -Math.max(0, this.vexdir)) + 'px';
+            }
+        } else {
+            this.mpExpand.style.left = "0px";
+            this.mpExpand.style.top = "0px";
+        }
+    },
+    positionParentLayer: function (open) {
+        if (open) {
+            //this.mpBanner.style.position = 'relative';
+            this.mpBanner.style.height = this.h2 + 'px';
+            this.mpBanner.style.width = this.w2 + 'px';
+			if (!this.isOverlay()) {
+				this.mpBanner.parentNode.style.height = this.h2 + 'px';
+				this.mpBanner.parentNode.style.width = this.w2 + 'px';
+			}
+            //this.mpBanner.parentNode.style.left = (this.hdif() * (this.hexdir)) + 'px';
+            //this.mpBanner.parentNode.style.top = (this.vdif() * (this.vexdir)) + 'px';
+        } else {
+            this.mpBanner.style.height = this.h1 + 'px';
+            this.mpBanner.style.width = this.w1 + 'px';
+			if (!this.isOverlay()) {
+				this.mpBanner.parentNode.style.height = this.h1 + 'px';
+				this.mpBanner.parentNode.style.width = this.w1 + 'px';
+			}
+            //this.mpBanner.parentNode.style.left = '0px';
+            //this.mpBanner.parentNode.style.top = '0px';
+        }
+    },
+    createXPandLayer:function(_xmlHTTPObj){
+        this.mpExpand = document.createElement("div");
+		var myParent = this.getMyParent();
+		if (top != self) {
+			myParent.parentNode.style.overflow = "visible";
+			window.parent.document.getElementById(myParent.id).parentNode.insertBefore(this.mpExpand, myParent);
+			//this.mpBanner.parentNode.appendChild(this.mpExpand);
+		} else {
+			myParent.style.overflow = "visible";
+			myParent.insertBefore(this.mpExpand, this.mpBanner);
+		}
+        this.mpExpand.innerHTML = this.expand_code();
+        this.mpExpand.id = "mpExpand" + this.mpcrid;
+        this.mpExpand.style.zIndex = this.zIndex;
+		this.mpExpand.style.position = "absolute";
+		this.mpExpand.onmouseover = this.countMouseOver;
+	    this.mpExpand.onmouseout = this.countMouseOut;  
+		this.pinDiv(this.mpExpand);
+    },
+    renderContent: function () { /* This determines if pages should render or be rerouted to a bridge file. */
+        var src = "";
+        var _src = "";
+        var _bridge = "bridge=";
+        for (var i = 0; i < document.getElementsByTagName("script").length; i++) {
+            try {
+                _src = document.getElementsByTagName("script").item(i).src;
+            } catch (err) {} /* This tests each script element to find the one that contains the bridge file argument */
+            if (_src.indexOf(_bridge) != -1) {
+                this.myParent = document.getElementsByTagName("script").item(i).parentNode;
+                var start = _src.indexOf(_bridge) + _bridge.length;
+                _src = unescape(_src.substr(start));
+                var end = (_src.indexOf("&") > 5) ? _src.indexOf("&") : _src.length;
+                var _test = _src.substring(0, end); /* suffix is used to append variables contained within the Script SRC to the redirected URL */
+                var suffix = (document.getElementsByTagName("script").item(i).src.indexOf("?") != -1) ? "&" + document.getElementsByTagName("script").item(i).src.substring(
+                document.getElementsByTagName("script").item(i).src.indexOf("?") + 1, document.getElementsByTagName("script").item(i).src.length) : "";
+                try {
+                    var tURL; /* theReferer is used to ensure the correct publisher domain is passed through multiple URLS for bridge file testing */
+                    if (theReferer.indexOf("<") != 0) {
+                        tURL = theReferer;
+                    } else {
+                        tURL = document.referrer;
+                        suffix += "&theReferer=" + document.referrer;
+                    }
+                    var _a = tURL.substr(tURL.indexOf("//") + 2);
+                    var _b = tURL.substring(0, tURL.length - (_a.substr(_a.indexOf("/")).length));
+                    var __bridge = (_test.indexOf(_b) == -1) ? (_b + _test) : _test;
+                    tURL = location.href;
+                    _a = tURL.substr(tURL.indexOf("//") + 2);
+                    _b = tURL.substring(0, tURL.length - (_a.substr(_a.indexOf("/")).length)); /* If the current URL contains the bridge file argument (or theReferer + the bridge file), the page is created. */
+                    if ((location.href.indexOf(_test) == 0) || (location.href.indexOf(_b + _test) == 0)) {
+                        src = _src;
+                        this.createBannerLayer();
+                    } else {
+                        if (location.href.indexOf(__bridge) != 0) {
+                            try { /* If the current URL is at the same domain as the bridge file, it is rendered without redirect. */
+                                if (window.top == window.self) {
+                                    src = _src;
+                                    this.createBannerLayer();
+                                } else {
+                                    try { /* If the current URL is at the same domain as the bridge file, it is rendered without redirect. */
+                                        if (window.location.href.indexOf(theReferer) != -1) {
+                                            src = _src;
+                                            this.createBannerLayer();
+                                        } else { /* If the current URL is not at the same domain as the bridge file, it is redirected, with the location arguments. */
+                                            src = _src;
+                                            location.href = __bridge + ((location.search.length > 0) ? unescape(location.search) : "?") + "&dontCount=1" + suffix;
+                                        }
+                                    } catch (err) { /* If location test fails, the current URL is not at the same domain as the bridge file. It is redirected, with the location arguments. */
+                                        src = _src;
+                                        location.href = __bridge + ((location.search.length > 0) ? unescape(location.search) : "?") + "&dontCount=1" + suffix;
+                                        //            debugger;
+                                    }
+                                }
+                            } catch (err) {
+                           /* 
+                            If location test fails, the current URL is not at the same domain as the bridge file. 
+                            It is redirected, with the location arguments. 
+                           */
+                                src = _src;
+                                location.href = __bridge + ((location.search.length > 0) ? unescape(location.search) : "?") + "&dontCount=1" + suffix;
+                            }
+                        } else { /* If the current URL is not at the same domain as the bridge file, it is redirected, with the location arguments. */
+                            src = _src;
+                            location.href = __bridge + ((location.search.length > 0) ? unescape(location.search) : "?") + "&dontCount=1" + suffix;
+                        }
+                    }
+                } catch (err) { /* If an exception occurs, the assumption is that it requires redirection. */
+                    src = _src;
+                    //      location.href=__bridge + ((location.search.length>0)? unescape(location.search) : "?") + "&dontCount=1" + suffix;
+                    this.createBannerLayer();
+                    //      debugger;
+                }
+            }
+        }
+        if (src.length == 0) {
+            this.createBannerLayer();
+        }
+        this.setCookie("seen", "true", 1);
+    },
+    postMessage: function (message, target, target_url) {
+        if (!target_url) target_url = '*';
+        target = target || parent; // default to parent
+        if (window['postMessage']) {
+            // the browser supports window.postMessage, so call it with a targetOrigin
+            // set appropriately, based on the target_url parameter. (or wildcard...)
+            //target['postMessage'](message, target_url.replace( /([^:]+:\/\/[^\/]+).*/, '$1'));
+            target_url = target_url.replace(/([^:]+:\/\/[^\/]+).*/, '$1');
+            target['postMessage'](message, target_url);
+        }
+    },
+    receiveMessage: function (callback, source_origin) {
+        if (window['postMessage']) {
+            // bind the callback to the actual event associated with window.postMessage
+            var attached_callback;
+            if (callback) {
+                attached_callback = function (e) {
+                    callback(e);
+                };
+            }
+            if (window['addEventListener']) {
+                window[callback ? 'addEventListener' : 'removeEventListener']('message', attached_callback, !1);
+            } else {
+                window[callback ? 'attachEvent' : 'detachEvent']('onmessage', attached_callback);
+            }
+        }
+    },
+/* 
+    The following mechanism appends the window.onload event
+	so that we, too can register functions for window.onload.
+	This stems from the need to track a Display-Time metric.
+*/
+	addLoadEvent:function(func) {
+		var currentOnLoad = window.onload;
+		if (typeof window.onload != 'function') {
+			window.onload = func;
+		} else {
+		  window.onload = function() {
+			if (currentOnLoad) {
+			  currentOnLoad();  
+			}
+			func();
+		  }
+		  
+		}
+	},
+/*
+    The following handles the completed Display-Time metric
+*/
+	unloadPage: function() {
+		this.display_end_time = new Date();
+		var totalTime = this.display_end_time - this.display_start_time;
+		if (totalTime > _mojoArray['mojo' + '7463171 '].displayTimeMax ) _mojoArray['mojo' + '7463171 '].displayTimeMax;
+		document.write("<scr" + "ipt src='" + _mojoArray['mojo' + '7463171 '].rmURL() + "Display-Time=" + totalTime + "' ></scr" + "ipt>");
+	}
+}
+if (typeof(_mojoArray) == "undefined") {
+    var _mojoArray = new Array();
+}
+try {
+    if (window.mojoArray == undefined) {
+        window.mojoArray = new Array();
+    }
+    _mojoArray = window.mojoArray;
+    window['mojo_show7463171 '] = function () {
+        mojo_show('7463171 ');
+    }
+    window['mojo_hide7463171 '] = function () {
+        mojo_hide('7463171 ');
+    };
+    window['mojo_event7463171 '] = function (rmTag, rmVal) {
+        mojo_event('7463171 ', rmTag, rmVal)
+    };
+} catch (err) {
+    // alert('failed to declare tokens');
+}
+window['mojopreloader' + '7463171 '] = {
+    mpcrid: '7463171 ',
+    mpvc: 'http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DBm4LRqLDZTeBt0cHwA7WS7ekJj9DT5wEAAAAQASDz9J8GOABYx_HSjhxgu_7Jg9wKsgEUd3d3LmxpbnV4am91cm5hbC5jb226AQozMzZ4MjgwX2FzyAEJ2gFUaHR0cDovL3d3dy5saW51eGpvdXJuYWwuY29tL3ZpZGVvL21ha2luZy1zdGFuZGFsb25lLXdlYi1hcHBzLWZpcmVmb3gtcHJpc20tZXh0ZW5zaW9u4AECwAIC4AIA6gIWTGFyZ2VfUmVjdGFuZ2xlMzM2eDI4MPgC8NEekAOMBpgDpAOoAwHQBJBO4AQB%26num%3D0%26sig%3DAGiWqtx74foyQB_c5V5yvo7BKQMm3YQOpA%26client%3Dca-pub-3600556074671070%26adurl%3D',
+    mpck: 'http://adfarm.mediaplex.com/ad/ck/10759-127843-23372-0?bridge=/files/linuxjournal.com/mojofb_v8.html&plid=10759-127843-23372-0&mpt=12447666',
+    assetRoot: 'http://img-cdn.mediaplex.com/0/',
+    _swf1: '10759/1.0_IAU_336x280-500x420_new.swf',
+    _swf2: '',
+    _gif1: '10759/1.0_IAU_336x280-500x420_Linux_Journal.gif',
+    _gif2: '',
+    _flv: '',
+    _xml: '10759/data_336x280.xml',
+    aux1: '<mpcraux1/>',
+    flvar: '<mpcrflvar/>',
+    originalX: 0,
+    originalY: 0,
+    zIndex: 10000000,
+    hOffset: 0,
+    vOffset: 0,
+    rmType: 1,
+    w1: parseInt('336'),
+    w2: parseInt('500'),
+    h1: parseInt('280'),
+    h2: parseInt('420'),
+    pgovrly: false,
+    //change to <mpovrly/>  - set to true if checked for static overlays
+    //change to <mpsingle/> - set to true if single asset expand
+    pushdwn: false,
+    //change to <mppshdwn/>
+    animate: false,
+    //change to <mpanimate/> 
+    auto: false,
+    cookieName: 'seen',
+    // hard-coded/recommend to change
+    exDelay: '0' * 1000,
+    retDelay: '0' * 1000,
+    expSp: '0',
+    retSp: '0',
+    cd: '0' * 1000,
+    mfV: '9',
+    winMd: 'transparent',
+    winMdEx: 'transparent',
+    //change to '<mpcrwinex/>'
+    hexdir: 0,
+    // '0',//
+    vexdir: 0,
+    //change to <mpvd/>
+    _mouseout: false,
+    //change to <mpmouseout/>
+    rm: new Image(),
+	expConst : {  // the following denote intended expand directions
+		top : Math.pow(2,0),  
+		right : Math.pow(2,1),  
+		bottom : Math.pow(2,2),  
+		left : Math.pow(2,3),   
+		overlay : Math.pow(2,4) // 1 is overlay, 0 is pushdown
+	},
+	/* expands up: expandFlags : parseInt("10001", 2)
+	 * expands right: expandFlags : parseInt("10010", 2)
+	 * expands down: expandFlags : parseInt("10100", 2)
+	 * expands left: expandFlags : parseInt("11000", 2)
+	 */
+	expandFlags : parseInt("11000", 2),  //UI component needed! The expansion flags signify expansion directionality
+   singleAssetOrientConst : {  // For single-asset expands, the stage size is always larger than the viewing window
+     top: Math.pow(2,0),
+	 right : Math.pow(2,1),
+	 bottom : Math.pow(2,2),
+	 left : Math.pow(2,3)
+   },
+   SAOFlags : parseInt("0", 2),
+   mojoSeconds: 0,
+   reportDisplayTime: true,
+   displayTimeMax: 120,
+   expandTimeMax: 120,
+   mouseHoverTimeMax: 120,
+   expandNMax: 10,
+   mouseInMax: 10,
+   mouseOutMax: 10,
+   interactionsMax: 99,
+   usrMsOvr:0,
+   usrMsOut:0,
+   usrMsHvr:0,
+   usrInteractions:0
+	
+};
+//if (window.onunload) { 
+  //window.onunload = _mojo.unloadPage;
+//} else if (window.onbeforeunload) {
+  //window.onbeforeunload = _mojo.unloadPage;
+//}
+/*
+Class Definition Section:
+   The _mojo object as class contains methods for determining the FlashVars
+   string, creating and rendering CSS, and auto and animation functions.
+*/
+function _mojo(whichMojo) {
+    for (var z in whichMojo) {
+        this[z] = whichMojo[z];
+    }
+    this.single=this.isSingle();
+};
+_mojo.prototype = new mojoBase();
+_mojo.prototype.constructor = _mojo;
+_mojoArray['mojo' + '7463171 '] = new _mojo(window['mojopreloader' + '7463171 ']);
+/*
+Static Functions and Methods Section:
+   Legacy functions are slightly modified to pass the MPCRID of
+   the creative as the first parameter. The first five have
+   little change from previous mediaplex code. Much of this 
+   should be further moved into Obect-Oriented Structures.
+*/
+function mojo_now() {
+    return new Date().getTime();
+}
+function mojo_event(whichMojo, rmTag, rmVal, isAuto) {
+    if (whichMojo == undefined) whichMojo = '7463171 ';
+    _mojoArray['mojo' + whichMojo].mojo_event(rmTag, rmVal, isAuto);
+}
+function mojo_buckets(whichMojo, d) {
+    if (whichMojo == undefined) whichMojo = '7463171 ';
+    _mojoArray['mojo' + whichMojo].mojo_buckets(d);
+}
+function mojo_hide(whichMojo) {
+    if (whichMojo == undefined) whichMojo = '7463171 ';
+    _mojoArray['mojo' + whichMojo].mojo_hide();
+}
+function mojo_show(whichMojo) {
+    if (whichMojo == undefined) whichMojo = '7463171 ';
+    _mojoArray['mojo' + whichMojo].mojo_show();
+}
+function mojo_action(whichMojo, y) {
+    if (whichMojo == undefined) whichMojo = '7463171 ';
+    _mojoArray['mojo' + whichMojo].mojo_action(y)
+}
+function mojo_clickthru(whichMojo) {
+    if (whichMojo == undefined) whichMojo = '7463171 ';
+    _mojoArray['mojo' + whichMojo].mojo_clickthru();
+}
+function renderContent(whichMojo) {
+    _mojoArray['mojo' + whichMojo].renderContent();
+}
+try {
+	window.parent.mojo_event = mojo_event;
+	window.parent.mojo_buckets = mojo_buckets;
+	window.parent.mojo_hide = mojo_hide;
+	window.parent.mojo_show = mojo_show;
+	window.parent.mojo_action = mojo_action;
+	window.parent.mojo_clickthru = mojo_clickthru;
+} catch (e) {
+	//console.error("mojo window parent assignment error: " + e);	
+}
+renderContent('7463171 ');
+
