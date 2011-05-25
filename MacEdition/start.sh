@@ -18,7 +18,7 @@ while true; do
 		sleep 3
 	else 
 		echo "OKBuzzer is running at http://127.0.0.1:$port/"
-		open -a Portable\ Firefox\ OS\ X/Portable\ Firefox http://127.0.0.1:$port/&
+		open -a PortableFirefox http://127.0.0.1:$port/&
 		break
 	fi
 done
