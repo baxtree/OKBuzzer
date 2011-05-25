@@ -14,11 +14,10 @@ sleep 3
 
 while true; do
 	jvmid=`ps -a | grep "OKBuzzer.jar" | grep -v grep | awk "{print $1}"`
-	echo $jvmid
 	if [ -z "$jvmid" ]; then
 		sleep 3
 	else 
-		echo "OKBuzzer is running at http://127.0.0.1:$port/"&
+		echo "OKBuzzer is running at http://127.0.0.1:$port/"
 		open -a Portable\ Firefox http://127.0.0.1:$port/&
 		break
 	fi
